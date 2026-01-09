@@ -1,5 +1,5 @@
 ######################################
-Vertical Gun [Custom Robo Battle Revolution]
+Vertical Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x03
@@ -14,25 +14,21 @@ Vertical Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Vertical Gun (CRBR)"
+"Vertical Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires two rounds straight 
-ahead and two more 
-vertically. Aerial and 
-ground shots are the same. 
-Range: medium. 
-Advisory: The rounds that 
-shoot out vertically 
-can clear walls, so try 
-hiding behind walls while 
-firing"
+"Ground: Fires 2 rounds 
+vertically and 2 shots 
+straight ahead. 
+High Vertical Homing. 
+Air: Same as Ground.
+Recommended Range: Medium."
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -76,7 +72,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 300, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -98,7 +94,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 300, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -120,7 +116,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 300, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -182,7 +178,7 @@ byte[6] |
 2, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-48 #Endlag
+32 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -204,7 +200,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 300, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -226,7 +222,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 300, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -248,7 +244,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 300, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle

@@ -1,5 +1,5 @@
 ######################################
-Swallow Legs [Custom Robo Battle Revolution]
+Swallow Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x0C
@@ -14,26 +14,25 @@ Swallow Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Swallow Legs^` (CRBR)"
+"Swallow Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Illegal part. 
-Increases running speed. 
-Augments dash length."
+"Increases Running Speed. 
+Increases Dash Length."
 RoboBytes:
 byte [16] |
-1, | #Illegal Toggle 
+0, | #Illegal Toggle 
 200, | #Ground Speed
 100, | #Ground Accel 
 100, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
-1, | #Landing Lag 
+100, | #Landing Lag 
 100, | #Gravity 
 100, | #Dash Startup 
 100, | #Dash Landing Lag 

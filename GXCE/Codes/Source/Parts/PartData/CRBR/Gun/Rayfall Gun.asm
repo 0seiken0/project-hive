@@ -1,5 +1,5 @@
 ######################################
-Rayfall Gun [Custom Robo Battle Revolution]
+Rayfall Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x0D
@@ -14,27 +14,21 @@ Rayfall Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Rayfall Gun (CRBR)"
+"Rayfall Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires four homing rounds 
-vertically. 
-Ground fire: Rounds pause 
-in midair. 
-Aerial fire: Rounds do not 
-pause in midair. 
-Range: long. 
-Advisory: The time it takes 
-the rounds to home varies on 
-where you shoot from so 
-alternate firing positions."
+"Ground: Fires 4 rounds that 
+pause before homing towards 
+target.
+Air: Rounds do not pause. 
+Recommendation Range: Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-15, | #Slideshot Duration
+0,| #Illegal Toggle
+9, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 0, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -55,7 +49,7 @@ byte[6] |
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-45 #Endlag
+32 #Endlag
 half 5461 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -77,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-20, | #Damage
+33, | #Damage
 300, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -88,7 +82,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-120, | #Phase Duration
+140, | #Phase Duration
 0 #Padding
 float[4] |
 0.002, | #Phase Speed
@@ -99,7 +93,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-20, | #Damage
+33, | #Damage
 300, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -121,7 +115,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-20, | #Damage
+33, | #Damage
 300, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -189,7 +183,7 @@ byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-54614, | #Initial Shot Angle
+-10922, | #Initial Shot Angle
 0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
@@ -205,7 +199,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+28, | #Damage
 300, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -221,13 +215,13 @@ half[2] |
 float[4] |
 0.002, | #Phase Speed
 0.213, | #Horizontal Homing
-0.213, | #Vertical Homing
+1.0, | #Vertical Homing
 0.18 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+28, | #Damage
 300, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -249,7 +243,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+28, | #Damage
 300, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle

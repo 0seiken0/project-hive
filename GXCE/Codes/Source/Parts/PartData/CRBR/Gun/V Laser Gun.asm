@@ -1,5 +1,5 @@
 ######################################
-V Laser Gun [Custom Robo Battle Revolution]
+V Laser Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x10
@@ -14,26 +14,23 @@ V Laser Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"V Laser Gun (CRBR)"
+"V Laser Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires a quick, laser-like round. 
-Ground fire: Rounds follow 
-V-shaped paths. 
-Aerial fire: Rounds fly 
-straight. 
-Range: medium-long. 
-Advisory: On the ground, use it 
-to clear obstacles. In the air, 
-do a short jump and fire when 
-your opponent is close."
+"Ground: Fires 2 fast lasers 
+in a V-shape. High Lingering, 
+Low Knockback.
+Air: Fires a single fast 
+laser straight.
+Recommended Range: 
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-0, | #Slideshot Duration
+0,| #Illegal Toggle
+18, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 1, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -41,7 +38,7 @@ byte[56] |
 255, 255, 125, 255, | #Middle Portion RGBA
 220, 250, 0, 63, | #Right Portion RGBA
 255, 255, 255, 255, | #Unknown RGBA
-0, 0, 0, 35, | #Trail Duration
+0, 0, 0, 60, | #Trail Duration
 0, 0, 0, 1, | #????
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #????
 float 1.0 #Trail Width, Start of Ground Shot
@@ -54,7 +51,7 @@ byte[6] |
 2, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-40 #Endlag
+32 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -76,7 +73,7 @@ byte[2] |
 60, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-72, | #Damage
+79, | #Damage
 2000, | #Down
 40, | #Knockback Velocity
 0, | #Knockback Angle
@@ -196,15 +193,15 @@ half[2] |
 133, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
-0.0, | #Horizontal Homing
-0.0, | #Vertical Homing
+0.306, | #Phase Speed
+0.003515625, | #Horizontal Homing
+0.003515625, | #Vertical Homing
 0.15 #Shot Size
 byte[2] |
 60, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-72, | #Damage
+79, | #Damage
 900, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle

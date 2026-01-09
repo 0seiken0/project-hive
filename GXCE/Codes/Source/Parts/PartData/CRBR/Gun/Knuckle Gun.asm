@@ -1,5 +1,5 @@
 ######################################
-Knuckle Gun [Custom Robo Battle Revolution]
+Knuckle Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase =0x1A
@@ -14,26 +14,21 @@ Knuckle Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Knuckle Gun (CRBR)"
+"Knuckle Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires extremely short- 
-range rounds. 
-Ground fire: Blows your 
-opponent upward. 
-Aerial fire: Blows your 
-opponent far away. 
-Range: short. 
-Advisory: The gun is powerful 
-but difficult to hit with. 
-Stop your opponent with 
-a bomb or pod, then fire."
+"Ground: Fires a short-range
+round that knocks opponent 
+upwards slowly.
+Air: Launches opponent far 
+backwards. 
+Recommended Range: Short"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 0, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -66,18 +61,18 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-1, | #Phase Duration
+6, | #Phase Duration
 0 #Padding
 float[4] |
 0.1, | #Phase Speed
 0.02, | #Horizontal Homing
 0.04, | #Vertical Homing
-1.0 #Shot Size
+0.75 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-144, | #Damage
+100, | #Damage
 2000, | #Down
 50, | #Knockback Velocity
 90, | #Knockback Angle
@@ -88,13 +83,13 @@ half[9] |
 10 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-8, | #Phase Duration
+0, | #Phase Duration
 0 #Padding
 float[4] |
-0.001, | #Phase Speed
+0.0, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
-1.0 #Shot Size
+0.0 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
@@ -194,18 +189,18 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-1, | #Phase Duration
+6, | #Phase Duration
 0 #Padding
 float[4] |
-0.15, | #Phase Speed
-0.04, | #Horizontal Homing
-0.02, | #Vertical Homing
-0.72 #Shot Size
+0.1, | #Phase Speed
+0.02, | #Horizontal Homing
+0.04, | #Vertical Homing
+0.75 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-108, | #Damage
+100, | #Damage
 2000, | #Down
 300, | #Knockback Velocity
 5, | #Knockback Angle
@@ -216,13 +211,13 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-5, | #Phase Duration
+0, | #Phase Duration
 0 #Padding
 float[4] |
-0.001, | #Phase Speed
+0.0, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
-0.72 #Shot Size
+0.0 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding

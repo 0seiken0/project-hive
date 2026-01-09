@@ -1,5 +1,5 @@
 ######################################
-Needle Gun [Custom Robo Battle Revolution]
+Needle Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x12
@@ -14,24 +14,22 @@ Needle Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Needle Gun (CRBR)"
+"Needle Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires three vertical, 
-laser-like rounds. 
-Aerial and ground shots 
-are the same. 
-Range: medium. 
-Advisory: Your opponent will 
-be blown upward when hit, 
-so use the chance to close 
-in and attack."
+"Ground: Fires a vertical 
+spread of 3 rounds. 
+Launches opponent upwards.
+Air: Spread between shots is 
+tighter.
+Recommended Range: 
+Short-Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 15, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -40,7 +38,7 @@ byte[56] |
 255, 255, 128, 255, | #Middle Portion RGBA
 0, 175, 0, 63, | #Right Portion RGBA
 255, 255, 255, 255, | #Unknown RGBA
-0, 0, 0, 10, | #Trail Duration
+0, 0, 0, 15, | #Trail Duration
 0, 0, 0, 1, | #????
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #????
 float 1.0 #Trail Width, Start of Ground Shot
@@ -60,7 +58,7 @@ byte[2] |
 0 #Padding
 half[3] |
 0, | #Initial Shot Angle
-2730, | #Angle Between Simultaneous Shots
+1823, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
@@ -72,7 +70,7 @@ float[4] |
 0.01, | #Vertical Homing
 0.2 #Shot Size
 byte[2] |
-10, | #Lingering Hitbox Duration
+15, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage
@@ -94,7 +92,7 @@ float[4] |
 0.0, | #Vertical Homing
 0.2 #Shot Size
 byte[2] |
-30, | #Lingering Hitbox Duration
+15, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage
@@ -116,7 +114,7 @@ float[4] |
 0.0, | #Vertical Homing
 0.2 #Shot Size
 byte[2] |
-40, | #Lingering Hitbox Duration
+15, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage
@@ -222,7 +220,7 @@ float[4] |
 0.0, | #Vertical Homing
 0.2 #Shot Size
 byte[2] |
-20, | #Lingering Hitbox Duration
+15, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage
@@ -244,7 +242,7 @@ float[4] |
 0.0, | #Vertical Homing
 0.2 #Shot Size
 byte[2] |
-30, | #Lingering Hitbox Duration
+15, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage

@@ -1,5 +1,5 @@
 ######################################
-Phoenix Gun [Custom Robo Battle Revolution]
+Phoenix Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x20
@@ -14,27 +14,20 @@ Phoenix Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Phoenix Gun (CRBR)"
+"Phoenix Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires quick, large rounds. 
-Ground fire: Two rounds 
-shoot up and down. 
-Aerial fire: Rounds fly 
-straight. 
-Range: long. 
-Advisory: Prevent your foe 
-from jumping by shooting 
-from the ground. When your 
-opponent is on the ground, 
-fire from the air. "
+"Ground: Fires 2 fast rounds 
+overhead that leave a trail.
+Air: Fires a round straight.
+Recommended Range: Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-10, | #Slideshot Duration
+0,| #Illegal Toggle
+15, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 1, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -42,7 +35,7 @@ byte[56] |
 230, 220, 0, 255, | #Middle Portion RGBA
 140, 100, 0, 0, | #Right Portion RGBA
 255, 255, 255, 255, | #Unknown RGBA
-0, 0, 0, 15, | #Trail Duration
+0, 0, 0, 36, | #Trail Duration
 0, 0, 0, 1, | #????
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #????
 float 2.0 #Trail Width, Start of Ground Shot
@@ -55,7 +48,7 @@ byte[6] |
 2, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-30 #Endlag
+20 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -74,10 +67,10 @@ float[4] |
 0.005, | #Vertical Homing
 0.25 #Shot Size
 byte[2] |
-50, | #Lingering Hitbox Duration
+36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-54, | #Damage
+60, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
@@ -96,10 +89,10 @@ float[4] |
 0.06, | #Vertical Homing
 0.25 #Shot Size
 byte[2] |
-30, | #Lingering Hitbox Duration
+36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-54, | #Damage
+60, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
@@ -118,10 +111,10 @@ float[4] |
 0.06, | #Vertical Homing
 0.25 #Shot Size
 byte[2] |
-30, | #Lingering Hitbox Duration
+36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-54, | #Damage
+60, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
@@ -194,10 +187,10 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-90, | #Phase Duration
+170, | #Phase Duration
 0 #Padding
 float[4] |
-0.18, | #Phase Speed
+0.243, | #Phase Speed
 0.0, | #Horizontal Homing
 0.014, | #Vertical Homing
 0.25 #Shot Size
@@ -205,7 +198,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-50, | #Damage
+70, | #Damage
 900, | #Down
 150, | #Knockback Velocity
 25, | #Knockback Angle
@@ -216,26 +209,26 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-132, | #Phase Duration
+0, | #Phase Duration
 0 #Padding
 float[4] |
-0.18, | #Phase Speed
+0.0, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
-0.25 #Shot Size
+0.0 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-50, | #Damage
-900, | #Down
-150, | #Knockback Velocity
-25, | #Knockback Angle
-5, | #Hitstun
-100, | #On-Hit Gravity
-150, | #Knockback Velocity (Downed)
-25, | #Knockback Angle (Downed)
-100 #On-Hit Gravity (Downed)
+0, | #Damage
+0, | #Down
+0, | #Knockback Velocity
+0, | #Knockback Angle
+0, | #Hitstun
+0, | #On-Hit Gravity
+0, | #Knockback Velocity (Downed)
+0, | #Knockback Angle (Downed)
+0 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
 0, | #Phase Duration

@@ -1,5 +1,5 @@
 ######################################
-Bubble Gun [Custom Robo Battle Revolution]
+Bubble Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x0E
@@ -14,24 +14,21 @@ Bubble Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Bubble Gun (CRBR)"
+"Bubble Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires large, slow bubbles 
-at your opponent. 
-Ground fire: Flies to the left 
-and right. 
-Aerial fire: Flies straight. 
-Range: short-medium. 
-Advisory: When firing from 
-the ground, hide behind walls. 
-In the air, scatter your shots."
+"Ground: Fires 2 large rounds
+left and right that home 
+towards target. High hitstun.
+Air: Fires one round straight.
+Recommended Range: 
+Short-Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -59,8 +56,8 @@ byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-7281, | #Initial Shot Angle
-14563, | #Angle Between Simultaneous Shots
+6458, | #Initial Shot Angle
+12916, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
@@ -70,23 +67,23 @@ float[4] |
 0.09, | #Phase Speed
 0.02, | #Horizontal Homing
 0.04, | #Vertical Homing
-0.6 #Shot Size
+0.7 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+45, | #Damage
 500, | #Down
 1, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+30, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-5, | #Phase Duration
+62, | #Phase Duration
 0 #Padding
 float[4] |
 0.05, | #Phase Speed
@@ -97,11 +94,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+45, | #Damage
 500, | #Down
 1, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -119,11 +116,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+45, | #Damage
 500, | #Down
 1, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -203,11 +200,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
+50, | #Damage
 900, | #Down
 1, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 25, | #Knockback Angle (Downed)
@@ -218,18 +215,18 @@ half[2] |
 0 #Padding
 float[4] |
 0.05, | #Phase Speed
-0.0, | #Horizontal Homing
-0.0, | #Vertical Homing
+0.02, | #Horizontal Homing
+0.02, | #Vertical Homing
 0.55 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
+50, | #Damage
 900, | #Down
 1, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 25, | #Knockback Angle (Downed)
@@ -247,11 +244,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
+50, | #Damage
 900, | #Down
 1, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 25, | #Knockback Angle (Downed)

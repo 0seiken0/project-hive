@@ -1,5 +1,5 @@
 ######################################
-Glider Gun [Custom Robo Battle Revolution]
+Glider Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x14
@@ -14,25 +14,22 @@ Glider Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Glider Gun (CRBR)"
+"Glider Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires two large rounds. 
-Ground fire: Rounds fly 
-straight. 
-Aerial fire: One round 
-flies from the side. 
-Range: long. 
-Advisory: Spread your fire 
-when in the air and 
-blast away when your 
-foe approaches."
+"Ground: Fires a round 
+forwards that pushes the 
+opponent backwards.
+Air: Fires two rounds to 
+the left and right that 
+home towards the target.
+Recommended Range: Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 15, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -51,7 +48,7 @@ float 1.0 #Trail Width, Start of Ground Shot
 byte[6] |
 5, | #Startup
 1, | #Number of Shots
-2, | #Rounds per Shot
+1, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
 26 #Endlag
@@ -60,8 +57,8 @@ byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-1820, | #Initial Shot Angle
-3640, | #Angle Between Simultaneous Shots
+0, | #Initial Shot Angle
+0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
@@ -71,13 +68,13 @@ float[4] |
 0.2, | #Phase Speed
 0.005, | #Horizontal Homing
 0.01, | #Vertical Homing
-0.4 #Shot Size
+0.5 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-27, | #Damage
-400, | #Down
+50, | #Damage
+800, | #Down
 140, | #Knockback Velocity
 20, | #Knockback Angle
 20, | #Hitstun
@@ -98,8 +95,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-27, | #Damage
-400, | #Down
+50, | #Damage
+800, | #Down
 140, | #Knockback Velocity
 20, | #Knockback Angle
 20, | #Hitstun
@@ -204,11 +201,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-54, | #Damage
+40, | #Damage
 400, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
-20, | #Hitstun
+15, | #Hitstun
 90, | #On-Hit Gravity
 120, | #Knockback Velocity (Downed)
 20, | #Knockback Angle (Downed)
@@ -226,11 +223,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-54, | #Damage
+40, | #Damage
 400, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
-20, | #Hitstun
+15, | #Hitstun
 90, | #On-Hit Gravity
 120, | #Knockback Velocity (Downed)
 20, | #Knockback Angle (Downed)
@@ -252,7 +249,7 @@ half[9] |
 400, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
-20, | #Hitstun
+15, | #Hitstun
 90, | #On-Hit Gravity
 120, | #Knockback Velocity (Downed)
 20, | #Knockback Angle (Downed)

@@ -1,5 +1,5 @@
 ######################################
-Claw Gun [Custom Robo Battle Revolution]
+Claw Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x19
@@ -14,27 +14,21 @@ Claw Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Claw Gun (CRBR)"
+"Claw Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Repeatedly fires shots that 
-pull your opponent toward you. 
-Ground fire: Rounds ascend 
-slightly. 
-Aerial fire: Rounds fly 
-straight. 
-Range: medium. 
-Advisory: The gun has low 
-firepower, so draw your foe 
-toward you and use a bomb 
-or collision."
+"Ground: Fires a homing round
+upwards that pulls your 
+opponent towards you.
+Air: Rounds fly straight. 
+Recommended Range: Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-30, | #Slideshot Duration
+0,| #Illegal Toggle
+20, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 1, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -42,7 +36,7 @@ byte[56] |
 255, 195, 255, 255, | #Middle Portion RGBA
 165, 20, 240, 95, | #Right Portion RGBA
 255, 255, 255, 255, | #Unknown RGBA
-0, 0, 0, 24, | #Trail Duration
+0, 0, 0, 30, | #Trail Duration
 0, 0, 0, 1, | #????
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #????
 float 1.0 #Trail Width, Start of Ground Shot
@@ -77,7 +71,7 @@ byte[2] |
 30, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+40, | #Damage
 350, | #Down
 75, | #Knockback Velocity
 170, | #Knockback Angle
@@ -99,7 +93,7 @@ byte[2] |
 30, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+40, | #Damage
 350, | #Down
 75, | #Knockback Velocity
 170, | #Knockback Angle
@@ -121,7 +115,7 @@ byte[2] |
 30, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+40, | #Damage
 350, | #Down
 75, | #Knockback Velocity
 170, | #Knockback Angle
@@ -178,11 +172,11 @@ half[9] |
 #Air Shot#
 ##########
 byte[6] |
-5, | #Startup
+10, | #Startup
 1, | #Number of Shots
 1, | #Rounds per Shot
-1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-10, | #Delay Between Shots
+0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
+0, | #Delay Between Shots
 45 #Endlag
 half 0 #Shot Randomization
 byte[2] |
@@ -197,7 +191,7 @@ half[2] |
 35, | #Phase Duration
 0 #Padding
 float[4] |
-0.158, | #Phase Speed
+0.16288282, | #Phase Speed
 0.064, | #Horizontal Homing
 0.013, | #Vertical Homing
 0.2 #Shot Size
@@ -205,11 +199,11 @@ byte[2] |
 30, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+33, | #Damage
 350, | #Down
 75, | #Knockback Velocity
 170, | #Knockback Angle
-70, | #Hitstun
+60, | #Hitstun
 10, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 170, | #Knockback Angle (Downed)
@@ -219,7 +213,7 @@ half[2] |
 250, | #Phase Duration
 0 #Padding
 float[4] |
-0.158, | #Phase Speed
+0.16288282, | #Phase Speed
 0.025, | #Horizontal Homing
 0.013, | #Vertical Homing
 0.2 #Shot Size
@@ -227,11 +221,11 @@ byte[2] |
 30, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+33, | #Damage
 350, | #Down
 75, | #Knockback Velocity
 170, | #Knockback Angle
-70, | #Hitstun
+60, | #Hitstun
 10, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 170, | #Knockback Angle (Downed)

@@ -1,5 +1,5 @@
 ######################################
-Magnum Gun [Custom Robo Battle Revolution]
+Magnum Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x11
@@ -14,20 +14,20 @@ Magnum Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Magnum Gun (CRBR)"
+"Magnum Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires a single, powerful, 
-short-range round. 
-Aerial and ground shots are 
-the same. 
-Range: short. 
-Advisory: If you fire from afar, 
-your opponent will not go down, 
-so make sure you get close."
+"Ground: Fires a powerful
+short-range round that 
+instantly downs your opponent.
+End of round's lifespan has 
+high hitstun, and knocks 
+opponent towards you.
+Air: Same as Ground.
+Range: Short"
 RoboBytes:
 byte[56] |
 0, | #Illegal Toggle
@@ -75,7 +75,7 @@ byte[2] |
 0 #Padding
 half[9] |
 120, | #Damage
-1800, | #Down
+2000, | #Down
 130, | #Knockback Velocity
 0, | #Knockback Angle
 25, | #Hitstun
@@ -96,15 +96,15 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+35, | #Damage
 300, | #Down
-180, | #Knockback Velocity
-0, | #Knockback Angle
-5, | #Hitstun
-100, | #On-Hit Gravity
-130, | #Knockback Velocity (Downed)
-80, | #Knockback Angle (Downed)
-100 #On-Hit Gravity (Downed)
+140, | #Knockback Velocity
+140, | #Knockback Angle
+30, | #Hitstun
+50, | #On-Hit Gravity
+140, | #Knockback Velocity (Downed)
+140, | #Knockback Angle (Downed)
+50 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
 0, | #Phase Duration
@@ -203,10 +203,10 @@ byte[2] |
 0 #Padding
 half[9] |
 120, | #Damage
-1800, | #Down
+2000, | #Down
 130, | #Knockback Velocity
 0, | #Knockback Angle
-25, | #Hitstun
+30, | #Hitstun
 100, | #On-Hit Gravity
 130, | #Knockback Velocity (Downed)
 80, | #Knockback Angle (Downed)
@@ -224,15 +224,15 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+35, | #Damage
 300, | #Down
-180, | #Knockback Velocity
-0, | #Knockback Angle
-5, | #Hitstun
-100, | #On-Hit Gravity
-130, | #Knockback Velocity (Downed)
-80, | #Knockback Angle (Downed)
-100 #On-Hit Gravity (Downed)
+140, | #Knockback Velocity
+140, | #Knockback Angle
+25, | #Hitstun
+50, | #On-Hit Gravity
+140, | #Knockback Velocity (Downed)
+140, | #Knockback Angle (Downed)
+50 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
 0, | #Phase Duration

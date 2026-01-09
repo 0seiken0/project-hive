@@ -1,5 +1,5 @@
 ######################################
-Quick Jump Legs [Custom Robo Battle Revolution]
+Quick Jump Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x07
@@ -14,18 +14,15 @@ Quick Jump Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Quick Jump Legs (CRBR)"
+"Quick Jump Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Augments descent abilities. 
-Makes you less vulnerable 
-to attacks when landing. 
-Advisory: Use this set of 
-legs when you don't want to 
-stay in the air for long."
+"Increases Jump Speed.
+Increases Gravity.
+Decreases Landing Lag."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -33,8 +30,8 @@ byte [16] |
 100, | #Ground Accel 
 100, | #Ground Turning
 100, | #Jump Height
-100, | #Jump Speed 
-1, | #Lateral Air Speed 
+1, | #Jump Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 50, | #Landing Lag 
 200, | #Gravity 

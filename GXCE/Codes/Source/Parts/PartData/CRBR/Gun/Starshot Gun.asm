@@ -1,5 +1,5 @@
 ######################################
-Starshot Gun [Custom Robo Battle Revolution]
+Starshot Gun [Project Hive]
 ######################################
 #Note: Starshot Gun's gun model releases bullets at an upwards angle.
 .alias PartType = 0x01
@@ -15,27 +15,23 @@ Starshot Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Starshot Gun (CRBR)"
+"Starshot Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Splits into five rounds as 
-it ascends. 
-Ground fire: Rounds split 
-vertically. 
-Aerial fire: Rounds split 
+"Ground: Fires ascending 
+rounds that split and launch 
+towards the opponent.
+Air: Rounds split 
 horizontally. 
-Range: long. 
-Advisory: When in the air, 
-spread your fire. When on the 
-ground, fire repeatedly when 
-your opponent approaches."
+Recommended Range: 
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-20, | #Slideshot Duration
+0,| #Illegal Toggle
+16, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 1, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -56,33 +52,33 @@ byte[6] |
 5, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-20 #Endlag
+22 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 2, | #Spread Phase
 0 #Padding
 half[3] |
-10922, | #Initial Shot Angle
-62442, | #Angle Between Simultaneous Shots
+5000, | #Initial Shot Angle
+2500, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
-15, | #Phase Duration
+18, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
-0.15 #Shot Size
+0.1 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
-200, | #Down
+40, | #Damage
+500, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
-20, | #Hitstun
+11, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -93,40 +89,40 @@ half[2] |
 0 #Padding
 float[4] |
 0.002, | #Phase Speed
-0.05, | #Horizontal Homing
-0.055, | #Vertical Homing
-0.15 #Shot Size
+3.408, | #Horizontal Homing
+3.408, | #Vertical Homing
+0.1 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
-200, | #Down
+40, | #Damage
+500, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
-20, | #Hitstun
+11, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-135, | #Phase Duration
+200, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
-0.03, | #Horizontal Homing
-0.005, | #Vertical Homing
+0.01, | #Horizontal Homing
+0.0, | #Vertical Homing
 0.15 #Shot Size
 byte[2] |
-10, | #Lingering Hitbox Duration
+0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-30, | #Damage
-350, | #Down
+40, | #Damage
+500, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
-45, | #Hitstun
+11, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -190,8 +186,8 @@ byte[2] |
 2, | #Spread Phase
 0 #Padding
 half[3] |
-7281, | #Initial Shot Angle
-3640, | #Angle Between Simultaneous Shots
+5000, | #Initial Shot Angle
+2500, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
@@ -206,7 +202,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+23, | #Damage
 200, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
@@ -228,7 +224,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+23, | #Damage
 200, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle

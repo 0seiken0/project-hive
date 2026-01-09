@@ -1,5 +1,5 @@
 ######################################
-Raven Legs [Custom Robo Battle Revolution]
+Raven Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x0D
@@ -14,32 +14,31 @@ Raven Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Raven Legs^` (CRBR)"
+"Raven Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Illegal part. 
-Increases jump height. 
-Increases dash speed."
+"Increases Jump Height. 
+Increases Dash Speed."
 RoboBytes:
 byte [16] |
-1, | #Illegal Toggle 
+0, | #Illegal Toggle 
 150, | #Ground Speed
 100, | #Ground Accel 
 100, | #Ground Turning
-100, | #Jump Height
+150, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
-1, | #Dash Startup 
+100, | #Dash Startup 
 100, | #Dash Landing Lag 
-200, | #Continuous Jump Height 
-50, | #Dash Duration 
-200, | #Dash Speed 
+150, | #Continuous Jump Height 
+75, | #Dash Duration 
+150, | #Dash Speed 
 0xFF  #Filler Data
 ExtraBytes:
 byte [5] 5, 5, 5, 5, 5   #Stat Line

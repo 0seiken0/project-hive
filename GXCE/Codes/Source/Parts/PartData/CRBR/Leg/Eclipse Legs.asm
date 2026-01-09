@@ -1,5 +1,5 @@
 ######################################
-Eclipse Legs [Custom Robo Battle Revolution]
+Eclipse Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x0E
@@ -14,29 +14,29 @@ Eclipse Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Eclipse Legs^` (CRBR)"
+"Eclipse Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Illegal part. 
-Enables sharp turning in 
-the air. 
-Increases jump height."
+"Increases Jump Height.
+Heavily increases Aerial 
+Acceleration.
+Increases Dash Startup."
 RoboBytes:
 byte [16] |
-1, | #Illegal Toggle 
+0, | #Illegal Toggle 
 100, | #Ground Speed
 100, | #Ground Accel 
 100, | #Ground Turning
-200, | #Jump Height
-1, | #Jump Speed 
-200, | #Lateral Air Speed 
+150, | #Jump Height
+100, | #Jump Speed 
+100, | #Lateral Air Speed 
 200, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
-100, | #Dash Startup 
+200, | #Dash Startup 
 100, | #Dash Landing Lag 
 100, | #Continuous Jump Height 
 100, | #Dash Duration 

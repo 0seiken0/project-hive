@@ -1,5 +1,5 @@
 ######################################
-Meteor Storm Gun [Custom Robo Battle Revolution]
+Meteor Storm Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x1D
@@ -14,24 +14,21 @@ Meteor Storm Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Meteor Storm Gun (CRBR)"
+"Meteor Storm Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires multiple shots that 
-spread outward. 
-Aerial and ground shots are 
-the same. 
-Range: short-medium. 
-Advisory: Firepower increases 
-with distance, so try to stay 
-as far away as possible from 
-your opponent. "
+"Ground: Fires a burst of
+16 rounds in a spread towards 
+the target. Rounds increase 
+in Power as they travel.
+Air: Same as Ground.
+Recommended Range: Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 0, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -53,13 +50,13 @@ byte[6] |
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 1, | #Delay Between Shots
-30 #Endlag
-half 3094 #Shot Randomization
+40 #Endlag
+half 3072 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
--1820, | #Initial Shot Angle
+0, | #Initial Shot Angle
 0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
@@ -68,40 +65,40 @@ half[2] |
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
-0.0, | #Horizontal Homing
-0.01, | #Vertical Homing
+0.012, | #Horizontal Homing
+0.012, | #Vertical Homing
 0.1 #Shot Size
 byte[2] |
-7, | #Lingering Hitbox Duration
+5, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-5, | #Damage
-200, | #Down
+4, | #Damage
+50, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
-20, | #Hitstun
+10, | #Hitstun
 40, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 60, | #Knockback Angle (Downed)
 40 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-13, | #Phase Duration
+12, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
-0.0, | #Horizontal Homing
-0.01, | #Vertical Homing
+0.012, | #Horizontal Homing
+0.012, | #Vertical Homing
 0.1 #Shot Size
 byte[2] |
-7, | #Lingering Hitbox Duration
+5, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
-200, | #Down
+22, | #Damage
+250, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
-20, | #Hitstun
+18, | #Hitstun
 40, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 60, | #Knockback Angle (Downed)
@@ -116,14 +113,14 @@ float[4] |
 0.0, | #Vertical Homing
 0.1 #Shot Size
 byte[2] |
-7, | #Lingering Hitbox Duration
+5, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-29, | #Damage
-200, | #Down
+22, | #Damage
+250, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
-20, | #Hitstun
+18, | #Hitstun
 40, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 60, | #Knockback Angle (Downed)
@@ -181,13 +178,13 @@ byte[6] |
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 1, | #Delay Between Shots
-30 #Endlag
-half 4915 #Shot Randomization
+42 #Endlag
+half 2560 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-63716, | #Initial Shot Angle
+0, | #Initial Shot Angle
 0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
@@ -196,40 +193,40 @@ half[2] |
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
-0.005, | #Horizontal Homing
-0.02, | #Vertical Homing
+0.012, | #Horizontal Homing
+0.012, | #Vertical Homing
 0.1 #Shot Size
 byte[2] |
-5, | #Lingering Hitbox Duration
+0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-5, | #Damage
-200, | #Down
+4, | #Damage
+50, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
-20, | #Hitstun
+10, | #Hitstun
 40, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 60, | #Knockback Angle (Downed)
 40 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-13, | #Phase Duration
+12, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
-0.005, | #Horizontal Homing
-0.02, | #Vertical Homing
+0.012, | #Horizontal Homing
+0.012, | #Vertical Homing
 0.1 #Shot Size
 byte[2] |
 5, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
-200, | #Down
+22, | #Damage
+250, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
-20, | #Hitstun
+18, | #Hitstun
 40, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 60, | #Knockback Angle (Downed)
@@ -247,11 +244,11 @@ byte[2] |
 5, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-29, | #Damage
-200, | #Down
+22, | #Damage
+250, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
-20, | #Hitstun
+18, | #Hitstun
 40, | #On-Hit Gravity
 60, | #Knockback Velocity (Downed)
 60, | #Knockback Angle (Downed)

@@ -1,5 +1,5 @@
 ######################################
-Wide Jump Legs [Custom Robo Battle Revolution]
+Wide Jump Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x09
@@ -14,19 +14,13 @@ Wide Jump Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Wide Jump Legs (CRBR)"
+"Wide Jump Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Makes long jumps possible. 
-Features no descent 
-augmentation. 
-Advisory: Use this set of 
-legs to move around in 
-midair without using a dash 
-or continuous jump."
+"Increases Lateral Airspeed"
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 

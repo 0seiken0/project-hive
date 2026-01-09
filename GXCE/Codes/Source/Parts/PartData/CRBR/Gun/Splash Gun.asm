@@ -1,5 +1,5 @@
 ######################################
-Splash Gun [Custom Robo Battle Revolution]
+Splash Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x09
@@ -14,24 +14,20 @@ Splash Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Splash Gun (CRBR)"
+"Splash Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires two rounds to the left 
-that then curve at an angle. 
-When shot from the air, the 
-firing direction reverses. 
-Range: medium-long. 
-Advisory: Adjust your attack 
-to your opponent's movements 
-by shooting from both the 
-ground and the air."
+"Ground: Fires a spread of 2 
+short-range rounds. High 
+hitstun, pushes backwards.
+Air: Same as Ground.
+Recommended Range: Short"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 1, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -50,21 +46,21 @@ float 1.0 #Trail Width, Start of Ground Shot
 byte[6] |
 5, | #Startup
 1, | #Number of Shots
-3, | #Rounds per Shot
+2, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 1, | #Delay Between Shots
-1 #Endlag
+5 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-2730, | #Initial Shot Angle
-2730, | #Angle Between Simultaneous Shots
+1310, | #Initial Shot Angle
+2620, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
-12, | #Phase Duration
+10, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
@@ -75,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-6, | #Damage
+10, | #Damage
 160, | #Down
 80, | #Knockback Velocity
 0, | #Knockback Angle
@@ -86,7 +82,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-50, | #Phase Duration
+38, | #Phase Duration
 0 #Padding
 float[4] |
 0.05, | #Phase Speed
@@ -97,7 +93,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-6, | #Damage
+10, | #Damage
 160, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -178,32 +174,32 @@ half[9] |
 byte[6] |
 5, | #Startup
 1, | #Number of Shots
-3, | #Rounds per Shot
+2, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 1, | #Delay Between Shots
-1 #Endlag
+5 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-2730, | #Initial Shot Angle
-2730, | #Angle Between Simultaneous Shots
+1310, | #Initial Shot Angle
+2620, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
-12, | #Phase Duration
+10, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
 0.005, | #Horizontal Homing
 0.005, | #Vertical Homing
-0.3 #Shot Size
+0.42 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-5, | #Damage
+9, | #Damage
 160, | #Down
 80, | #Knockback Velocity
 0, | #Knockback Angle
@@ -214,20 +210,20 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-50, | #Phase Duration
+38, | #Phase Duration
 0 #Padding
 float[4] |
 0.05, | #Phase Speed
 0.02, | #Horizontal Homing
 0.02, | #Vertical Homing
-0.3 #Shot Size
+0.42 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-5, | #Damage
+9, | #Damage
 160, | #Down
-20, | #Knockback Velocity
+10, | #Knockback Velocity
 0, | #Knockback Angle
 16, | #Hitstun
 100, | #On-Hit Gravity

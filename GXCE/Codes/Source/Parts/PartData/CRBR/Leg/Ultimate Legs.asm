@@ -1,5 +1,5 @@
 ######################################
-Ultimate Legs [Custom Robo Battle Revolution]
+Ultimate Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x0F
@@ -14,32 +14,34 @@ Ultimate Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Ultimate Legs^` (CRBR)"
+"Ultimate Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"A leg part that was merged 
-with an unknown living being. 
-Upgrades all abilities."
+"Improves most abilities 
+by 10%.
+(Lateral Airspeed, Dash 
+Startup, and Landing Lag aren't 
+increased.)"
 RoboBytes:
 byte [16] |
-1, | #Illegal Toggle 
-200, | #Ground Speed
-200, | #Ground Accel 
-200, | #Ground Turning
-100, | #Jump Height
-100, | #Jump Speed 
-200, | #Lateral Air Speed 
-200, | #Air Accel 
-1, | #Landing Lag 
+0, | #Illegal Toggle 
+110, | #Ground Speed
+110, | #Ground Accel 
+110, | #Ground Turning
+110, | #Jump Height
+90, | #Jump Speed 
+100, | #Lateral Air Speed 
+110, | #Air Accel 
+100, | #Landing Lag 
 100, | #Gravity 
-1, | #Dash Startup 
+100, | #Dash Startup 
 100, | #Dash Landing Lag 
-200, | #Continuous Jump Height 
+100, | #Continuous Jump Height 
 100, | #Dash Duration 
-200, | #Dash Speed 
+110, | #Dash Speed 
 0xFF  #Filler Data
 ExtraBytes:
 byte [5] 5, 5, 5, 5, 5   #Stat Line

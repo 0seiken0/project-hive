@@ -1,5 +1,5 @@
 ######################################
-Hornet Gun [Custom Robo Battle Revolution]
+Hornet Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x06
@@ -14,23 +14,21 @@ Hornet Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Hornet Gun (CRBR)"
+"Hornet Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Spreads five rounds that 
-chase its target. 
-Aerial and ground shots are 
-the same. 
-Range: medium. 
-Advisory: Shots can be dodged 
-with a jump, so try to shoot 
-from an elevated position."
+"Ground: Fires a spread 
+of 5 rounds that home 
+towards target.
+Air: Same as Ground 
+Recommended Range: 
+Short-Medium."
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -58,8 +56,8 @@ byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-9102, | #Initial Shot Angle
-4551, | #Angle Between Simultaneous Shots
+10922, | #Initial Shot Angle
+5461, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
@@ -74,7 +72,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+30, | #Damage
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -96,7 +94,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
+28, | #Damage
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -118,7 +116,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
+28, | #Damage
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -196,20 +194,20 @@ half[2] |
 float[4] |
 0.26, | #Phase Speed
 0.0, | #Horizontal Homing
-0.03, | #Vertical Homing
+0.028, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+30, | #Damage
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
 20, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
-25, | #Knockback Angle (Downed)
+35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
@@ -217,36 +215,36 @@ half[2] |
 0 #Padding
 float[4] |
 0.001, | #Phase Speed
-0.2, | #Horizontal Homing
-0.2, | #Vertical Homing
+0.25, | #Horizontal Homing
+0.25, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
+28, | #Damage
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
 5, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
-25, | #Knockback Angle (Downed)
+35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-110, | #Phase Duration
+72, | #Phase Duration
 0 #Padding
 float[4] |
 0.11, | #Phase Speed
-0.015, | #Horizontal Homing
-0.0, | #Vertical Homing
+0.02, | #Horizontal Homing
+0.01, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
+28, | #Damage
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle

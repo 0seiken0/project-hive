@@ -1,5 +1,5 @@
 ######################################
-Left Pulse Gun [Custom Robo Battle Revolution]
+Left Pulse Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x22
@@ -14,24 +14,20 @@ Left Pulse Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Left Pulse Gun (CRBR)"
+"Left Pulse Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires eight rounds that 
-start left then turn 
-right. 
-Firing direction reverses 
-when shot from the air. 
-Range: medium. 
-Advisory: Since the rounds 
-bend, hide behind a wall 
-and fire."
+"Ground: Fires 8 fast rounds 
+that curve left before going 
+towards the opponent. 
+Air: Direction reverses.
+Recommended Range: Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -48,12 +44,12 @@ float 1.0 #Trail Width, Start of Ground Shot
 #Ground Shot#
 #############
 byte[6] |
-5, | #Startup
+3, | #Startup
 8, | #Number of Shots
 1, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 4, | #Delay Between Shots
-40 #Endlag
+32 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -75,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+15, | #Damage
 150, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -97,7 +93,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+15, | #Damage
 150, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -119,7 +115,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+15, | #Damage
 150, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -141,7 +137,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-12, | #Damage
+15, | #Damage
 150, | #Down
 0, | #Knockback Velocity
 0, | #Knockback Angle
@@ -163,7 +159,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-14, | #Damage
+15, | #Damage
 150, | #Down
 0, | #Knockback Velocity
 0, | #Knockback Angle
@@ -176,12 +172,12 @@ half[9] |
 #Air Shot#
 ##########
 byte[6] |
-5, | #Startup
+3, | #Startup
 8, | #Number of Shots
 1, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 4, | #Delay Between Shots
-40 #Endlag
+32 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -225,7 +221,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+15, | #Damage
 150, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -247,7 +243,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+15, | #Damage
 150, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -269,7 +265,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-12, | #Damage
+15, | #Damage
 150, | #Down
 0, | #Knockback Velocity
 0, | #Knockback Angle
@@ -291,7 +287,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-14, | #Damage
+15, | #Damage
 150, | #Down
 0, | #Knockback Velocity
 0, | #Knockback Angle

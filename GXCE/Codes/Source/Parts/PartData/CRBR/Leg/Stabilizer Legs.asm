@@ -1,5 +1,5 @@
 ######################################
-Stabilizer Legs [Custom Robo Battle Revolution]
+Stabilizer Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x04
@@ -14,19 +14,17 @@ Stabilizer Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Stabilizer Legs (CRBR)"
+"Stabilizer Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Exhibits good acceleration. 
-Features no descent 
-augmentation. 
-Advisory: Since this set works 
-with any other parts, use it 
-when there is nothing better to 
-choose from."
+"Heavily increases Ground
+Acceleration.
+Heavily increases Ground
+Turning.
+Reduces Air Dash Startup."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -35,11 +33,11 @@ byte [16] |
 200, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
-100, | #Dash Startup 
+50, | #Dash Startup 
 100, | #Dash Landing Lag 
 100, | #Continuous Jump Height 
 100, | #Dash Duration 

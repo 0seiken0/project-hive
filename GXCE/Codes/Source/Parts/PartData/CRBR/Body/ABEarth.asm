@@ -1,5 +1,5 @@
 ######################################
-Earth [Custom Robo Battle Revolution]
+Earth [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x04
@@ -14,21 +14,18 @@ Earth [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Earth (CRBR)"
+"Earth (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Aerial Beauty model. 
+"Aerial Beauty (Armor) 
 Very agile while airborne. 
-Great at avoiding attacks but 
-lacks power. 
-Capable of two continuous 
-jumps. 
-Collision: Rises diagonally 
-and attacks. 
-Able to clear walls."
+Lower Attack than other robos. 
+Two Continuous Jumps.
+Charge: Kicks upwards 
+towards opponents."
 RoboBytes:
 half[1] |
 800, #Down
@@ -48,28 +45,28 @@ byte[22] |
 95, | #Pod Damage
 100, | #Gun Endlag
 4, 8, 12, | #Reduced, Unmodified, and Boosted Air Dash Startup
-2, 5, 10, | #Reduced, Unmodified, and Boosted Dash Landing Lag
+3, 6, 9, | #Reduced, Unmodified, and Boosted Dash Landing Lag
 1, | #Air Dash Type(00 = Normal Air Dash, 01 = Continuous Jump, 02 = LS)
-2    #Number of Continuous Jumps
+2 #Number of Continuous Jumps
 half[3] |
-50, 160, 264  #Reduced, Unmodified, and Boosted Continuous Jump Height
+80, 145, 210 #Reduced, Unmodified, and Boosted Continuous Jump Height
 byte[6] |
-2, | #Number of Air Dashes
+0, | #Number of Air Dashes
 0, | #SV Air Dash Toggle
 0, | #Air Dash Angle
-5, 10, 15    #Reduced, Unmodified, and Boosted Air Dash Length
+0, 0, 0#Reduced, Unmodified, and Boosted Air Dash Length
 half [38] |
-150, 300, 396, | #Reduced, Unmodified, and Boosted Air Dash Speed
-10, 21, 42, | #Reduced, Unmodified, and Boosted LS Dash Turning
-46, 76, 91, | #Reduced, Unmodified, and Boosted Run Speed
-96, 160, 256, | #Reduced, Unmodified, and Boosted Ground Acceleration
-105, 210, 420, | #Reduced, Unmodified, and Boosted Ground Turning
-86, 180, 270, | #Reduced, Unmodified, and Boosted Jump Height
-2, 4, 12, | #Reduced, Unmodified, and Boosted Jump Speed
-105, 110, 115, | #Reduced, Unmodified, and Boosted Lateral Air Speed
-361, 722, 1444, | #Reduced, Unmodified, and Boosted Air Acceleration
-6, 12, 22, | #Reduced, Unmodified, and Boosted Landing Lag
-50, 115, 172, | #Reduced, Unmodified, and Boosted Gravity
+0, 0, 0, | #Reduced, Unmodified, and Boosted Air Dash Speed
+0, 0, 0, | #Reduced, Unmodified, and Boosted LS Dash Turning
+60, 75, 95, | #Reduced, Unmodified, and Boosted Run Speed
+96, 160, 255, | #Reduced, Unmodified, and Boosted Ground Acceleration
+100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
+80, 170, 260, | #Reduced, Unmodified, and Boosted Jump Height
+2, 4, 8, | #Reduced, Unmodified, and Boosted Jump Speed
+95, 105, 115, | #Reduced, Unmodified, and Boosted Lateral Air Speed
+300, 660, 1380, | #Reduced, Unmodified, and Boosted Air Acceleration
+6, 12, 18, | #Reduced, Unmodified, and Boosted Landing Lag
+65, 115, 165, | #Reduced, Unmodified, and Boosted Gravity
 35, | #Collision Box Size Related
 50, | #Collision Box Size Related
 40, | #????
@@ -78,24 +75,24 @@ half [38] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Charge Title
 byte [2] |
-2, |    #Invulnerability
-0       #Invisibility
+2, | #Invulnerability
+0 #Invisibility
 half [16] |
-108, |  #Charge Damage
-200, |  #Knockback Velocity
-100, |   #Knockback Angle
-20, |   #Homing
-1, |   #Startup Phase Duration (+3 for # of Frames)
-22, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-0, |   #Startup Phase Speed
-180, |  #Attack Phase Speed
-44, |   #Recovery Phase Speed
-0, |    #Startup Phase Angle
-30, |    #Attack Phase Angle
--90, |  #Recovery Phase Angle
-30, |   #Hitbox Size Related
-30, |   #Hitbox Size Related
+140, | #Charge Damage
+200, | #Knockback Velocity
+100, | #Knockback Angle
+20, | #Homing
+1, | #Startup Phase Duration (+3 for # of Frames)
+22, | #Attack Phase Duration (+1 for # of Frames)
+30, | #Recovery Phase Duration
+100, | #Startup Phase Speed
+180, | #Attack Phase Speed
+44, | #Recovery Phase Speed
+0, | #Startup Phase Angle
+30, | #Attack Phase Angle
+166, | #Recovery Phase Angle
+40, | #Hitbox Size Related
+30, | #Hitbox Size Related
 -30       #Hitbox Size Related
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title

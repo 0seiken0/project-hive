@@ -1,5 +1,5 @@
 ######################################
-Speed Pod P[Custom Robo Battle Revolution]
+Speed Pod P [Project Hive]
 ######################################
 .alias PartType = 0x03
 .alias PartBase = 0x04
@@ -14,77 +14,75 @@ Speed Pod P[Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Speed Pod P (CRBR)"
+"Speed Pod P (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Quickly flies straight ahead. 
-Can deploy two pods at one 
-time. 
-Blast lingers for a while and 
-blows target upward. 
-Advisory: Deploy directly at 
-your foe to defend yourself.
-Advisory: Deploy directly at 
-your foe to defend yourself."
+"Pod: Flies at high speed
+towards opponent, ricocheting
+on walls.
+Two pods, separate.
+Blast: High lingering, tall
+blast, knocks opponent
+upwards."
 RoboBytes:
 byte[4] |
-00, | #Illegal Toggle 
-2, | #Pod Count (Max 3) 
-1, | #Number of Pods fired at once(Max 3) 
-0x00 #Empty Data? 
+00, | #Illegal Toggle
+2, | #Pod Count (Max 3)
+1, | #Number of Pods fired at once(Max 3)
+0x00 #Empty Data?
 half [8] |
-0, | #Angle between simultaneous pods (Automatically Centered) 
-60, | #Horizontal Explosion Trigger Radius 
-300, | #Vertical Explosion Trigger Radius 
-45, | #Fuse Time 
-0, | #Angle Pod faces at ground launch 
-0x0000, | #Empty Data? 
-0, | #Angle Pod faces at air launch 
-0x0000 #Empty Data? 
+0, | #Angle between simultaneous pods (Automatically Centered)
+60, | #Horizontal Explosion Trigger Radius
+300, | #Vertical Explosion Trigger Radius
+50, | #Fuse Time
+0, | #Angle Pod faces at ground launch
+0x0000, | #Empty Data?
+0, | #Angle Pod faces at air launch
+0x0000 #Empty Data?
 byte[4] |
 1, | #Homing Toggle
-30, | #Roaming Phase Homing 
-10, | #Locked On Phase Homing 
-0x00 #Empty Data? 
+30, | #Roaming Phase Homing
+30, | #Locked On Phase Homing
+0x00 #Empty Data?
 half [13] |
-250, | #Roaming Phase Speed 
-140, | #Locked On Phase Speed 
-10, | #Roaming Phase Height 
-10, | #Locked On Phase Height 
-110, | #Angle for conen of vision for activating lock on phase 
-300, | #Lock On Range 
-0, | #Duration of pause for switching between roaming and locked on. 
-0, | #Initial Ground Launch Angle 
-0, | #Initial Air Launch Angle 
-0, | #Initial Ground Launch Speed 
-0, | #Initial Air Launch Speed 
-0, | #Initial Ground Launch Duration 
-45 #Initial Air Launch Duration 
+250, | #Roaming Phase Speed
+140, | #Locked On Phase Speed
+10, | #Roaming Phase Height
+10, | #Locked On Phase Height
+110, | #Angle for conen of vision for activating lock on phase
+300, | #Lock On Range
+0, | #Duration of pause for switching between roaming and locked on.
+0, | #Initial Ground Launch Angle
+0, | #Initial Air Launch Angle
+0, | #Initial Ground Launch Speed
+0, | #Initial Air Launch Speed
+0, | #Initial Ground Launch Duration
+1 #Initial Air Launch Duration
 byte[4] |
 1, | #Bounce Off Wall Toggle (0 = Slide along wall, 1 = Bounce off wall)
 100, | #Pod Size
-1, | #Number of Explosions 
-1 #Delay between Explosions 
+1, | #Number of Explosions
+1 #Delay between Explosions
 half [3] |
-10, | #Explosion Expansion Duration 
-75, | #Explosion Lingering Hitbox Duration 
-0x0000 #Empty Data? 
+10, | #Explosion Expansion Duration
+75, | #Explosion Lingering Hitbox Duration
+0x0000 #Empty Data?
 float [3] |
-0.45, | #eExplosion Size after Initial Expansion 
-0.62, | #Final Explosion Size 
-4.67 #Explosion Height 
+0.45, | #eExplosion Size after Initial Expansion
+0.62, | #Final Explosion Size
+4.67 #Explosion Height
 half [10] |
-35, | #Damage 
-300, | #Down 
-150, | #Knockback Velocity 
-90, | #Knockback Angle 
-20, | #Hitstun 
-100, | #On-Hit Gravity 
-150, | #Knockback Velocity (Downed) 
-90, | #Knockback Anlge (Downed) 
+27, | #Damage
+300, | #Down
+150, | #Knockback Velocity
+90, | #Knockback Angle
+20, | #Hitstun
+100, | #On-Hit Gravity
+150, | #Knockback Velocity (Downed)
+90, | #Knockback Anlge (Downed)
 100, | #On-Hit Gravity (Downed) 
 0x0000 #Empty Data 
 word [14] 0x00000000, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0x0000003C, 0x00000001, | 

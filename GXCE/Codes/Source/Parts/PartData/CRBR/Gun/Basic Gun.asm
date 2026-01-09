@@ -1,5 +1,5 @@
 ######################################
-Basic Gun [Custom Robo Battle Revolution]
+Basic Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x00
@@ -14,24 +14,19 @@ Basic Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Basic Gun (CRBR)"
+"Basic Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"A gun with basic capabilities. 
-Fires three rounds at a time. 
-Aerial and ground shots are 
-the same. 
-Range: medium. 
-Advisory: It's hard to hit your 
-foe with this gun alone, so 
-use bombs or pods first to 
-freeze your opponent."
+"Ground: Fires 3 fast rounds 
+with low power. Low knockback.
+Air: Same as Ground.
+Recommended Range: Medium."
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -52,8 +47,8 @@ byte[6] |
 3, | #Number of Shots
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-10, | #Delay Between Shots
-40 #Endlag
+6, | #Delay Between Shots
+32 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -64,47 +59,47 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-25, | #Phase Duration
+20, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
-0.01, | #Horizontal Homing
-0.01, | #Vertical Homing
+0.015004883, | #Horizontal Homing
+0.015004883, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-28, | #Damage
-280, | #Down
-10, | #Knockback Velocity
+30, | #Damage
+200, | #Down
+15, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+15, | #Hitstun
 100, | #On-Hit Gravity
-100, | #Knockback Velocity (Downed)
-35, | #Knockback Angle (Downed)
+80, | #Knockback Velocity (Downed)
+30, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-157, | #Phase Duration
+160, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
-0.0, | #Horizontal Homing
+0.015004883, | #Horizontal Homing
 0.0, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-20, | #Damage
+30, | #Damage
 200, | #Down
-10, | #Knockback Velocity
+15, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
+15, | #Hitstun
 100, | #On-Hit Gravity
-100, | #Knockback Velocity (Downed)
-35, | #Knockback Angle (Downed)
+80, | #Knockback Velocity (Downed)
+30, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
@@ -180,8 +175,8 @@ byte[6] |
 3, | #Number of Shots
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-10, | #Delay Between Shots
-50 #Endlag
+6, | #Delay Between Shots
+36 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -192,47 +187,47 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-25, | #Phase Duration
+20, | #Phase Duration
 0 #Padding
 float[4] |
-0.17, | #Phase Speed
-0.01, | #Horizontal Homing
-0.01, | #Vertical Homing
+0.22, | #Phase Speed
+0.015004883, | #Horizontal Homing
+0.015004883, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-28, | #Damage
-250, | #Down
-10, | #Knockback Velocity
+30, | #Damage
+200, | #Down
+15, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+15, | #Hitstun
 100, | #On-Hit Gravity
-100, | #Knockback Velocity (Downed)
-25, | #Knockback Angle (Downed)
+80, | #Knockback Velocity (Downed)
+30, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-210, | #Phase Duration
+160, | #Phase Duration
 0 #Padding
 float[4] |
-0.17, | #Phase Speed
-0.0, | #Horizontal Homing
+0.22, | #Phase Speed
+0.015004883, | #Horizontal Homing
 0.0, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-20, | #Damage
+30, | #Damage
 200, | #Down
-10, | #Knockback Velocity
+15, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
+15, | #Hitstun
 100, | #On-Hit Gravity
-100, | #Knockback Velocity (Downed)
-25, | #Knockback Angle (Downed)
+80, | #Knockback Velocity (Downed)
+30, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |

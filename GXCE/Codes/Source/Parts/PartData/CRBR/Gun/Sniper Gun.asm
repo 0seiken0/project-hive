@@ -1,5 +1,5 @@
 ######################################
-Sniper Gun [Custom Robo Battle Revolution]
+Sniper Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x04
@@ -14,23 +14,23 @@ Sniper Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Sniper Gun (CRBR)"
+"Sniper Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires one fast round straight 
-ahead. 
-Aerial and ground shots are 
-the same. 
-Range: medium-long. 
-Advisory: After firing, you will 
-become vulnerable, so try to 
-keep your distance."
+"Ground: Fires one fast round 
+with low homing and high 
+damage. Knocks opponent 
+backwards.
+Air: Longer startup, same as 
+ground
+Recommended Range: 
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 25, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -42,7 +42,7 @@ byte[56] |
 0, 0, 0, 15, | #Trail Duration
 0, 0, 0, 1, | #????
 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #????
-float 0.8 #Trail Width, Start of Ground Shot
+float 0.796875 #Trail Width, Start of Ground Shot
 #############
 #Ground Shot#
 #############
@@ -89,14 +89,14 @@ half[2] |
 0 #Padding
 float[4] |
 0.35, | #Phase Speed
-0.009, | #Horizontal Homing
+0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
 0.24 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-80, | #Damage
+90, | #Damage
 800, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -107,7 +107,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-122, | #Phase Duration
+170, | #Phase Duration
 0 #Padding
 float[4] |
 0.26, | #Phase Speed
@@ -118,7 +118,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-70, | #Damage
+90, | #Damage
 800, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -202,7 +202,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-80, | #Damage
+90, | #Damage
 800, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -217,14 +217,14 @@ half[2] |
 0 #Padding
 float[4] |
 0.35, | #Phase Speed
-0.005, | #Horizontal Homing
-0.005, | #Vertical Homing
+0.0, | #Horizontal Homing
+0.0, | #Vertical Homing
 0.24 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-70, | #Damage
+80, | #Damage
 800, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -235,7 +235,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-122, | #Phase Duration
+170, | #Phase Duration
 0 #Padding
 float[4] |
 0.26, | #Phase Speed
@@ -246,7 +246,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-60, | #Damage
+80, | #Damage
 800, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle

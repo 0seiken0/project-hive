@@ -1,5 +1,5 @@
 ######################################
-Booster Legs [Custom Robo Battle Revolution]
+Booster Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x0B
@@ -14,17 +14,14 @@ Booster Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Booster Legs (CRBR)"
+"Booster Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Increases dash speed. 
-Starts off with a slow dash. 
-Advisory: Use this set of 
-legs when you want to move 
-fast in the air."
+"Increases Dash Speed. 
+Decreases Dash Startup."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -33,11 +30,11 @@ byte [16] |
 100, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
-150, | #Dash Startup 
+50, | #Dash Startup 
 100, | #Dash Landing Lag 
 200, | #Continuous Jump Height 
 50, | #Dash Duration 

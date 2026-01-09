@@ -1,5 +1,5 @@
 ######################################
-Twin Fang Gun [Custom Robo Battle Revolution]
+Twin Fang Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x1E
@@ -14,26 +14,20 @@ Twin Fang Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Twin Fang Gun (CRBR)"
+"Twin Fang Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires quick continuous 
-rounds. 
-Ground fire: Rounds quickly 
-rise, then fall straight 
-down. 
-Aerial fire: Rounds fly 
-straight. 
-Range: short. 
-Advisory: High firepower is 
-offset by a short range, so try 
-to get close before attacking. "
+"Ground: Rounds rise 
+then dart downwards quickly.
+Air: Rounds fly straight. 
+Recommended Range: 
+Short-Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 0, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -77,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-29, | #Damage
+22, | #Damage
 300, | #Down
 100, | #Knockback Velocity
 60, | #Knockback Angle
@@ -99,7 +93,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-29, | #Damage
+22, | #Damage
 300, | #Down
 100, | #Knockback Velocity
 -60, | #Knockback Angle
@@ -205,11 +199,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-10, | #Damage
+16, | #Damage
 120, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
+36, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -227,11 +221,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-10, | #Damage
+16, | #Damage
 120, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
+36, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -249,11 +243,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-10, | #Damage
+16, | #Damage
 120, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
+36, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)

@@ -1,5 +1,5 @@
 ######################################
-Eagle Gun [Custom Robo Battle Revolution]
+Eagle Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x0F
@@ -14,24 +14,22 @@ Eagle Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Eagle Gun (CRBR)"
+"Eagle Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires a quick, straight round. 
-Ground fire: Rounds will not 
-pause. 
-Aerial fire: Rounds will pause 
-briefly, then fly. 
-Range: medium-long. 
-Advisory: Scatter your fire 
-while airborne."
+"Ground: Fires a quick straight 
+round.
+Air: Rounds will pause briefly, 
+then fly. 
+Recommended Range: 
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-15, | #Slideshot Duration
+0,| #Illegal Toggle
+26, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 0, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -52,7 +50,7 @@ byte[6] |
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 1, | #Delay Between Shots
-40 #Endlag
+23 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -74,7 +72,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-31, | #Damage
+50, | #Damage
 480, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -96,7 +94,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-31, | #Damage
+50, | #Damage
 480, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -202,7 +200,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
+50, | #Damage
 480, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -221,10 +219,10 @@ float[4] |
 0.02, | #Vertical Homing
 0.24 #Shot Size
 byte[2] |
-15, | #Lingering Hitbox Duration
+0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
+50, | #Damage
 480, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -243,10 +241,10 @@ float[4] |
 0.01, | #Vertical Homing
 0.24 #Shot Size
 byte[2] |
-15, | #Lingering Hitbox Duration
+0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
+50, | #Damage
 480, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
