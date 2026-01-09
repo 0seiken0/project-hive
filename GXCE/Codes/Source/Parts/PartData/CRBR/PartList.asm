@@ -1,36 +1,36 @@
 #Custom Robo Battle Revolution Parts List
 #Body
-.include "Source/Parts/PartData/CRBR/Body/Ray 01.asm"
-.include "Source/Parts/PartData/CRBR/Body/Splendor.asm"
-.include "Source/Parts/PartData/CRBR/Body/Glory.asm"
+.include "Source/Parts/PartData/CRBR/Body/SFRay 01.asm"
+.include "Source/Parts/PartData/CRBR/Body/SFSplendor.asm"
+.include "Source/Parts/PartData/CRBR/Body/SFGlory.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Milky Way.asm"
-.include "Source/Parts/PartData/CRBR/Body/Earth.asm"
-.include "Source/Parts/PartData/CRBR/Body/Sol.asm"
+.include "Source/Parts/PartData/CRBR/Body/ABMilky Way.asm"
+.include "Source/Parts/PartData/CRBR/Body/ABEarth.asm"
+.include "Source/Parts/PartData/CRBR/Body/ABSol.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Metal Ape.asm"
-.include "Source/Parts/PartData/CRBR/Body/Metal Bear.asm"
-.include "Source/Parts/PartData/CRBR/Body/Metal Ox.asm"
+.include "Source/Parts/PartData/CRBR/Body/MGMetal Ape.asm"
+.include "Source/Parts/PartData/CRBR/Body/MGMetal Bear.asm"
+.include "Source/Parts/PartData/CRBR/Body/MGMetal Ox.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Swift.asm"
-.include "Source/Parts/PartData/CRBR/Body/Shrike.asm"
-.include "Source/Parts/PartData/CRBR/Body/Peregrine.asm"
+.include "Source/Parts/PartData/CRBR/Body/LRSwift.asm"
+.include "Source/Parts/PartData/CRBR/Body/LRShrike.asm"
+.include "Source/Parts/PartData/CRBR/Body/LRPeregrine.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Javelin.asm"
-.include "Source/Parts/PartData/CRBR/Body/Glaive.asm"
-.include "Source/Parts/PartData/CRBR/Body/Halberd.asm"
+.include "Source/Parts/PartData/CRBR/Body/SVJavelin.asm"
+.include "Source/Parts/PartData/CRBR/Body/SVGlaive.asm"
+.include "Source/Parts/PartData/CRBR/Body/SVHalberd.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Criminal.asm"
-.include "Source/Parts/PartData/CRBR/Body/Buggy.asm"
-.include "Source/Parts/PartData/CRBR/Body/Juggler.asm"
+.include "Source/Parts/PartData/CRBR/Body/TFCriminal.asm"
+.include "Source/Parts/PartData/CRBR/Body/TFBuggy.asm"
+.include "Source/Parts/PartData/CRBR/Body/TFJuggler.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Defender.asm"
-.include "Source/Parts/PartData/CRBR/Body/Seeker.asm"
-.include "Source/Parts/PartData/CRBR/Body/Breaker.asm"
+.include "Source/Parts/PartData/CRBR/Body/LSDefender.asm"
+.include "Source/Parts/PartData/CRBR/Body/LSSeeker.asm"
+.include "Source/Parts/PartData/CRBR/Body/LSBreaker.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Seal Head.asm"
-.include "Source/Parts/PartData/CRBR/Body/Dour Head.asm"
-.include "Source/Parts/PartData/CRBR/Body/Tank Head.asm"
+.include "Source/Parts/PartData/CRBR/Body/FBHSeal Head.asm"
+.include "Source/Parts/PartData/CRBR/Body/FBHDour Head.asm"
+.include "Source/Parts/PartData/CRBR/Body/FBHTank Head.asm"
 
 .include "Source/Parts/PartData/CRBR/Body/Rakansen.asm"
 .include "Source/Parts/PartData/CRBR/Body/Ruhiel.asm"
@@ -44,7 +44,7 @@
 .include "Source/Parts/PartData/CRBR/Body/Rahu II.asm"
 .include "Source/Parts/PartData/CRBR/Body/Rahu III.asm"
 
-.include "Source/Parts/PartData/CRBR/Body/Chickenheart.asm"
+.include "Source/Parts/PartData/CRBR/Body/BBChickenheart.asm"
 #Guns
 .include "Source/Parts/PartData/CRBR/Gun/Basic Gun.asm"
 .include "Source/Parts/PartData/CRBR/Gun/3-Way Gun.asm"
