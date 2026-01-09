@@ -84,10 +84,10 @@ half [16] |
 230, | #Homing
 5, | #Startup Phase Duration (+3 for # of Frames)
 8, | #Attack Phase Duration (+1 for # of Frames)
-11, | #Recovery Phase Duration
+18, | #Recovery Phase Duration
 80, | #Startup Phase Speed
 295, | #Attack Phase Speed
-80, | #Recovery Phase Speed
+20, | #Recovery Phase Speed
 0, | #Startup Phase Angle
 0, | #Attack Phase Angle
 -90, | #Recovery Phase Angle
@@ -97,27 +97,27 @@ half [16] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
-0       #Invisibility
+8, |    #Invulnerability
+3       #Invisibility
 half [16] |
-135, |  #Charge Damage
-180, |  #Knockback Velocity
-80, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
+5, |   #Startup Phase Duration (+3 for # of Frames)
 5, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-180, |   #Startup Phase Speed
-220, |  #Attack Phase Speed
-220, |   #Recovery Phase Speed
-100, |    #Startup Phase Angle
--120, |    #Attack Phase Angle
--100, |  #Recovery Phase Angle
-40, |   #Hitbox Size Related
-20, |   #Hitbox Size Related
--50       #Hitbox Size Related
+11, |   #Recovery Phase Duration
+350, |   #Startup Phase Speed
+260, |  #Attack Phase Speed
+80, |   #Recovery Phase Speed
+130, |    #Startup Phase Angle
+245, |    #Attack Phase Angle
+265, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
+0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 6, 4, 4, 1   #Stat Line
+byte [5] 5, 4, 5, 4, 1   #Stat Line
 byte [1] 0  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

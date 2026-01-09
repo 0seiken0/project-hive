@@ -48,8 +48,8 @@ byte[4] |
 25, | #Locked On Phase Homing
 0x00 #Empty Data?
 half [13] |
-100, | #Roaming Phase Speed
-150, | #Locked On Phase Speed
+80, | #Roaming Phase Speed
+125, | #Locked On Phase Speed
 10, | #Roaming Phase Height
 10, | #Locked On Phase Height
 120, | #Angle for conen of vision for activating lock on phase
@@ -75,7 +75,7 @@ float [3] |
 0.85, | #Final Explosion Size
 3.44 #Explosion Height
 half [10] |
-32, | #Damage
+30, | #Damage
 300, | #Down
 150, | #Knockback Velocity
 90, | #Knockback Angle

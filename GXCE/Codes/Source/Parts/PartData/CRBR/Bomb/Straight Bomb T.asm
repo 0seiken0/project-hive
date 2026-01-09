@@ -51,7 +51,7 @@ float [3] |
 1.25, | #Final Explosion Size
 0.59 #Explosion Height
 half [10] |
-60, | #Damage
+52, | #Damage
 400, | #Down
 140, | #Knockback Velocity
 140, | #Knockback Angle
@@ -97,7 +97,7 @@ byte [2] |
 90 #Reload
 half [3] |
 0, | #Burrow Time
-200, | #Projectile Speed
+185, | #Projectile Speed
 0x0000 #Empty Data?
 byte [2] |
 1, | #Number of Explosions
@@ -111,7 +111,7 @@ float [3] |
 1.25, | #Final Explosion Size
 0.59 #Explosion Height
 half [10] |
-54, | #Damage
+47, | #Damage
 400, | #Down
 140, | #Knockback Velocity
 140, | #Knockback Angle

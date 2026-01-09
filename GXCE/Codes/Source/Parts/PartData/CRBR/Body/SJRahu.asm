@@ -1,5 +1,5 @@
 ######################################
-Albatross [NastyKactus]
+Hurricane [NastyKactus]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x00
@@ -14,7 +14,7 @@ Albatross [NastyKactus]
     .BA<-BuildTitle
 PartName:
     String|
-"Albatross^` (Kactus)"
+"Hurricane^` (Kactus)"
 BuildTitle:
     String|
 " (Kactus)"
@@ -24,10 +24,9 @@ PartDescription:
 Well-rounded aerial movement.
 One fast controlled air dash
 with high turning.
-Charge: Charges straight
-toward its opponent, and 
-slides back to its starting 
-position."
+Charge: Vanishes at first sight,
+then drops down on its
+opponent before ascending."
 RoboBytes:
 half[1] |
 1000, #Down
@@ -47,7 +46,7 @@ byte[22] |
 100, | #Pod Damage
 100, | #Gun Endlag
 2, 4, 6, | #Reduced, Unmodified, and Boosted Air Dash Startup
-10, 20, 30, | #Reduced, Unmodified, and Boosted Dash Landing Lag
+8, 12, 16, | #Reduced, Unmodified, and Boosted Dash Landing Lag
 2, | #Air Dash Type(00 = Normal Air Dash, 01 = Continuous Jump, 02 = LS)
 0 #Number of Continuous Jumps
 half[3] |
@@ -56,18 +55,18 @@ byte[6] |
 1, | #Number of Air Dashes
 0, | #SV Air Dash Toggle
 15, | #Air Dash Angle
-35, 45, 60#Reduced, Unmodified, and Boosted Air Dash Length
+30, 40, 55#Reduced, Unmodified, and Boosted Air Dash Length
 half [38] |
 145, 155, 165, | #Reduced, Unmodified, and Boosted Air Dash Speed
 0, 100, 0, | #Reduced, Unmodified, and Boosted LS Dash Turning
-60, 70, 80, | #Reduced, Unmodified, and Boosted Run Speed
+70, 80, 90, | #Reduced, Unmodified, and Boosted Run Speed
 100, 200, 300, | #Reduced, Unmodified, and Boosted Ground Acceleration
 100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
-200, 300, 400, | #Reduced, Unmodified, and Boosted Jump Height
-4, 8, 12, | #Reduced, Unmodified, and Boosted Jump Speed
+200, 250, 350, | #Reduced, Unmodified, and Boosted Jump Height
+8, 12, 16, | #Reduced, Unmodified, and Boosted Jump Speed
 70, 80, 85, | #Reduced, Unmodified, and Boosted Lateral Air Speed
-475, 675, 875, | #Reduced, Unmodified, and Boosted Air Acceleration
-5, 10, 15, | #Reduced, Unmodified, and Boosted Landing Lag
+275, 375, 475, | #Reduced, Unmodified, and Boosted Air Acceleration
+8, 12, 16, | #Reduced, Unmodified, and Boosted Landing Lag
 85, 125, 165, | #Reduced, Unmodified, and Boosted Gravity
 35, | #Collision Box Size Related
 72, | #Collision Box Size Related
@@ -78,48 +77,48 @@ word [8] |
 0x83708393, 0x83608251, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Charge Title
 byte [2] |
 2, |    #Invulnerability
-0       #Invisibility
+1       #Invisibility
 half [16] |
 100, |  #Charge Damage
-100, |  #Knockback Velocity
-80, |   #Knockback Angle
+180, |  #Knockback Velocity
+90, |   #Knockback Angle
 10, |   #Homing
-10, |   #Startup Phase Duration (+3 for # of Frames)
-10, |   #Attack Phase Duration (+1 for # of Frames)
-20, |   #Recovery Phase Duration
-80, |   #Startup Phase Speed
-200, |  #Attack Phase Speed
-150, |   #Recovery Phase Speed
-0, |    #Startup Phase Angle
-0, |    #Attack Phase Angle
-185, |  #Recovery Phase Angle
-60, |   #Hitbox Size Related
-20, |   #Hitbox Size Related
+14, |   #Startup Phase Duration (+3 for # of Frames)
+30, |   #Attack Phase Duration (+1 for # of Frames)
+5, |   #Recovery Phase Duration
+200, |   #Startup Phase Speed
+55, |  #Attack Phase Speed
+175, |   #Recovery Phase Speed
+30, |    #Startup Phase Angle
+-125, |    #Attack Phase Angle
+90, |  #Recovery Phase Angle
+80, |   #Hitbox Size Related
+40, |   #Hitbox Size Related
 -30       #Hitbox Size Related
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
-1       #Invisibility
+10, |    #Invulnerability
+0       #Invisibility
 half [16] |
-135, |  #Charge Damage
-200, |  #Knockback Velocity
-105, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-20, |   #Startup Phase Duration (+3 for # of Frames)
-15, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-110, |   #Startup Phase Speed
-120, |  #Attack Phase Speed
-40, |   #Recovery Phase Speed
-120, |    #Startup Phase Angle
--160, |    #Attack Phase Angle
--120, |  #Recovery Phase Angle
-70, |   #Hitbox Size Related
-10, |   #Hitbox Size Related
+13, |   #Startup Phase Duration (+3 for # of Frames)
+19, |   #Attack Phase Duration (+1 for # of Frames)
+18, |   #Recovery Phase Duration
+130, |   #Startup Phase Speed
+100, |  #Attack Phase Speed
+55, |   #Recovery Phase Speed
+182, |    #Startup Phase Angle
+358, |    #Attack Phase Angle
+358, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 6, 5, 8, 9   #Stat Line
+byte [5] 5, 3, 5, 7, 2   #Stat Line
 byte [1] 2  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

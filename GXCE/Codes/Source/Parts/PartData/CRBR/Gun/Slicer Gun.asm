@@ -50,7 +50,7 @@ byte[6] |
 2, | #Number of Shots
 5, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-14, | #Delay Between Shots
+20, | #Delay Between Shots
 44 #Endlag
 half 0 #Shot Randomization
 byte[2] |
@@ -68,16 +68,16 @@ float[4] |
 0.15, | #Phase Speed
 0.02, | #Horizontal Homing
 0.02, | #Vertical Homing
-0.37 #Shot Size
+0.42 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-11, | #Damage
+9, | #Damage
 150, | #Down
 46, | #Knockback Velocity
 0, | #Knockback Angle
-56, | #Hitstun
+25, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -90,16 +90,16 @@ float[4] |
 0.2, | #Phase Speed
 0.006, | #Horizontal Homing
 0.015, | #Vertical Homing
-0.37 #Shot Size
+0.32 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-20, | #Damage
+18, | #Damage
 350, | #Down
 38, | #Knockback Velocity
 0, | #Knockback Angle
-32, | #Hitstun
+15, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -178,7 +178,7 @@ byte[6] |
 2, | #Number of Shots
 5, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-14, | #Delay Between Shots
+20, | #Delay Between Shots
 40 #Endlag
 half 0 #Shot Randomization
 byte[2] |
@@ -196,16 +196,16 @@ float[4] |
 0.15, | #Phase Speed
 0.02, | #Horizontal Homing
 0.02, | #Vertical Homing
-0.37 #Shot Size
+0.42 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-11, | #Damage
+9, | #Damage
 150, | #Down
 46, | #Knockback Velocity
 0, | #Knockback Angle
-56, | #Hitstun
+25, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
@@ -218,16 +218,16 @@ float[4] |
 0.2, | #Phase Speed
 0.015, | #Horizontal Homing
 0.006, | #Vertical Homing
-0.37 #Shot Size
+0.32 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-21, | #Damage
+18, | #Damage
 350, | #Down
 38, | #Knockback Velocity
 0, | #Knockback Angle
-32, | #Hitstun
+15, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)

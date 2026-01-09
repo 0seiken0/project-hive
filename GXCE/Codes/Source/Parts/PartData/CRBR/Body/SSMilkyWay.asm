@@ -1,5 +1,5 @@
 ######################################
-May [Project Hive]
+Nike [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x04
@@ -14,7 +14,7 @@ May [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"May (PH)"
+"Nike (PH)"
 BuildTitle:
     String|
 "(PH)"
@@ -63,7 +63,7 @@ half [38] |
 80, 160, 320, | #Reduced, Unmodified, and Boosted Ground Acceleration
 100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
 190, 340, 440, | #Reduced, Unmodified, and Boosted Jump Height
-5, 10, 15, | #Reduced, Unmodified, and Boosted Jump Speed
+10, 15, 20, | #Reduced, Unmodified, and Boosted Jump Speed
 70, 80, 100, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 2000, 3000, 5000, | #Reduced, Unmodified, and Boosted Air Acceleration
 6, 12, 18, | #Reduced, Unmodified, and Boosted Landing Lag
@@ -101,24 +101,24 @@ byte [2] |
 11, |    #Invulnerability
 0       #Invisibility
 half [16] |
-108, |  #Charge Damage
-220, |  #Knockback Velocity
-10, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
-20, |   #Attack Phase Duration (+1 for # of Frames)
+10, |   #Startup Phase Duration (+3 for # of Frames)
+18, |   #Attack Phase Duration (+1 for # of Frames)
 30, |   #Recovery Phase Duration
-0, |   #Startup Phase Speed
+20, |   #Startup Phase Speed
 120, |  #Attack Phase Speed
-180, |   #Recovery Phase Speed
-0, |    #Startup Phase Angle
+105, |   #Recovery Phase Speed
+110, |    #Startup Phase Angle
 150, |    #Attack Phase Angle
--120, |  #Recovery Phase Angle
-30, |   #Hitbox Size Related
-30, |   #Hitbox Size Related
--30       #Hitbox Size Related
+235, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
+0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 4, 4, 6, 7, 5   #Stat Line
+byte [5] 5, 3, 3, 9, 4   #Stat Line
 byte [1] 2  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

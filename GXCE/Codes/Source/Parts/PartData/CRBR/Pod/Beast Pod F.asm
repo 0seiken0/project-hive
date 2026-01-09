@@ -20,8 +20,10 @@ BuildTitle:
 " (PH)"
 PartDescription:
     String|
-"If I can be honest, not 
-buffing this yet"
+"Always homes at
+the target. When Locked
+on, it pounces around until
+finally exploding."
 RoboBytes:
 byte[4] |
 00, | #Illegal Toggle 
@@ -39,12 +41,12 @@ half [8] |
 0x0000 #Empty Data? 
 byte[4] |
 1, | #Homing Toggle
-30, | #Roaming Phase Homing 
-0, | #Locked On Phase Homing 
+100, | #Roaming Phase Homing 
+30, | #Locked On Phase Homing 
 0x00 #Empty Data? 
 half [13] |
 5, | #Roaming Phase Speed 
-105, | #Locked On Phase Speed 
+125, | #Locked On Phase Speed 
 10, | #Roaming Phase Height 
 250, | #Locked On Phase Height 
 90, | #Angle for conen of vision for activating lock on phase 

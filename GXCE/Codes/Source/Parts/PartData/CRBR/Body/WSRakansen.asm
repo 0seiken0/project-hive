@@ -1,5 +1,5 @@
 ######################################
-Gladiator [Project Hive]
+Spartacus [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1B
@@ -14,7 +14,7 @@ Gladiator [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Gladiator (PH)"
+"Spartacus (PH)"
 BuildTitle:
     String|
 " (PH)"
@@ -102,24 +102,24 @@ byte [2] |
 11, |    #Invulnerability
 0       #Invisibility
 half [16] |
-135, |  #Charge Damage
-180, |  #Knockback Velocity
-75, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
-5, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-180, |   #Startup Phase Speed
-220, |  #Attack Phase Speed
-220, |   #Recovery Phase Speed
-100, |    #Startup Phase Angle
--120, |    #Attack Phase Angle
--100, |  #Recovery Phase Angle
-40, |   #Hitbox Size Related
-20, |   #Hitbox Size Related
--50       #Hitbox Size Related
+16, |   #Startup Phase Duration (+3 for # of Frames)
+19, |   #Attack Phase Duration (+1 for # of Frames)
+34, |   #Recovery Phase Duration
+175, |   #Startup Phase Speed
+175, |  #Attack Phase Speed
+20, |   #Recovery Phase Speed
+112, |    #Startup Phase Angle
+248, |    #Attack Phase Angle
+180, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
+0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 5, 8, 6, 8   #Stat Line
+byte [5] 8, 8, 1, 4, 7   #Stat Line
 byte [1] 1  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

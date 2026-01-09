@@ -61,7 +61,7 @@ half [38] |
 0, 0, 0, | #Reduced, Unmodified, and Boosted LS Dash Turning
 40, 55, 70, | #Reduced, Unmodified, and Boosted Run Speed
 150, 200, 350, | #Reduced, Unmodified, and Boosted Ground Acceleration
-150, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
+100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
 125, 250, 360, | #Reduced, Unmodified, and Boosted Jump Height
 4, 12, 20, | #Reduced, Unmodified, and Boosted Jump Speed
 120, 130, 140, | #Reduced, Unmodified, and Boosted Lateral Air Speed
@@ -98,27 +98,27 @@ half [16] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-10, |    #Invulnerability
+11, |    #Invulnerability
 0       #Invisibility
 half [16] |
-135, |  #Charge Damage
-20, |  #Knockback Velocity
-90, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
 20, |   #Startup Phase Duration (+3 for # of Frames)
-20, |   #Attack Phase Duration (+1 for # of Frames)
-20, |   #Recovery Phase Duration
-0, |   #Startup Phase Speed
-120, |  #Attack Phase Speed
-140, |   #Recovery Phase Speed
-0, |    #Startup Phase Angle
--80, |    #Attack Phase Angle
--80, |  #Recovery Phase Angle
-60, |   #Hitbox Size Related
-20, |   #Hitbox Size Related
+22, |   #Attack Phase Duration (+1 for # of Frames)
+26, |   #Recovery Phase Duration
+100, |   #Startup Phase Speed
+70, |  #Attack Phase Speed
+55, |   #Recovery Phase Speed
+170, |    #Startup Phase Angle
+150, |    #Attack Phase Angle
+125, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 7, 9, 3, 9, 6   #Stat Line
+byte [5] 6, 7, 0, 9, 5   #Stat Line
 byte [1] 0  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

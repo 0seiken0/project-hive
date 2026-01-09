@@ -32,10 +32,10 @@ byte[4] |
 3, | #Number of Pods fired at once(Max 3)
 0x00 #Empty Data?
 half [8] |
-25, | #Angle between simultaneous pods (Automatically Centered)
+45, | #Angle between simultaneous pods (Automatically Centered)
 60, | #Horizontal Explosion Trigger Radius
 300, | #Vertical Explosion Trigger Radius
-30, | #Fuse Time
+37, | #Fuse Time
 0, | #Angle Pod faces at ground launch
 0x0000, | #Empty Data?
 0, | #Angle Pod faces at air launch
@@ -48,8 +48,8 @@ byte[4] |
 half [13] |
 0, | #Roaming Phase Speed
 0, | #Locked On Phase Speed
-10, | #Roaming Phase Height
-10, | #Locked On Phase Height
+100, | #Roaming Phase Height
+100, | #Locked On Phase Height
 0, | #Angle for conen of vision for activating lock on phase
 0, | #Lock On Range
 0, | #Duration of pause for switching between roaming and locked on.
@@ -71,9 +71,9 @@ half [3] |
 float [3] |
 0.85, | #eExplosion Size after Initial Expansion
 0.85, | #Final Explosion Sizes
-3.0 #Explosion Height
+7 #Explosion Height
 half [10] |
-33, | #Damage
+27, | #Damage
 300, | #Down
 150, | #Knockback Velocity
 32, | #Knockback Angle

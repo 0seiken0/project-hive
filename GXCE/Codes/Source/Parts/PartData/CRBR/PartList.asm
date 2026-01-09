@@ -139,7 +139,6 @@
 .include "Source/Parts/PartData/CRBR/Bomb/Tomahawk Bomb R.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Tomahawk Bomb B.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Tomahawk Bomb G.asm"
-.include "Source/Parts/PartData/CRBR/Bomb/Tomahawk Bomb S.asm"
 
 .include "Source/Parts/PartData/CRBR/Bomb/Gemini Bomb D.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Gemini Bomb P.asm"
@@ -176,10 +175,6 @@
 .include "Source/Parts/PartData/CRBR/Bomb/Rapid Bomb.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Grand Cross Bomb.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Cluster Bomb.asm"
-
-.include "Source/Parts/PartData/CRBR/Bomb/Drake Bomb R.asm"
-.include "Source/Parts/PartData/CRBR/Bomb/Drake Bomb G.asm"
-.include "Source/Parts/PartData/CRBR/Bomb/Drake Bomb X.asm"
 
 .include "Source/Parts/PartData/CRBR/Bomb/Heavy Bomb R.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Heavy Bomb D.asm"

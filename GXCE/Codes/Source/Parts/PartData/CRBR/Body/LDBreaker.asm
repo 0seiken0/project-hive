@@ -1,5 +1,5 @@
 ######################################
-Nybble [Project Hive]
+Zoom [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x0b
@@ -14,7 +14,7 @@ Nybble [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Nybble (PH)"
+"Zoom (PH)"
 BuildTitle:
     String|
 " (PH)"
@@ -97,27 +97,27 @@ half [16] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
-1       #Invisibility
+14, |    #Invulnerability
+0       #Invisibility
 half [16] |
-135, |  #Charge Damage
-200, |  #Knockback Velocity
-105, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-10, |   #Startup Phase Duration (+3 for # of Frames)
-25, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-225, |   #Startup Phase Speed
-200, |  #Attack Phase Speed
-0, |   #Recovery Phase Speed
-60, |    #Startup Phase Angle
--35, | #Attack Phase Angle
-0, |  #Recovery Phase Angle
-70, |   #Hitbox Size Related
-10, |   #Hitbox Size Related
+17, |   #Startup Phase Duration (+3 for # of Frames)
+18, |   #Attack Phase Duration (+1 for # of Frames)
+15, |   #Recovery Phase Duration
+0, |   #Startup Phase Speed
+210, |  #Attack Phase Speed
+120, |   #Recovery Phase Speed
+0, |    #Startup Phase Angle
+0, | #Attack Phase Angle
+358, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 3, 2, 3, 9, 9   #Stat Line
+byte [5] 3, 0, 8, 4, 4   #Stat Line
 byte [1] 2  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

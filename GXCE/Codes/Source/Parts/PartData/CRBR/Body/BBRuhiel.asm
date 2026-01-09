@@ -1,5 +1,5 @@
 ######################################
-Ruhiel [Project Hive]
+Wolfclaw [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1C
@@ -14,7 +14,7 @@ Ruhiel [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ruhiel (PH)"
+"Wolfclaw (PH)"
 BuildTitle:
     String|
 " (PH)"
@@ -62,7 +62,7 @@ half [38] |
 39, 65, 70, | #Reduced, Unmodified, and Boosted Run Speed
 120, 200, 400, | #Reduced, Unmodified, and Boosted Ground Acceleration
 100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
-170, 320, 470, | #Reduced, Unmodified, and Boosted Jump Height
+180, 320, 470, | #Reduced, Unmodified, and Boosted Jump Height
 1, 4, 8, | #Reduced, Unmodified, and Boosted Jump Speed
 95, 110, 125, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 75, 150, 300, | #Reduced, Unmodified, and Boosted Air Acceleration
@@ -98,27 +98,27 @@ half [16] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
-1       #Invisibility
+9, |    #Invulnerability
+0       #Invisibility
 half [16] |
-135, |  #Charge Damage
-200, |  #Knockback Velocity
-105, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-20, |   #Startup Phase Duration (+3 for # of Frames)
-15, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-110, |   #Startup Phase Speed
-120, |  #Attack Phase Speed
-40, |   #Recovery Phase Speed
-120, |    #Startup Phase Angle
--160, |    #Attack Phase Angle
--120, |  #Recovery Phase Angle
-70, |   #Hitbox Size Related
-10, |   #Hitbox Size Related
+34, |   #Startup Phase Duration (+3 for # of Frames)
+14, |   #Attack Phase Duration (+1 for # of Frames)
+13, |   #Recovery Phase Duration
+65, |   #Startup Phase Speed
+240, |  #Attack Phase Speed
+150, |   #Recovery Phase Speed
+90, |    #Startup Phase Angle
+355, |    #Attack Phase Angle
+340, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 4, 5, 9, 8   #Stat Line
+byte [5] 5, 4, 2, 8, 3   #Stat Line
 byte [1] 2  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

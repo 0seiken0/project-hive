@@ -66,7 +66,7 @@ float[4] |
 0.3, | #Phase Speed
 0.005, | #Horizontal Homing
 0.005, | #Vertical Homing
-0.42 #Shot Size
+0.35 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
@@ -88,7 +88,7 @@ float[4] |
 0.05, | #Phase Speed
 0.02, | #Horizontal Homing
 0.02, | #Vertical Homing
-0.42 #Shot Size
+0.35 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
@@ -194,7 +194,7 @@ float[4] |
 0.3, | #Phase Speed
 0.005, | #Horizontal Homing
 0.005, | #Vertical Homing
-0.42 #Shot Size
+0.35 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
@@ -216,7 +216,7 @@ float[4] |
 0.05, | #Phase Speed
 0.02, | #Horizontal Homing
 0.02, | #Vertical Homing
-0.42 #Shot Size
+0.35 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding

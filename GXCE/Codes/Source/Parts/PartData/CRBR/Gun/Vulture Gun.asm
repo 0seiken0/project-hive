@@ -45,7 +45,7 @@ float 1.0 #Trail Width, Start of Ground Shot
 #Ground Shot#
 #############
 byte[6] |
-5, | #Startup
+15, | #Startup
 2, | #Number of Shots
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
@@ -76,7 +76,7 @@ half[9] |
 400, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-25, | #Hitstun
+5, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -98,7 +98,7 @@ half[9] |
 400, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-25, | #Hitstun
+5, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -204,7 +204,7 @@ half[9] |
 400, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+5, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -226,7 +226,7 @@ half[9] |
 400, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+5, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -248,7 +248,7 @@ half[9] |
 400, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+5, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -270,7 +270,7 @@ half[9] |
 400, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
+5, | #Hitstun
 100, | #On-Hit Gravity
 0, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
