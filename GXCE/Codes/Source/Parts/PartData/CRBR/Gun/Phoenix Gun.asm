@@ -27,7 +27,7 @@ Recommended Range: Medium"
 RoboBytes:
 byte[56] |
 0,| #Illegal Toggle
-15, | #Slideshot Duration
+5, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 1, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -43,12 +43,12 @@ float 2.0 #Trail Width, Start of Ground Shot
 #Ground Shot#
 #############
 byte[6] |
-5, | #Startup
-1, | #Number of Shots
+25, | #Startup
+2, | #Number of Shots
 2, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-10, | #Delay Between Shots
-20 #Endlag
+18, | #Delay Between Shots
+30 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -70,7 +70,7 @@ byte[2] |
 36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-60, | #Damage
+40, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
@@ -92,7 +92,7 @@ byte[2] |
 36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-60, | #Damage
+40, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
@@ -103,7 +103,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-240, | #Phase Duration
+30, | #Phase Duration
 0 #Padding
 float[4] |
 0.42, | #Phase Speed
@@ -114,7 +114,7 @@ byte[2] |
 36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-60, | #Damage
+40, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle

@@ -47,10 +47,10 @@ byte[4] |
 26, | #Locked On Phase Homing
 0x00 #Empty Data?
 half [13] |
-100, | #Roaming Phase Speed
-90, | #Locked On Phase Speed
+90, | #Roaming Phase Speed
+80, | #Locked On Phase Speed
 140, | #Roaming Phase Height
-10, | #Locked On Phase Height
+50, | #Locked On Phase Height
 90, | #Angle for conen of vision for activating lock on phase
 300, | #Lock On Range
 5, | #Duration of pause for switching between roaming and locked on.

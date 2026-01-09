@@ -1,5 +1,5 @@
 ######################################
-Rahubeast [Project Hive]
+Lionmane [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1F
@@ -14,7 +14,7 @@ Rahubeast [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Rahubeast (PH)"
+"Lionmane (PH)"
 BuildTitle:
     String|
 " (PH)"
@@ -57,12 +57,12 @@ byte[6] |
 15, | #Air Dash Angle
 10, 15, 20    #Reduced, Unmodified, and Boosted Air Dash Length
 half [38] |
-130, 240, 300, | #Reduced, Unmodified, and Boosted Air Dash Speed
+180, 240, 300, | #Reduced, Unmodified, and Boosted Air Dash Speed
 0, 0, 0, | #Reduced, Unmodified, and Boosted LS Dash Turning
 39, 65, 70, | #Reduced, Unmodified, and Boosted Run Speed
 120, 200, 400, | #Reduced, Unmodified, and Boosted Ground Acceleration
 100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
-180, 280, 430, | #Reduced, Unmodified, and Boosted Jump Height
+160, 280, 430, | #Reduced, Unmodified, and Boosted Jump Height
 1, 4, 8, | #Reduced, Unmodified, and Boosted Jump Speed
 95, 110, 125, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 75, 150, 300, | #Reduced, Unmodified, and Boosted Air Acceleration
@@ -98,27 +98,27 @@ half [16] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
-1       #Invisibility
+14, |    #Invulnerability
+0       #Invisibility
 half [16] |
-135, |  #Charge Damage
-200, |  #Knockback Velocity
-105, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-20, |   #Startup Phase Duration (+3 for # of Frames)
-15, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-110, |   #Startup Phase Speed
-120, |  #Attack Phase Speed
-40, |   #Recovery Phase Speed
-120, |    #Startup Phase Angle
--160, |    #Attack Phase Angle
--120, |  #Recovery Phase Angle
-70, |   #Hitbox Size Related
-10, |   #Hitbox Size Related
+18, |   #Startup Phase Duration (+3 for # of Frames)
+12, |   #Attack Phase Duration (+1 for # of Frames)
+13, |   #Recovery Phase Duration
+0, |   #Startup Phase Speed
+230, |  #Attack Phase Speed
+145, |   #Recovery Phase Speed
+0, |    #Startup Phase Angle
+35, |    #Attack Phase Angle
+20, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 7, 6, 5, 9, 10   #Stat Line
+byte [5] 5, 6, 2, 6, 4   #Stat Line
 byte [1] 1  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

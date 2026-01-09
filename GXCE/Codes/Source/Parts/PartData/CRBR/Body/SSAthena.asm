@@ -25,8 +25,9 @@ Perfectly agile while
 airborne. High and fast jumps.
 Four gradual downwards 
 air dashes. 
-Charge: Charges towards 
-target with a jump."
+Charge: Charges quickly
+towards target before moving
+backwards."
 RoboBytes:
 half[1] |
 1000, #Down
@@ -63,7 +64,7 @@ half [38] |
 80, 160, 320, | #Reduced, Unmodified, and Boosted Ground Acceleration
 100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
 170, 320, 420, | #Reduced, Unmodified, and Boosted Jump Height
-5, 10, 15, | #Reduced, Unmodified, and Boosted Jump Speed
+10, 15, 20, | #Reduced, Unmodified, and Boosted Jump Speed
 70, 80, 100, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 2000, 3000, 5000, | #Reduced, Unmodified, and Boosted Air Acceleration
 6, 12, 18, | #Reduced, Unmodified, and Boosted Landing Lag
@@ -77,48 +78,48 @@ word [8] |
 0x8386838A, 0x83479547, 0x8F5282E8, 0x82500000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Charge Title
 byte [2] |
 2, |    #Invulnerability
-1       #Invisibility
+0       #Invisibility
 half [16] |
-133, |  #Charge Damage
-138, |  #Knockback Velocity
-134, |   #Knockback Angle
+100, |  #Charge Damage
+100, |  #Knockback Velocity
+80, |   #Knockback Angle
 20, |   #Homing
-14, |   #Startup Phase Duration (+3 for # of Frames)
-18, |   #Attack Phase Duration (+1 for # of Frames)
-27, |   #Recovery Phase Duration
-114, |   #Startup Phase Speed
-220, |  #Attack Phase Speed
-80, |   #Recovery Phase Speed
-8, |    #Startup Phase Angle
-21, |    #Attack Phase Angle
-255, |  #Recovery Phase Angle
-30, |   #Hitbox Size Related
-30, |   #Hitbox Size Related
--40       #Hitbox Size Related
+10, |   #Startup Phase Duration (+3 for # of Frames)
+10, |   #Attack Phase Duration (+1 for # of Frames)
+20, |   #Recovery Phase Duration
+80, |   #Startup Phase Speed
+200, |  #Attack Phase Speed
+150, |   #Recovery Phase Speed
+0, |    #Startup Phase Angle
+0, |    #Attack Phase Angle
+185, |  #Recovery Phase Angle
+40, |   #Hitbox Size Related
+20, |   #Hitbox Size Related
+0       #Hitbox Size Related
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
+10, |    #Invulnerability
 0       #Invisibility
 half [16] |
-120, |  #Charge Damage
-220, |  #Knockback Velocity
-10, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
 15, |   #Startup Phase Duration (+3 for # of Frames)
 20, |   #Attack Phase Duration (+1 for # of Frames)
-25, |   #Recovery Phase Duration
-0, |   #Startup Phase Speed
-120, |  #Attack Phase Speed
-180, |   #Recovery Phase Speed
-0, |    #Startup Phase Angle
-150, |    #Attack Phase Angle
--120, |  #Recovery Phase Angle
-30, |   #Hitbox Size Related
-30, |   #Hitbox Size Related
--30       #Hitbox Size Related
+10, |   #Recovery Phase Duration
+160, |   #Startup Phase Speed
+100, |  #Attack Phase Speed
+190, |   #Recovery Phase Speed
+130, |    #Startup Phase Angle
+250, |    #Attack Phase Angle
+25, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
+0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 5, 5, 10, 8   #Stat Line
+byte [5] 5, 4, 3, 8, 5   #Stat Line
 byte [1] 0    #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

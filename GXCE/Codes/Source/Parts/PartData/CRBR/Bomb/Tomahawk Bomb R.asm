@@ -51,7 +51,7 @@ float [3] |
 1.1, | #Final Explosion Size
 0.59 #Explosion Height
 half [10] |
-80, | #Damage
+71, | #Damage
 500, | #Down
 120, | #Knockback Velocity
 70, | #Knockback Angle
@@ -111,7 +111,7 @@ float [3] |
 1.1, | #Final Explosion Size
 0.59 #Explosion Height
 half [10] |
-80, | #Damage
+71, | #Damage
 500, | #Down
 120, | #Knockback Velocity
 70, | #Knockback Angle

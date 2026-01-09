@@ -31,7 +31,7 @@ RoboBytes:
 half[1] |
 1200, #Down
 byte[22] |
-100, | #Defense
+105, | #Defense
 100, | #Knockback
 100, | #Hitstun
 0, | #Illegal Toggle
@@ -98,27 +98,27 @@ half [16] |
 word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
-11, |    #Invulnerability
+10, |    #Invulnerability
 0       #Invisibility
 half [16] |
-112, |  #Charge Damage
-150, |  #Knockback Velocity
-30, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
-15, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-180, |   #Startup Phase Speed
-180, |  #Attack Phase Speed
-180, |   #Recovery Phase Speed
-120, |    #Startup Phase Angle
--150, |    #Attack Phase Angle
--90, |  #Recovery Phase Angle
-40, |   #Hitbox Size Related
-30, |   #Hitbox Size Related
+5, |   #Startup Phase Duration (+3 for # of Frames)
+14, |   #Attack Phase Duration (+1 for # of Frames)
+7, |   #Recovery Phase Duration
+140, |   #Startup Phase Speed
+110, |  #Attack Phase Speed
+60, |   #Recovery Phase Speed
+50, |    #Startup Phase Angle
+40, |    #Attack Phase Angle
+20, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 5, 6, 5, 8   #Stat Line
+byte [5] 6, 4, 6, 5, 7   #Stat Line
 byte [1] 2  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

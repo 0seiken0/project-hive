@@ -48,9 +48,9 @@ Stagelist Toggle (Tournamnet / Vanilla) [DE, DesiacX]
 #Default / PH3 Stagelist.
 byte [37]|
 0x00, 0x01, 0x11, 0x10, 0x18, 0x05, |
-0x26, 0x1C, 0x1F, 0x0F, 0x1B, 0x0E, |
-0x24, 0x1E, 0x13, 0x14, 0x12, 0x0D, |
-0x0C, 0x03, 0x1D, 0x27, 0x08, 0x02, |
+0x26, 0x1C, 0x0F, 0x0E, 0x24, 0x13, |
+0x14, 0x12, 0x0D, 0x0C, 0x03, 0x1D, |
+0x27, 0x08, 0x02, 0x1F, 0x1B, 0x1E, |
 0x15, 0x23, 0x09, 0x17, 0x04, 0x16, |
 0x22, 0x20, 0x21, 0x19, 0x1A, 0x25, |
 0x28 |
@@ -155,7 +155,7 @@ HOOK @ $8010B204
 }
 
 ########################################################
-Temporarily Disable Illegal Parts by holding R [DesiacX]
+!Temporarily Disable Illegal Parts by holding R [DesiacX]
 ########################################################
 .macro IllegalLoad(<Unusued>)
 {
@@ -410,6 +410,38 @@ restore:
 
 .include Source/Parts/PartExpansionCloser.asm
 
+#############################
+Quick VS Menu [Glass_Knuckle]
+#############################
+* 2844F874 00000000
+* 2844F884 00000000
+* 2844F886 00000100
+* 0041CBFC 00000002
+* 0244F874 00000001
+* E0000000 00000000
+* 2844F876 00000000
+* 2844F884 00000001
+* 2844F886 00000100
+* 0044F884 00000002
+* 0244F876 00000001
+* E0000000 00000000
+* 2844F878 00000000
+* 2844F884 00000202
+* 2844F886 00000100
+* 0041CBEE 00000001
+* 0244F878 00000001
+* E0000000 00000000
+* 2844F87A 00000000
+* 2844F884 0000020D
+* 2844F886 00000100
+* 0044F873 00000003
+* 0244F87A 00000001
+* E0000000 00000000
+
+###################################
+Disable Memory Card Check [DesiacX]
+###################################
+* 040EB47C 60000000
 
 #V2. This code checks if the memory has been expanded via Riivolution. If it has, it returns the codeset handler to Dolphin's codeset handler.
 #################################

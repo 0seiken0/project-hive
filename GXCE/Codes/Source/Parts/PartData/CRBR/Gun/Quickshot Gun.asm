@@ -72,8 +72,8 @@ byte[2] |
 0 #Padding
 half[9] |
 45, | #Damage
-480, | #Down
-200, | #Knockback Velocity
+350, | #Down
+80, | #Knockback Velocity
 50, | #Knockback Angle
 20, | #Hitstun
 200, | #On-Hit Gravity
@@ -94,8 +94,8 @@ byte[2] |
 0 #Padding
 half[9] |
 45, | #Damage
-480, | #Down
-200, | #Knockback Velocity
+350, | #Down
+80, | #Knockback Velocity
 50, | #Knockback Angle
 20, | #Hitstun
 200, | #On-Hit Gravity
@@ -200,8 +200,8 @@ byte[2] |
 0 #Padding
 half[9] |
 45, | #Damage
-480, | #Down
-200, | #Knockback Velocity
+350, | #Down
+80, | #Knockback Velocity
 50, | #Knockback Angle
 20, | #Hitstun
 200, | #On-Hit Gravity
@@ -222,8 +222,8 @@ byte[2] |
 0 #Padding
 half[9] |
 45, | #Damage
-480, | #Down
-200, | #Knockback Velocity
+350, | #Down
+80, | #Knockback Velocity
 50, | #Knockback Angle
 20, | #Hitstun
 200, | #On-Hit Gravity

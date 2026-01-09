@@ -101,24 +101,24 @@ byte [2] |
 11, |    #Invulnerability
 0       #Invisibility
 half [16] |
-126, |  #Charge Damage
-180, |  #Knockback Velocity
-80, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
-15, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-180, |   #Startup Phase Speed
-180, |  #Attack Phase Speed
-180, |   #Recovery Phase Speed
-120, |    #Startup Phase Angle
--96, |    #Attack Phase Angle
--90, |  #Recovery Phase Angle
-40, |   #Hitbox Size Related
-20, |   #Hitbox Size Related
+22, |   #Startup Phase Duration (+3 for # of Frames)
+11, |   #Attack Phase Duration (+1 for # of Frames)
+11, |   #Recovery Phase Duration
+25, |   #Startup Phase Speed
+135, |  #Attack Phase Speed
+50, |   #Recovery Phase Speed
+185, |    #Startup Phase Angle
+185, |    #Attack Phase Angle
+185, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
 0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 6, 5, 5, 7  #Stat Line
+byte [5] 6, 5, 5, 5, 7  #Stat Line
 byte [1] 0  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

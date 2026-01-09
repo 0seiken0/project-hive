@@ -1,5 +1,5 @@
 ######################################
-Lancer [Project Hive]
+Gannicus [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x18
@@ -14,7 +14,7 @@ Lancer [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Lancer (PH)"
+"Gannicus (PH)"
 BuildTitle:
     String|
 " (PH)"
@@ -26,8 +26,8 @@ jumps and high Gravity.
 Two quick downwards 
 Air-Dashes with low landing 
 lag.
-Charge: Charges toward 
-its opponent."
+Charge: Ascends upwards
+then charges forwards"
 RoboBytes:
 half[1] |
 1500, #Down
@@ -80,17 +80,17 @@ byte [2] |
 2, |    #Invulnerability
 0       #Invisibility
 half [16] |
-175, |  #Charge Damage
+115, |  #Charge Damage
 150, |  #Knockback Velocity
 30, |   #Knockback Angle
 10, |   #Homing
 10, |   #Startup Phase Duration (+3 for # of Frames)
-20, |   #Attack Phase Duration (+1 for # of Frames)
-35, |   #Recovery Phase Duration
-80, |   #Startup Phase Speed
-96, |  #Attack Phase Speed
-80, |   #Recovery Phase Speed
-0, |    #Startup Phase Angle
+30, |   #Attack Phase Duration (+1 for # of Frames)
+0, |   #Recovery Phase Duration
+250, |   #Startup Phase Speed
+125, |  #Attack Phase Speed
+0, |   #Recovery Phase Speed
+90, |    #Startup Phase Angle
 0, |    #Attack Phase Angle
 -90, |  #Recovery Phase Angle
 60, |   #Hitbox Size Related
@@ -100,26 +100,26 @@ word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
 11, |    #Invulnerability
-0       #Invisibility
+1       #Invisibility
 half [16] |
-126, |  #Charge Damage
-180, |  #Knockback Velocity
-80, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
-15, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-180, |   #Startup Phase Speed
-180, |  #Attack Phase Speed
-180, |   #Recovery Phase Speed
-120, |    #Startup Phase Angle
--150, |    #Attack Phase Angle
--90, |  #Recovery Phase Angle
-40, |   #Hitbox Size Related
-20, |   #Hitbox Size Related
--50       #Hitbox Size Related
+10, |   #Startup Phase Duration (+3 for # of Frames)
+19, |   #Attack Phase Duration (+1 for # of Frames)
+24, |   #Recovery Phase Duration
+255, |   #Startup Phase Speed
+185, |  #Attack Phase Speed
+125, |   #Recovery Phase Speed
+150, |    #Startup Phase Angle
+345, |    #Attack Phase Angle
+325, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
+0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 1, 3, 5, 5, 8   #Stat Line
+byte [5] 8, 7, 1, 5, 4   #Stat Line
 byte [1] 0  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

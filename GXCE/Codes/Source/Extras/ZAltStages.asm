@@ -69,7 +69,7 @@ HOOK @ $80111A34  #Write when holding Z
 {
 %HoldZ(0x0F, 0x08) #Diamond Fence / Diamond Cell
 %HoldZ(0x01, 0x02) #High Rise Plaza / High Rise Cell
-%HoldZ(0x0E, 0x12) #Crevice Court / Checkmate Foundry
+#%HoldZ(0x0E, 0x12) #Crevice Court / Checkmate Foundry
 OGHook:
   stb r8, 0xD (r5)  #Hook Point
 }
@@ -78,7 +78,7 @@ HOOK @ $80111FF0  #Overwrite Icons when holding Z
 {
 %IconSwap(0x02, 0x04) #Diamond Fence / Diamond Cell
 %IconSwap(0x03, 0x05) #High Rise Plaza / High Rise Cell
-%IconSwap(0x08, 0x06) #Crevice Court / Checkmate Foundry
+#%IconSwap(0x08, 0x06) #Crevice Court / Checkmate Foundry
   cmplwi r0, 0x1  #hook point
 }
 

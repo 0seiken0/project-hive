@@ -1248,7 +1248,7 @@ MainMenu:
     addi r3, r3, 0x4857
     lbzx r3, r31, r3    #LoadPartID
     mulli r3, r3, 0x4
-    add r3, r3, r30
+    add r30, r3, r30
     lwzx r29, r30, r29
     b- Check
 SubMenu:

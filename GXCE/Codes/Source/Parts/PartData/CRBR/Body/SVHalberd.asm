@@ -98,26 +98,26 @@ word [8] |
 0x8354837D, 0x815B835C, 0x838B8367, 0x82510000, 0x00000000, 0x00000000, 0x00000000, 0x00000000 #Unused Charge Title
 byte [2] |
 11, |    #Invulnerability
-0       #Invisibility
+1       #Invisibility
 half [16] |
-108, |  #Charge Damage
-180, |  #Knockback Velocity
-60, |   #Knockback Angle
+0, |  #Charge Damage
+0, |  #Knockback Velocity
+0, |   #Knockback Angle
 0, |   #Homing
-15, |   #Startup Phase Duration (+3 for # of Frames)
-5, |   #Attack Phase Duration (+1 for # of Frames)
-30, |   #Recovery Phase Duration
-180, |   #Startup Phase Speed
-220, |  #Attack Phase Speed
-220, |   #Recovery Phase Speed
-100, |    #Startup Phase Angle
--120, |    #Attack Phase Angle
--100, |  #Recovery Phase Angle
-40, |   #Hitbox Size Related
-40, |   #Hitbox Size Related
--10       #Hitbox Size Related
+11, |   #Startup Phase Duration (+3 for # of Frames)
+9, |   #Attack Phase Duration (+1 for # of Frames)
+15, |   #Recovery Phase Duration
+130, |   #Startup Phase Speed
+150, |  #Attack Phase Speed
+95, |   #Recovery Phase Speed
+55, |    #Startup Phase Angle
+15, |    #Attack Phase Angle
+5, |  #Recovery Phase Angle
+0, |   #Hitbox Size Related
+0, |   #Hitbox Size Related
+0       #Hitbox Size Related
 ExtraBytes:
-byte [5] 5, 5, 5, 3, 7   #Stat Line
+byte [5] 5, 3, 5, 5, 6   #Stat Line
 byte [1] 2  #Body Type. 0 = Normal. 1 = Armor. 2 = Speed. 3 = Other. 4 = Nothing.
 MASTERCODE:
 PULSE

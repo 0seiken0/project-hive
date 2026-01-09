@@ -7,6 +7,14 @@ Little Locomotive Train Delete [DesiacX]
 * 003756A5 00000009
 * E0000000 80008000
 
+#####################################
+Loading Dock Platform Delete [seiken]
+#####################################
+* 2A23F0E8 00000156
+* 283756A2 00002000
+* 003756A5 00000009
+* E0000000 80008000
+
 ########################################################
 Stage Animation Disabler for Primary 3d Models [DesiacX]
 ########################################################
@@ -329,4 +337,36 @@ HOOK @ $8004D49C
 
 Regular:
   extsb. r6, r17
+}
+
+###############################################
+Remove Castle Keep Wall Middle Section [seiken]
+###############################################
+* 2A23F0E8 00000156
+* 2041A238 04010D00
+* 0434DD68 00000000
+* 0034DD73 00000000
+* E2000002 80008000
+
+HOOK @ $8007202C
+{
+StageHazardCheck:
+  lis r15, 0x8023
+  ori r15, r15, 0xF0E8
+  lhz r15, 0x0 (r15)
+  cmpwi r15, 0x0156
+  beq OrigOp
+StageIDCheck:
+  lis r15, 0x8041
+  ori r15, r15, 0xA23A
+  lbz r15, 0x0 (r15)
+  cmpwi r15, 0x0D
+  bne OrigOp
+  cmpwi r30, 0x09
+  bne OrigOp
+  addi r30, r30, 0x01    #increment counter to skip current entity
+
+  OrigOp:
+  mr r15, r16            #reset r15
+  lha r0, 0x0008 (r31)
 }
