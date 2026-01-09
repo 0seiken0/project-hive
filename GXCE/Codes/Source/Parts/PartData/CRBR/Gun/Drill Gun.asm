@@ -1,5 +1,5 @@
 ######################################
-Drill Gun [Custom Robo Battle Revolution]
+Drill Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x17
@@ -14,26 +14,20 @@ Drill Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Drill Gun (CRBR)"
+"Drill Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Repeatedly fires shots 
-that draw your opponent 
-toward you. 
-Aerial and ground shots 
-are the same. 
-Range: short. 
-Advisory: If one round hits 
-your opponent, so will the 
-remaining amount. This gun 
-works best if fired quickly 
-from afar."
+"Ground: Fires 12 repeated 
+shots that pull your opponent 
+towards you.
+Air: Same as Ground
+Recommended Range: Short"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 0, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -77,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+10, | #Damage
 120, | #Down
 30, | #Knockback Velocity
 165, | #Knockback Angle
@@ -99,8 +93,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
-100, | #Down
+10, | #Damage
+110, | #Down
 30, | #Knockback Velocity
 165, | #Knockback Angle
 5, | #Hitstun
@@ -121,8 +115,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
-100, | #Down
+10, | #Damage
+110, | #Down
 30, | #Knockback Velocity
 165, | #Knockback Angle
 5, | #Hitstun
@@ -205,7 +199,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+10, | #Damage
 120, | #Down
 30, | #Knockback Velocity
 175, | #Knockback Angle
@@ -227,8 +221,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
-100, | #Down
+10, | #Damage
+110, | #Down
 30, | #Knockback Velocity
 175, | #Knockback Angle
 5, | #Hitstun
@@ -249,8 +243,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
-100, | #Down
+10, | #Damage
+110, | #Down
 30, | #Knockback Velocity
 175, | #Knockback Angle
 5, | #Hitstun

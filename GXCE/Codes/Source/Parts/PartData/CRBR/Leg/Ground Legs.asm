@@ -1,5 +1,5 @@
 ######################################
-Ground Legs [Custom Robo Battle Revolution]
+Ground Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x02
@@ -14,19 +14,16 @@ Ground Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Ground Legs (CRBR)"
+"Ground Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Decreases jump interval. 
-Enables sharp turning on the 
-ground and in the air, but 
-decreases jump height. 
-Advisory: Use this set of 
-legs when you want to shoot 
-while making short jumps."
+"Heavily reduces Landing Lag.
+Reduces Jump Height.
+Increases Ground Acceleration.
+Increases Aerial Acceleration."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -34,8 +31,8 @@ byte [16] |
 150, | #Ground Accel 
 100, | #Ground Turning
 50, | #Jump Height
-200, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Jump Speed 
+100, | #Lateral Air Speed 
 150, | #Air Accel 
 1, | #Landing Lag 
 100, | #Gravity 

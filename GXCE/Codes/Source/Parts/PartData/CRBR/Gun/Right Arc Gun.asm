@@ -1,5 +1,5 @@
 ######################################
-Right Arc Gun [Custom Robo Battle Revolution]
+Right Arc Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x0B
@@ -14,24 +14,21 @@ Right Arc Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Right Arc Gun (CRBR)"
+"Right Arc Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"A gun with basic capabilities. 
-Fires three rounds at a time. 
-Aerial and ground shots are 
-the same. 
-Range: medium. 
-Advisory: It's hard to hit your 
-foe with this gun alone, so 
-use bombs or pods first to 
-freeze your opponent."
+"Ground: Fires 2 fast rounds 
+that fire right then launch 
+towards the opponent.
+Air: Direction reverses.
+Recommended Range: 
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -53,7 +50,7 @@ byte[6] |
 1, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-40 #Endlag
+32 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -75,7 +72,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-41, | #Damage
+40, | #Damage
 400, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -97,7 +94,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 400, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -119,7 +116,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-35, | #Damage
+40, | #Damage
 400, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -176,18 +173,18 @@ half[9] |
 #Air Shot#
 ##########
 byte[6] |
-10, | #Startup
+5, | #Startup
 2, | #Number of Shots
 1, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-45 #Endlag
+36 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-60075, | #Initial Shot Angle
+-5461, | #Initial Shot Angle
 0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
@@ -203,7 +200,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 400, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -225,7 +222,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-35, | #Damage
+40, | #Damage
 400, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -247,7 +244,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-33, | #Damage
+40, | #Damage
 400, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle

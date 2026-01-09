@@ -1,5 +1,5 @@
 ######################################
-Trap Gun [Custom Robo Battle Revolution]
+Trap Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x16
@@ -14,25 +14,23 @@ Trap Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Trap Gun (CRBR)"
+"Trap Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires several shots. 
-Ground fire: Rounds delay 
-briefly. 
-Aerial fire: Rounds fly 
-straight. 
-Range: medium-long. 
-Advisory: Spread your fire 
-when on the ground. When firing 
-from the air, use the gun to 
-immobilize your opponent."
+"Ground: Fires 7 rounds that 
+delay briefly before quickly 
+flying towards the opponent.
+Air: Fires a spread of 5 
+shots randomly towards the 
+opponent.
+Recommended Range: 
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 5, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -55,12 +53,12 @@ byte[6] |
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 3, | #Delay Between Shots
 5 #Endlag
-half 2184 #Shot Randomization
+half 1160 #Shot Randomization
 byte[2] |
 1, | #Spread Phase
 0 #Padding
 half[3] |
--2730, | #Initial Shot Angle
+0, | #Initial Shot Angle
 0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
@@ -71,12 +69,12 @@ float[4] |
 0.011, | #Phase Speed
 0.03, | #Horizontal Homing
 0.03, | #Vertical Homing
-0.01 #Shot Size
+0.11613281 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-28, | #Damage
+31, | #Damage
 135, | #Down
 120, | #Knockback Velocity
 80, | #Knockback Angle
@@ -98,7 +96,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-31, | #Damage
+34, | #Damage
 270, | #Down
 120, | #Knockback Velocity
 80, | #Knockback Angle
@@ -204,7 +202,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-14, | #Damage
+15, | #Damage
 100, | #Down
 120, | #Knockback Velocity
 60, | #Knockback Angle

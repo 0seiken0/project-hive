@@ -1,5 +1,5 @@
 ######################################
-Short Thrust Legs [Custom Robo Battle Revolution]
+Short Thrust Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x05
@@ -14,18 +14,19 @@ Short Thrust Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Short Thrust Legs (CRBR)"
+"Short Thrust Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Decreases your dash distance. 
-Enables sharp turning while 
-on the ground. 
-Advisory: Use this set of 
-legs when you want to make 
-difficult turns in the air."
+"Decreases dash duration. 
+Heavily decreases Dash 
+Startup.
+Heavily decreases Dash 
+Landing Lag.
+Heavily Increases Ground 
+Acceleration."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -34,15 +35,15 @@ byte [16] |
 100, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
 1, | #Dash Startup 
 1, | #Dash Landing Lag 
-50, | #Continuous Jump Height 
+75, | #Continuous Jump Height 
 1, | #Dash Duration 
-100, | #Dash Speed 
+125, | #Dash Speed 
 0xFF  #Filler Data
 ExtraBytes:
 byte [5] 5, 5, 5, 5, 5   #Stat Line

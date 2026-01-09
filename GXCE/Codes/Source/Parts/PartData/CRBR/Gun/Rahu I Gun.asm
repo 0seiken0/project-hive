@@ -1,5 +1,5 @@
 ######################################
-Basic Gun [Custom Robo Battle Revolution]
+Rahu I Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x31
@@ -14,22 +14,20 @@ Basic Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Rahu I Gun^` (CRBR)"
+"Rahu I Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"A gun that was merged with an 
-unknown living being. 
-A Flare Cannon with upgraded 
-firepower and bigger rounds. 
-Once fired, the rounds explode 
-after a set time. 
-Range: medium."
+"Ground: Fires 3 close-range
+lingering blasts with high 
+damage.
+Air: Same as Ground. 
+Recommended Range: Medium"
 RoboBytes:
 byte[56] |
-1, | #Illegal Toggle
+0,| #Illegal Toggle
 25, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -51,18 +49,18 @@ byte[6] |
 5, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-50 #Endlag
+40 #Endlag
 half 3640 #Shot Randomization
 byte[2] |
 1, | #Spread Phase
 0 #Padding
 half[3] |
 0, | #Initial Shot Angle
-13653, | #Angle Between Simultaneous Shots
+13107, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
-16, | #Phase Duration
+10, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -73,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-8, | #Damage
+9, | #Damage
 30, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
@@ -84,7 +82,7 @@ half[9] |
 40 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-20, | #Phase Duration
+45, | #Phase Duration
 0 #Padding
 float[4] |
 0.001, | #Phase Speed
@@ -106,15 +104,15 @@ half[9] |
 40 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-10, | #Phase Duration
+14, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
+0.35, | #Phase Speed
 0.07, | #Horizontal Homing
 0.01, | #Vertical Homing
-0.7 #Shot Size
+0.75 #Shot Size
 byte[2] |
-5, | #Lingering Hitbox Duration
+7, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage
@@ -179,18 +177,18 @@ byte[6] |
 5, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-50 #Endlag
-half 4551 #Shot Randomization
+40 #Endlag
+half 3640 #Shot Randomization
 byte[2] |
 1, | #Spread Phase
 0 #Padding
 half[3] |
 0, | #Initial Shot Angle
-13653, | #Angle Between Simultaneous Shots
+13107, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
-16, | #Phase Duration
+10, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -201,7 +199,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-8, | #Damage
+9, | #Damage
 30, | #Down
 60, | #Knockback Velocity
 60, | #Knockback Angle
@@ -212,7 +210,7 @@ half[9] |
 40 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-20, | #Phase Duration
+45, | #Phase Duration
 0 #Padding
 float[4] |
 0.001, | #Phase Speed
@@ -234,15 +232,15 @@ half[9] |
 40 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-10, | #Phase Duration
+14, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
+0.35, | #Phase Speed
 0.07, | #Horizontal Homing
 0.01, | #Vertical Homing
-0.7 #Shot Size
+0.75 #Shot Size
 byte[2] |
-5, | #Lingering Hitbox Duration
+7, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
 18, | #Damage

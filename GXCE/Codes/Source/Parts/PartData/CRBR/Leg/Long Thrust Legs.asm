@@ -1,5 +1,5 @@
 ######################################
-Long Thrust Legs [Custom Robo Battle Revolution]
+Long Thrust Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x06
@@ -14,19 +14,15 @@ Long Thrust Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Long Thrust Legs (CRBR)"
+"Long Thrust Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Increases your dash distance. 
-Features no descent 
-augmentation. 
-Advisory: Use this set of 
-legs to drastically change 
-the ground distance between 
-you and your opponent. "
+"Increases your Dash Length.
+Minorly increases your Dash 
+Speed."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -35,15 +31,15 @@ byte [16] |
 100, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
 100, | #Dash Startup 
 100, | #Dash Landing Lag 
-200, | #Continuous Jump Height 
-200, | #Dash Duration 
-100, | #Dash Speed 
+215, | #Continuous Jump Height 
+175, | #Dash Duration 
+150, | #Dash Speed 
 0xFF  #Filler Data
 ExtraBytes:
 byte [5] 5, 5, 5, 5, 5   #Stat Line

@@ -1,5 +1,5 @@
 ######################################
-Standard Legs [Custom Robo Battle Revolution]
+Standard Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x00
@@ -14,19 +14,15 @@ Standard Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Standard Legs (CRBR)"
+"Standard Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
 "Basic set of legs. 
 Features no special 
-characteristics. 
-Possesses no ascent or 
-descent augmentation. 
-Replace as soon as possible 
-with a different set of legs."
+characteristics."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -35,7 +31,7 @@ byte [16] |
 100, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 

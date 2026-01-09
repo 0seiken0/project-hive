@@ -1,5 +1,5 @@
 ######################################
-Stun Gun [Custom Robo Battle Revolution]
+Stun Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x05
@@ -14,25 +14,19 @@ Stun Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Stun Gun (CRBR)"
+"Stun Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires two short rounds 
-capable of briefly 
-stopping your foe. 
-Aerial and ground shots 
-are the same. 
-Range: short. 
-Advisory: Since the gun's 
-range is short, approach 
-your opponent after 
-launching a bomb or a pod."
+"Ground: Fires a short-range
+round with high hitstun.
+Air: Same as Ground. 
+Recommended Range: Short"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 0, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -49,12 +43,12 @@ float 1.0 #Trail Width, Start of Ground Shot
 #Ground Shot#
 #############
 byte[6] |
-1, | #Startup
-2, | #Number of Shots
+3, | #Startup
+1, | #Number of Shots
 1, | #Rounds per Shot
-1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-4, | #Delay Between Shots
-5 #Endlag
+0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
+0, | #Delay Between Shots
+4 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -65,7 +59,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-5, | #Phase Duration
+3, | #Phase Duration
 0 #Padding
 float[4] |
 0.355, | #Phase Speed
@@ -76,7 +70,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
+23, | #Damage
 350, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -177,12 +171,12 @@ half[9] |
 #Air Shot#
 ##########
 byte[6] |
-1, | #Startup
-2, | #Number of Shots
+3, | #Startup
+1, | #Number of Shots
 1, | #Rounds per Shot
-1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-4, | #Delay Between Shots
-5 #Endlag
+0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
+0, | #Delay Between Shots
+4 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -196,7 +190,7 @@ half[2] |
 3, | #Phase Duration
 0 #Padding
 float[4] |
-0.45, | #Phase Speed
+0.355, | #Phase Speed
 0.25, | #Horizontal Homing
 0.25, | #Vertical Homing
 0.3 #Shot Size
@@ -204,9 +198,9 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-25, | #Damage
+23, | #Damage
 350, | #Down
-0, | #Knockback Velocity
+20, | #Knockback Velocity
 0, | #Knockback Angle
 60, | #Hitstun
 100, | #On-Hit Gravity

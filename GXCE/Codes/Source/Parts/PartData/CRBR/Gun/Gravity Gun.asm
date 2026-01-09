@@ -1,5 +1,5 @@
 ######################################
-Gravity Gun [Custom Robo Battle Revolution]
+Gravity Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x1F
@@ -14,26 +14,24 @@ Gravity Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Gravity Gun (CRBR)"
+"Gravity Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires shots that grow large 
-and become immobile. 
-Ground fire: Rounds move 
-straight ahead. 
-Aerial fire: Rounds ascend 
-diagonally. 
-Range: medium. 
-Advisory: Your foe will be 
-blown upward when shot 
-from the ground, so fire 
-some aerial shots first."
+"Ground: Fires small, extremely 
+fast rounds straight ahead that 
+turn immobile. Knocks opponent 
+upwards.
+Air: Rounds ascend diagonally. 
+They become large and float 
+above the opponent. Knocks 
+opponent downwards.
+Range: Medium."
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -77,7 +75,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 600, | #Down
 160, | #Knockback Velocity
 90, | #Knockback Angle
@@ -99,7 +97,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 600, | #Down
 160, | #Knockback Velocity
 90, | #Knockback Angle
@@ -189,7 +187,7 @@ byte[2] |
 0, | #Spread Phase
 0 #Padding
 half[3] |
-60985, | #Initial Shot Angle
+-4551, | #Initial Shot Angle
 0, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
@@ -205,7 +203,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-90, | #Damage
+99, | #Damage
 500, | #Down
 150, | #Knockback Velocity
 -60, | #Knockback Angle
@@ -227,7 +225,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-90, | #Damage
+99, | #Damage
 500, | #Down
 150, | #Knockback Velocity
 -60, | #Knockback Angle
@@ -241,15 +239,15 @@ half[2] |
 150, | #Phase Duration
 0 #Padding
 float[4] |
-0.016, | #Phase Speed
-0.04, | #Horizontal Homing
+0.025, | #Phase Speed
+0.043, | #Horizontal Homing
 0.0, | #Vertical Homing
 1.2 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-90, | #Damage
+99, | #Damage
 600, | #Down
 150, | #Knockback Velocity
 -60, | #Knockback Angle

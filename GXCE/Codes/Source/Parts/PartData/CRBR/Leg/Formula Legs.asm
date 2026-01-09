@@ -1,5 +1,5 @@
 ######################################
-Formula Legs [Custom Robo Battle Revolution]
+Formula Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x03
@@ -14,28 +14,25 @@ Formula Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Formula Legs (CRBR)"
+"Formula Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Increases running speed, 
-but does not allow sharp 
-turns while on the ground. 
-Advisory: Use this set of 
-legs to drastically change 
-the ground distance between 
-you and your opponent."
+"Heavily increases Running 
+Speed.
+Increases Ground Acceleration.
+Decreases Ground Turning."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
-200, | #Ground Speed
-100, | #Ground Accel 
-30, | #Ground Turning
+225, | #Ground Speed
+150, | #Ground Accel 
+50, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 

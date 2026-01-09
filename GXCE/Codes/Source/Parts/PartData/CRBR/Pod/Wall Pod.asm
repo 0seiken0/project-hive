@@ -1,5 +1,5 @@
 ######################################
-Wall Pod [Custom Robo Battle Revolution]
+Wall Pod [Project Hive]
 ######################################
 .alias PartType = 0x03
 .alias PartBase = 0x18
@@ -14,78 +14,74 @@ Wall Pod [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Wall Pod (CRBR)"
+"Wall Pod (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Deploys three horizontal 
-blasts in front of you. 
-Can deploy three pods 
-at one time. 
-Blows target diagonally 
-upward. 
-Advisory: Aim it straight 
-at your opponents when 
-they charge."
+"Pod: Deploys three pods
+in a wall in front of user.
+Three pods, simultaneous.
+Blast: Tall, large blasts,
+Knocks opponent sideways."
 RoboBytes:
 byte[4] |
-00, | #Illegal Toggle 
-1, | #Pod Count (Max 3) 
-3, | #Number of Pods fired at once(Max 3) 
-0x00 #Empty Data? 
+00, | #Illegal Toggle
+1, | #Pod Count (Max 3)
+3, | #Number of Pods fired at once(Max 3)
+0x00 #Empty Data?
 half [8] |
-25, | #Angle between simultaneous pods (Automatically Centered) 
-60, | #Horizontal Explosion Trigger Radius 
-300, | #Vertical Explosion Trigger Radius 
-15, | #Fuse Time 
-0, | #Angle Pod faces at ground launch 
-0x0000, | #Empty Data? 
-0, | #Angle Pod faces at air launch 
-0x0000 #Empty Data? 
+25, | #Angle between simultaneous pods (Automatically Centered)
+60, | #Horizontal Explosion Trigger Radius
+300, | #Vertical Explosion Trigger Radius
+30, | #Fuse Time
+0, | #Angle Pod faces at ground launch
+0x0000, | #Empty Data?
+0, | #Angle Pod faces at air launch
+0x0000 #Empty Data?
 byte[4] |
-1, | #Homing Toggle
-10, | #Roaming Phase Homing 
-10, | #Locked On Phase Homing 
-0x00 #Empty Data? 
+0 , | #Homing Toggle
+0, | #Roaming Phase Homing
+0, | #Locked On Phase Homing
+0x00 #Empty Data?
 half [13] |
-5, | #Roaming Phase Speed 
-5, | #Locked On Phase Speed 
-10, | #Roaming Phase Height 
-10, | #Locked On Phase Height 
-0, | #Angle for conen of vision for activating lock on phase 
-0, | #Lock On Range 
-0, | #Duration of pause for switching between roaming and locked on. 
-0, | #Initial Ground Launch Angle 
--30, | #Initial Air Launch Angle 
-233, | #Initial Ground Launch Speed 
-233, | #Initial Air Launch Speed 
-15, | #Initial Ground Launch Duration 
-15 #Initial Air Launch Duration 
+0, | #Roaming Phase Speed
+0, | #Locked On Phase Speed
+10, | #Roaming Phase Height
+10, | #Locked On Phase Height
+0, | #Angle for conen of vision for activating lock on phase
+0, | #Lock On Range
+0, | #Duration of pause for switching between roaming and locked on.
+-30, | #Initial Ground Launch Angle
+-30, | #Initial Air Launch Angle
+200, | #Initial Ground Launch Speed
+200, | #Initial Air Launch Speed
+20, | #Initial Ground Launch Duration
+20 #Initial Air Launch Duration
 byte[4] |
 0, | #Bounce Off Wall Toggle (0 = Slide along wall, 1 = Bounce off wall)
 100, | #Pod Size
-1, | #Number of Explosions 
-1 #Delay between Explosions 
+1, | #Number of Explosions
+1 #Delay between Explosions
 half [3] |
-10, | #Explosion Expansion Duration 
-70, | #Explosion Lingering Hitbox Duration 
-0x0000 #Empty Data? 
+10, | #Explosion Expansion Duration
+70, | #Explosion Lingering Hitbox Duration
+0x0000 #Empty Data?
 float [3] |
-0.45, | #eExplosion Size after Initial Expansion 
-0.62, | #Final Explosion Size 
-3.57 #Explosion Height 
+0.85, | #eExplosion Size after Initial Expansion
+0.85, | #Final Explosion Sizes
+3.0 #Explosion Height
 half [10] |
-37, | #Damage 
-300, | #Down 
-150, | #Knockback Velocity 
-5, | #Knockback Angle 
-20, | #Hitstun 
-100, | #On-Hit Gravity 
-150, | #Knockback Velocity (Downed) 
-5, | #Knockback Anlge (Downed) 
-100, | #On-Hit Gravity (Downed) 
+33, | #Damage
+300, | #Down
+150, | #Knockback Velocity
+32, | #Knockback Angle
+30, | #Hitstun
+100, | #On-Hit Gravity
+150, | #Knockback Velocity (Downed)
+5, | #Knockback Anlge (Downed)
+100, | #On-Hit Gravity (Downed)
 0x0000 #Empty Data 
 word [14] 0x00000000, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0x0000003C, 0x00000001, | 
 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x3F800000 #Unknown Data

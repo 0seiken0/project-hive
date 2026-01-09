@@ -1,5 +1,5 @@
 ######################################
-3-Way Gun [Custom Robo Battle Revolution]
+3-Way Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x01
@@ -14,25 +14,20 @@
     .BA<-BuildTitle
 PartName:
     String|
-"3-Way Gun (CRBR)"
+"3-Way Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires three rounds in three 
-rows. 
-Aerial and ground shots are 
-the same. 
-Range: medium-long. 
-Advisory: It's easier to hit your 
-target when shooting from 
-afar, so try to stay away 
-from your opponent when 
-firing"
+"Ground: Fires 3 rounds in
+three rows. Low Knockback.
+Air: Same as Ground.
+Recommended Range: 
+Medium-Long."
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 20, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -76,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
+25, | #Damage
 200, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -93,12 +88,12 @@ float[4] |
 0.001, | #Phase Speed
 0.2, | #Horizontal Homing
 0.2, | #Vertical Homing
-0.16 #Shot Size
+0.20199218 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
+25, | #Damage
 200, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -114,13 +109,13 @@ half[2] |
 float[4] |
 0.24, | #Phase Speed
 0.005, | #Horizontal Homing
-0.003, | #Vertical Homing
-0.16 #Shot Size
+0.006793457, | #Vertical Homing
+0.20199218 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-21, | #Damage
+25, | #Damage
 200, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -198,20 +193,20 @@ half[2] |
 float[4] |
 0.24, | #Phase Speed
 0.0, | #Horizontal Homing
-0.015, | #Vertical Homing
-0.16 #Shot Size
+0.04, | #Vertical Homing
+0.20199218 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
+25, | #Damage
 200, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
 20, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
-100, | #Knockback Angle (Downed)
+35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
@@ -221,12 +216,12 @@ float[4] |
 0.001, | #Phase Speed
 0.2, | #Horizontal Homing
 0.2, | #Vertical Homing
-0.16 #Shot Size
+0.20199218 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
+25, | #Damage
 200, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -242,13 +237,13 @@ half[2] |
 float[4] |
 0.24, | #Phase Speed
 0.005, | #Horizontal Homing
-0.003, | #Vertical Homing
-0.16 #Shot Size
+0.006793457, | #Vertical Homing
+0.20199218 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-21, | #Damage
+25, | #Damage
 200, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle

@@ -1,8 +1,8 @@
 ######################################
-Standard Bomb [Custom Robo Battle Revolution]
+Standard Bomb K [Project Hive]
 ######################################
 .alias PartType = 0x02
-.alias PartBase = 0x20
+.alias PartBase = 0x21
 .alias ModelID = 0x20
     .BA<-PartName
     .BA->$8023BCF0
@@ -14,145 +14,141 @@ Standard Bomb [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Standard Bomb K (CRBR)"
+"Standard Bomb K (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Features basic functions. 
-Flies in an arc toward target. 
-Launches one bomb at a time. 
-Always knocks target down on 
-impact. 
-Advisory: Constantly launch 
-bombs to run your opponent out 
-of hiding."
+"Ground: Fires in an arc.
+Air: Fires straight.
+Blast: High lingering,
+instantly downs the opponent."
 RoboBytes:
 byte [2] |
-00, | #Illegal Toggle 
+00, | #Illegal Toggle
 1 #Number of Bombs Fired
-half [1] 100 #Explosion Trigger Radius
+half [1] 69 #Explosion Trigger Radius
 #################
 ## Ground Shot ##
 #################
 byte [2] |
-75, | #Starting location of reticle (% of distance to opponent) 
-90, #Reload 
+100, | #Starting location of reticle (% of distance to opponent)
+90, #Reload
 half [3] |
-0, | #Burrow Time 
-160, | #Projectile Speed 
-0x0000 #Empty Data? 
+0, | #Burrow Time
+160, | #Projectile Speed
+0x0000 #Empty Data?
 byte [2] |
-1, | #Number of Explosions 
-1 #Delay between Explosions 
+1, | #Number of Explosions
+1 #Delay between Explosions
 half [3] |
-16, | #Explosion Expansion Radius 
-20, | #Lingering Hitbox Duration 
-0x0000 #Empty Data? 
+16, | #Explosion Expansion Radius
+20, | #Lingering Hitbox Duration
+0x0000 #Empty Data?
 float [3] |
-0.84, | #Explosion Size after Initial Expansion 
-1.22, | #Final Explosion Size 
-0.59 #Explosion Height 
+0.85, | #Explosion Size after Initial Expansion
+1.2, | #Final Explosion Size
+0.59 #Explosion Height
 half [10] |
-57, | #Damage 
-2000, | #Down 
-120, | #Knockback Velocity 
-70, | #Knockback Angle 
-30, | #Histun 
-100, | #On Hit Gravity 
-120, | #Knockback Velocity (Downed) 
-70, | #Knockback Angle (Downed) 
+68, | #Damage
+2000, | #Down
+120, | #Knockback Velocity
+70, | #Knockback Angle
+30, | #Histun
+100, | #On Hit Gravity
+120, | #Knockback Velocity (Downed)
+70, | #Knockback Angle (Downed)
 100, | #On Hit Gravity (Downed)
-0x0000 #Empty Data? 
+0x0000 #Empty Data?
 
 ##### First Ground Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-100, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+100, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 
 ##### Second Ground Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 
 ##### Third Ground Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 
 ##### Fourth Ground Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 #################
 ## Air Shot ##
 #################
 byte [2] |
-70, | #Starting location of reticle (% of distance to opponent) 
-90 #Reload 
+100, | #Starting location of reticle (% of distance to opponent)
+100 #Reload
 half [3] |
-0, | #Burrow Time 
-180, | #Projectile Speed 
-0x0000 #Empty Data? 
+0, | #Burrow Time
+170, | #Projectile Speed
+0x0000 #Empty Data?
 byte [2] |
-1, | #Number of Explosions 
-1 #Delay between Explosions 
+1, | #Number of Explosions
+1 #Delay between Explosions
 half [3] |
-14, | #Explosion Expansion Radius 
-18, | #Lingering Hitbox Duration 
-0x0000 #Empty Data? 
+14, | #Explosion Expansion Radius
+18, | #Lingering Hitbox Duration
+0x0000 #Empty Data?
 float [3] |
-0.84, | #Explosion Size after Initial Expansion 
-1.03, | #Final Explosion Size 
-0.59 #Explosion Height 
+0.84, | #Explosion Size after Initial Expansion
+1.1, | #Final Explosion Size
+0.59 #Explosion Height
 half [10] |
-43, | #Damage 
-2000, | #Down 
-120, | #Knockback Velocity 
-70, | #Knockback Angle 
-30, | #Histun 
-100, | #On Hit Gravity 
-120, | #Knockback Velocity (Downed) 
-70, | #Knockback Angle (Downed) 
+59, | #Damage
+2000, | #Down
+120, | #Knockback Velocity
+70, | #Knockback Angle
+30, | #Histun
+100, | #On Hit Gravity
+120, | #Knockback Velocity (Downed)
+70, | #Knockback Angle (Downed)
 100, | #On Hit Gravity (Downed)
-0x0000 #Empty Data? 
+0x0000 #Empty Data?
 
 ##### First Air Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 
 ##### Second Air Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 
 ##### Third Air Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 
 ##### Fourth Air Bomb #####
 half [4] |
-0, | #Left / Right Landing Displacment 
-0, | #Front / Back Landing Displacment 
-0, | #Vertical Arc Angle 
-0 #Horizontal Arc Angle 
+0, | #Left / Right Landing Displacment
+0, | #Front / Back Landing Displacment
+0, | #Vertical Arc Angle
+0 #Horizontal Arc Angle
 word [14] 0x00000000, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0x0000003C, 0x00000001, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x3F800000 #Unknown Data
 ExtraBytes:
 byte [5] 5, 5, 5, 5, 5   #Stat Line

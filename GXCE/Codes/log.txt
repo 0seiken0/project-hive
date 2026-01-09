@@ -36,178 +36,178 @@ Source/Parts/PartExpansion.asm
 	, DesiacX]
 	Replace "^`" in names with Illegal Symbol [DesiacX]
 Source/Parts/PartData/CRBR/PartList.asm
-	Source/Parts/PartData/CRBR/Body/Ray 01.asm
-		Ray 01 [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Splendor.asm
-		Splendor [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Glory.asm
-		Glory [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Milky Way.asm
-		Milky Way [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Earth.asm
-		Earth [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Sol.asm
-		Sol [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Metal Ape.asm
-		Metal Ape [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Metal Bear.asm
-		Metal Bear [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Metal Ox.asm
-		Metal Ox [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Swift.asm
-		Swift [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Shrike.asm
-		Shrike [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Peregrine.asm
-		Peregrine [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Javelin.asm
-		Javelin [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Glaive.asm
-		Glaive [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Halberd.asm
-		Halberd [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Criminal.asm
-		Criminal [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Buggy.asm
-		Buggy [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Juggler.asm
-		Juggler [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Defender.asm
-		Defender [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Seeker.asm
-		Seeker [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Breaker.asm
-		Breaker [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Seal Head.asm
-		Seal Head [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Dour Head.asm
-		Dour Head [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Tank Head.asm
-		Tank Head [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Rakansen.asm
-		Rakansen [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Ruhiel.asm
-		Ruhiel [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Athena.asm
-		Athena [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Ray Legend.asm
-		Ray Legend [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Ray Warrior.asm
-		Ray Warrior [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Oil Can.asm
-		Oil Can [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Rahu I.asm
-		Rahu I [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Rahu II.asm
-		Rahu II [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Rahu III.asm
-		Rahu III [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Body/Chickenheart.asm
-		Chickenheart [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Body/SFRay01.asm
+		Ray 01 [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SFSplendor.asm
+		Splendor [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SFGlory.asm
+		Glory [Project Hive]
+	Source/Parts/PartData/CRBR/Body/ABMilkyWay.asm
+		Milky Way [Project Hive]
+	Source/Parts/PartData/CRBR/Body/ABEarth.asm
+		Earth [Project Hive]
+	Source/Parts/PartData/CRBR/Body/ABSol.asm
+		Sol [Project Hive]
+	Source/Parts/PartData/CRBR/Body/MGMetalApe.asm
+		Metal Ape [Project Hive]
+	Source/Parts/PartData/CRBR/Body/MGMetalBear.asm
+		Metal Bear [Project Hive]
+	Source/Parts/PartData/CRBR/Body/MGMetalOx.asm
+		Metal Ox [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LRSwift.asm
+		Swift [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LRShrike.asm
+		Shrike [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LRPeregrine.asm
+		Peregrine [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SVJavelin.asm
+		Javelin [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SVGlaive.asm
+		Glaive [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SVHalberd.asm
+		Halberd [Project Hive]
+	Source/Parts/PartData/CRBR/Body/TFCriminal.asm
+		Criminal [Project Hive]
+	Source/Parts/PartData/CRBR/Body/TFBuggy.asm
+		Buggy [Project Hive]
+	Source/Parts/PartData/CRBR/Body/TFJuggler.asm
+		Juggler [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LSDefender.asm
+		Defender [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LSSeeker.asm
+		Seeker [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LSBreaker.asm
+		Breaker [Project Hive]
+	Source/Parts/PartData/CRBR/Body/FBHSealHead.asm
+		Seal Head [Project Hive]
+	Source/Parts/PartData/CRBR/Body/FBHDourHead.asm
+		Dour Head [Project Hive]
+	Source/Parts/PartData/CRBR/Body/FBHTankHead.asm
+		Tank Head [Project Hive]
+	Source/Parts/PartData/CRBR/Body/BBChickenheart.asm
+		Chickenheart [Project Hive]
+	Source/Parts/PartData/CRBR/Body/BBRahu2.asm
+		Rahubeast [Project Hive]
+	Source/Parts/PartData/CRBR/Body/BBRuhiel.asm
+		Ruhiel [Project Hive]
+	Source/Parts/PartData/CRBR/Body/WSRayLegend.asm
+		Lancer [Project Hive]
+	Source/Parts/PartData/CRBR/Body/WSRakansen.asm
+		Gladiator [Project Hive]
+	Source/Parts/PartData/CRBR/Body/WSRayWarrior.asm
+		Ray Soldier [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SSAthena.asm
+		Athena [NastyKactus]
+	Source/Parts/PartData/CRBR/Body/SSSeeker.asm
+		Rebecca [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SSMilkyWay.asm
+		May [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LDSwift.asm
+		Lumen [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LDDefender.asm
+		Pepper [Project Hive]
+	Source/Parts/PartData/CRBR/Body/LDBreaker.asm
+		Nybble [Project Hive]
+	Source/Parts/PartData/CRBR/Body/SJJavelin.asm
+		Vulcan [NastyKactus]
+	Source/Parts/PartData/CRBR/Body/SJSplendor.asm
+		Spitfire [NastyKactus]
+	Source/Parts/PartData/CRBR/Body/SJRahu.asm
+		Albatross [NastyKactus]
 	Source/Parts/PartData/CRBR/Gun/Basic Gun.asm
-		Basic Gun [Custom Robo Battle Revolution]
+		Basic Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Needle Gun.asm
+		Needle Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Sniper Gun.asm
+		Sniper Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Gatling Gun.asm
+		Gatling Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Ion Gun.asm
+		Ion Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/V Laser Gun.asm
+		V Laser Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Dragon Gun.asm
+		Dragon Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Hydra Gun.asm
+		Hydra Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Bubble Gun.asm
+		Bubble Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Splash Gun.asm
+		Splash Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Stun Gun.asm
+		Stun Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Shotgun.asm
+		Shotgun Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Magnum Gun.asm
+		Magnum Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Drill Gun.asm
+		Drill Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Knuckle Gun.asm
+		Knuckle Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Surge Gun.asm
+		Surge Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Flame Gun.asm
+		Flame Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Hornet Gun.asm
+		Hornet Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Vertical Gun.asm
+		Vertical Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Buster Gun.asm
+		Buster Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Meteor Storm Gun.asm
+		Meteor Storm Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Twin Fang Gun.asm
+		Twin Fang Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Left Pulse Gun.asm
+		Left Pulse Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Right Pulse Gun.asm
+		Right Pulse Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Flare Gun.asm
+		Flare Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Rahu I Gun.asm
+		Rahu I Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Slicer Gun.asm
+		Slicer Gun [Project Hive]
+	Source/Parts/PartData/CRBR/Gun/Gravity Gun.asm
+		Gravity Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/3-Way Gun.asm
 		3-Way Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Gatling Gun.asm
-		Gatling Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Vertical Gun.asm
-		Vertical Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Sniper Gun.asm
-		Sniper Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Stun Gun.asm
-		Stun Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Hornet Gun.asm
-		Hornet Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Flame Gun.asm
-		Flame Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Dragon Gun.asm
-		Dragon Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Splash Gun.asm
-		Splash Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Left Arc Gun.asm
 		Left Arc Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Right Arc Gun.asm
 		Right Arc Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Shotgun.asm
-		Shotgun Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Rayfall Gun.asm
-		Rayfall Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Bubble Gun.asm
-		Bubble Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Eagle Gun.asm
-		Eagle Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/V Laser Gun.asm
-		V Laser Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Magnum Gun.asm
-		Magnum Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Needle Gun.asm
-		Needle Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Starshot Gun.asm
 		Starshot Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Glider Gun.asm
-		Glider Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Homing Star Gun.asm
 		Homing Star Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Trap Gun.asm
-		Trap Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Drill Gun.asm
-		Drill Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Titan Gun.asm
-		Titan Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Claw Gun.asm
-		Claw Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Knuckle Gun.asm
-		Knuckle Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Glider Gun.asm
+		Glider Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Halo Gun.asm
+		Halo Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Afterburner Gun.asm
 		Afterburner Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Blade Gun.asm
-		Blade Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Meteor Storm Gun.asm
-		Meteor Storm Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Twin Fang Gun.asm
-		Twin Fang Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Gravity Gun.asm
-		Gravity Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Phoenix Gun.asm
-		Phoenix Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Left Pulse Gun.asm
-		Left Pulse Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Right Pulse Gun.asm
-		Right Pulse Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Rayfall Gun.asm
+		Rayfall Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Eagle Gun.asm
+		Eagle Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Trap Gun.asm
+		Trap Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Sword Storm Gun.asm
 		Sword Storm Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Ion Gun.asm
-		Ion Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Flare Gun.asm
-		Flare Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Raptor Gun.asm
+		Raptor Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Left 5-Way Gun.asm
 		Left 5-Way Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Gun/Right 5-Way Gun.asm
 		Right 5-Way Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Halo Gun.asm
-		Halo Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Wave Laser Gun.asm
-		Wave Laser Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/X Laser Gun.asm
-		X Laser Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Crystal Strike Gun.asm
-		Crystal Strike Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Wyrm Gun.asm
-		Wyrn Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Raptor Gun.asm
-		Raptor Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Waxing Arc Gun.asm
-		Waxing Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Waning Arc Gun.asm
-		Waning Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Rahu I Gun.asm
-		Basic Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Rahu II Gun.asm
-		Rahu II Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Rahu III Gun.asm
-		Rahu III Gun [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Gun/Can Gun.asm
-		Can Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Titan Gun.asm
+		Titan Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Claw Gun.asm
+		Claw Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Blade Gun.asm
+		Blade Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/CRBR/Gun/Phoenix Gun.asm
+		Phoenix Gun [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Bomb/Standard Bomb.asm
 		Standard Bomb [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Bomb/Standard Bomb F.asm
@@ -379,48 +379,88 @@ Source/Parts/PartData/CRBR/PartList.asm
 	Source/Parts/PartData/CRBR/Pod/Can Pod.asm
 		Can Pod [Custom Robo Battle Revolution]
 	Source/Parts/PartData/CRBR/Leg/Standard Legs.asm
-		Standard Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/High Jump Legs.asm
-		High Jump Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Ground Legs.asm
-		Ground Legs [Custom Robo Battle Revolution]
+		Standard Legs [Project Hive]
 	Source/Parts/PartData/CRBR/Leg/Formula Legs.asm
-		Formula Legs [Custom Robo Battle Revolution]
+		Formula Legs [Project Hive]
 	Source/Parts/PartData/CRBR/Leg/Stabilizer Legs.asm
-		Stabilizer Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Short Thrust Legs.asm
-		Short Thrust Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Long Thrust Legs.asm
-		Long Thrust Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Quick Jump Legs.asm
-		Quick Jump Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Feather Legs.asm
-		Feather Legs [Custom Robo Battle Revolution]
+		Stabilizer Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Precision Legs.asm
+		Precision Legs [Project Hive]
 	Source/Parts/PartData/CRBR/Leg/Wide Jump Legs.asm
-		Wide Jump Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Booster Legs.asm
-		Booster Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Can Legs.asm
-		Can Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Swallow Legs.asm
-		Swallow Legs [Custom Robo Battle Revolution]
-	Source/Parts/PartData/CRBR/Leg/Raven Legs.asm
-		Raven Legs [Custom Robo Battle Revolution]
+		Wide Jump Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Aerial Legs.asm
+		Aerial Legs [Project Hive]
 	Source/Parts/PartData/CRBR/Leg/Eclipse Legs.asm
-		Eclipse Legs [Custom Robo Battle Revolution]
+		Eclipse Legs [Project Hive]
 	Source/Parts/PartData/CRBR/Leg/Ultimate Legs.asm
-		Ultimate Legs [Custom Robo Battle Revolution]
+		Ultimate Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/High Jump Legs.asm
+		High Jump Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Ground Legs.asm
+		Ground Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Quick Jump Legs.asm
+		Quick Jump Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Feather Legs.asm
+		Feather Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Short Thrust Legs.asm
+		Short Thrust Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Long Thrust Legs.asm
+		Long Thrust Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Swallow Legs.asm
+		Swallow Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Plus One Legs.asm
+		Plus One Legs S [de, DesiacX]
+	Source/Parts/PartData/CRBR/Leg/Booster Legs.asm
+		Booster Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Overhaul Legs.asm
+		Overhaul Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Raven Legs.asm
+		Raven Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Prowler Legs.asm
+		Prowler Legs [Project Hive]
+	Source/Parts/PartData/CRBR/Leg/Can Legs.asm
+		Can Legs [Project Hive]
 Source/Parts/PartData/Custom/PartList.asm
-	Source/Parts/PartData/Custom/Body/Swift DX.asm
-		Swift DX [DesiacX]
-	Source/Parts/PartData/Custom/Gun/Dragon Fist.asm
-		Dragon Fist Gun [DesiacX]
-	Source/Parts/PartData/Custom/Leg/Plus One Legs C.asm
-		Plus One Legs C [CRBR Parts Expansion, de, DesiacX]
-	Source/Parts/PartData/Custom/Leg/Plus One Legs S.asm
-		Plus One Legs S [CRBR Parts Expansion, de, DesiacX]
-	Source/Parts/PartData/Custom/Leg/Plus One Legs U.asm
-		Plus One Legs U [CRBR Parts Expansion, de, DesiacX]
+	Source/Parts/PartData/Custom/Body/Rakansen.asm
+		Rakansen [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Ruhiel.asm
+		Ruhiel [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Athena.asm
+		Athena [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Ray Legend.asm
+		Ray Legend [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Ray Warrior.asm
+		Ray Warrior [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Oil Can.asm
+		Oil Can [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Rahu I.asm
+		Rahu I [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Rahu II.asm
+		Rahu II [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Body/Rahu III.asm
+		Rahu III [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Wyrm Gun.asm
+		Wyrn Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Raptor Gun.asm
+		Raptor Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Wave Laser Gun.asm
+		Wave Laser Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/X Laser Gun.asm
+		X Laser Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Crystal Strike Gun.asm
+		Crystal Strike Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Waxing Arc Gun.asm
+		Waxing Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Waning Arc Gun.asm
+		Waning Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Rahu II Gun.asm
+		Rahu II Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Rahu III Gun.asm
+		Rahu III Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/Can Gun.asm
+		Can Gun [Custom Robo Battle Revolution]
+	Source/Parts/PartData/Custom/Gun/SwitchMagnum.asm
+		SwitchMagnum Gun [Lucca]
 Source/Parts/PartExpansionCloser.asm
 	Part Expansion Closer [DesiacX]
 External Codeset Closer V2 [DesiacX]

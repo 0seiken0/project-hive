@@ -1,5 +1,5 @@
 ######################################
-Right 5-Way Gun [Custom Robo Battle Revolution]
+Right 5-Way Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x28
@@ -14,24 +14,20 @@ Right 5-Way Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Right 5-Way Gun (CRBR)"
+"Right 5-Way Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires five rounds that 
-spread to the right side. 
-The rounds turn in the 
-opposite direction when 
-fired from the air. 
-Range: medium-long. 
-Advisory: Spread your fire 
-from both the ground and 
-the air."
+"Ground: Fires 5 rounds 
+that spread to the right.
+Air: Fires on the opposite 
+side instead.
+Recommended Range: All"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -60,7 +56,7 @@ byte[2] |
 0 #Padding
 half[3] |
 0, | #Initial Shot Angle
-63716, | #Angle Between Simultaneous Shots
+-1820, | #Angle Between Simultaneous Shots
 0 #????
 #First Phase
 half[2] |
@@ -75,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-5, | #Damage
+6, | #Damage
 150, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
@@ -97,7 +93,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+18, | #Damage
 180, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
@@ -119,7 +115,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-26, | #Damage
+29, | #Damage
 200, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
@@ -203,7 +199,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-5, | #Damage
+6, | #Damage
 150, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
@@ -225,7 +221,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+18, | #Damage
 180, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
@@ -247,7 +243,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-26, | #Damage
+29, | #Damage
 200, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle

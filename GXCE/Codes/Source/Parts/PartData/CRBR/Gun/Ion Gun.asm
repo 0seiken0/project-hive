@@ -1,5 +1,5 @@
 ######################################
-Ion Gun [Custom Robo Battle Revolution]
+Ion Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x25
@@ -14,24 +14,20 @@ Ion Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Ion Gun (CRBR)"
+"Ion Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires two rounds that turn 
-twice. 
-Rounds turn differently when 
-fired from the air. 
-Range: medium. 
-Advisory: It's easy to hit 
-your target with this gun, 
-but the rounds move slowly, so 
-fire as quickly as possible. "
+"Ground: Fires 2 rounds that
+turn twice with high hitstun.
+Knocks opponent backwards.
+Air: Turns at a different range.
+Recommended Range: Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 10, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -75,8 +71,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-27, | #Damage
-200, | #Down
+40, | #Damage
+350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
 35, | #Hitstun
@@ -97,8 +93,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
-400, | #Down
+40, | #Damage
+350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
 40, | #Hitstun
@@ -119,8 +115,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
-400, | #Down
+40, | #Damage
+350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
 40, | #Hitstun
@@ -141,7 +137,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -163,7 +159,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -192,7 +188,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-5, | #Phase Duration
+14, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -203,8 +199,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-27, | #Damage
-200, | #Down
+40, | #Damage
+350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
 35, | #Hitstun
@@ -225,8 +221,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
-450, | #Down
+40, | #Damage
+350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
 40, | #Hitstun
@@ -236,7 +232,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-18, | #Phase Duration
+9, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -247,8 +243,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-45, | #Damage
-450, | #Down
+40, | #Damage
+350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
 40, | #Hitstun
@@ -269,7 +265,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle
@@ -280,7 +276,7 @@ half[9] |
 100 #On-Hit Gravity (Downed)
 #Fifth Phase
 half[2] |
-158, | #Phase Duration
+159, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -291,7 +287,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-36, | #Damage
+40, | #Damage
 350, | #Down
 170, | #Knockback Velocity
 0, | #Knockback Angle

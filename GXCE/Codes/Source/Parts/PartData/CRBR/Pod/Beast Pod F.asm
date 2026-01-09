@@ -14,22 +14,14 @@ Beast Pod F [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Beast Pod F (CRBR)"
+"Beast Pod F (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Hangs in the air once deployed, 
-then homes in when a target 
-approaches and jumps in front 
-of it. 
-Can deploy three pods at one 
-time. 
-Blows target back on a low 
-trajectory. 
-Advisory: Deploy it away 
-from your position."
+"If I can be honest, not 
+buffing this yet"
 RoboBytes:
 byte[4] |
 00, | #Illegal Toggle 

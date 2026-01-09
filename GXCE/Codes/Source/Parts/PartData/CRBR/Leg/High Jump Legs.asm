@@ -1,5 +1,5 @@
 ######################################
-High Jump Legs [Custom Robo Battle Revolution]
+High Jump Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x01
@@ -14,17 +14,14 @@ High Jump Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"High Jump Legs (CRBR)"
+"High Jump Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Increases jump height. 
-Features no descent 
-augmentation. 
-Helps your robo repeatedly 
-attack from the air."
+"Increases Jump Height. 
+Increases Jump Speed."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -33,7 +30,7 @@ byte [16] |
 100, | #Ground Turning
 200, | #Jump Height
 1, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 

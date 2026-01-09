@@ -1,5 +1,5 @@
 ######################################
-Feather Legs [Custom Robo Battle Revolution]
+Feather Legs [Project Hive]
 ######################################
 .alias PartType = 0x04
 .alias PartBase = 0x08
@@ -14,20 +14,16 @@ Feather Legs [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Feather Legs (CRBR)"
+"Feather Legs (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Decreases jump speed. 
-Makes you less vulnerable 
-to attacks when landing. 
-Also helps to make sharp 
-turns on the ground. 
-Advisory: Use this set of 
-legs when you want to spend 
-a lot of time in the air."
+"Reduces Gravity.
+Reduces Landing Lag.
+Increases Ground 
+Acceleration."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
@@ -36,7 +32,7 @@ byte [16] |
 100, | #Ground Turning
 100, | #Jump Height
 100, | #Jump Speed 
-1, | #Lateral Air Speed 
+100, | #Lateral Air Speed 
 100, | #Air Accel 
 1, | #Landing Lag 
 1, | #Gravity 

@@ -1,5 +1,5 @@
 ######################################
-Sword Storm Gun [Custom Robo Battle Revolution]
+Sword Storm Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x24
@@ -14,26 +14,22 @@ Sword Storm Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Sword Storm Gun (CRBR)"
+"Sword Storm Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires rounds that ascend high 
-then fly straight at the target. 
-The rounds rise differently 
-when fired from the air. 
-Range: medium-long. 
-Advisory: Though it can fire 
-repeatedly, this gun can be 
-difficult to aim with, so shift 
-your timing and fire from both 
-the ground and air. "
+"Ground: Fires 6 rounds upwards
+that pause then fly down towards 
+the opponent.
+Air: Same as Ground.
+Recommended Range:
+Medium-Long"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
-10, | #Slideshot Duration
+0,| #Illegal Toggle
+15, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 0, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -54,7 +50,7 @@ byte[6] |
 6, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 0, | #Delay Between Shots
-28 #Endlag
+21 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 1, | #Spread Phase
@@ -65,7 +61,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-20, | #Phase Duration
+10, | #Phase Duration
 0 #Padding
 float[4] |
 0.4, | #Phase Speed
@@ -76,8 +72,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-3, | #Damage
-240, | #Down
+17, | #Damage
+280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
 20, | #Hitstun
@@ -98,7 +94,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -120,7 +116,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -142,7 +138,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -164,7 +160,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 200, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -182,7 +178,7 @@ byte[6] |
 6, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 0, | #Delay Between Shots
-25 #Endlag
+21 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 1, | #Spread Phase
@@ -204,8 +200,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-3, | #Damage
-240, | #Down
+17, | #Damage
+280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
 20, | #Hitstun
@@ -226,7 +222,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -248,7 +244,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -270,7 +266,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 280, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -292,7 +288,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-15, | #Damage
+17, | #Damage
 200, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle

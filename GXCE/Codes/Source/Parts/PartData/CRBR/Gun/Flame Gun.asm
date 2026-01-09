@@ -1,5 +1,5 @@
 ######################################
-Flame Gun [Custom Robo Battle Revolution]
+Flame Gun [Project Hive]
 ######################################
 .alias PartType = 0x01
 .alias PartBase = 0x07
@@ -14,23 +14,23 @@ Flame Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Flame Gun (CRBR)"
+"Flame Gun (PH)"
 BuildTitle:
     String|
-" (CRBR)"
+" (PH)"
 PartDescription:
     String|
-"Fires six rounds. 
-Aerial and ground shots are 
-the same. 
-Range: medium. 
-Advisory: Since its power 
-increases over distance, 
-stay as far away as possible 
-when shooting."
+"Ground: Fires 6 rounds that
+home towards opponent. 
+Knocks opponent upwards. 
+Air: Groundshot has more 
+vertical homing, airshot has 
+more horizontal homing. 
+Recommended Range: 
+Short-Medium"
 RoboBytes:
 byte[56] |
-0, | #Illegal Toggle
+0,| #Illegal Toggle
 0, | #Slideshot Duration
 1, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
@@ -74,7 +74,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-11, | #Damage
+12, | #Damage
 260, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -96,7 +96,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-16, | #Damage
+18, | #Damage
 220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -118,7 +118,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -202,7 +202,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-11, | #Damage
+12, | #Damage
 260, | #Down
 20, | #Knockback Velocity
 0, | #Knockback Angle
@@ -218,13 +218,13 @@ half[2] |
 float[4] |
 0.173, | #Phase Speed
 0.02, | #Horizontal Homing
-0.015, | #Vertical Homing
+0.02, | #Vertical Homing
 0.3 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-16, | #Damage
+18, | #Damage
 220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
@@ -239,14 +239,14 @@ half[2] |
 0 #Padding
 float[4] |
 0.123, | #Phase Speed
-0.015, | #Horizontal Homing
-0.015, | #Vertical Homing
+0.02, | #Horizontal Homing
+0.01, | #Vertical Homing
 0.45 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-18, | #Damage
+20, | #Damage
 220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
