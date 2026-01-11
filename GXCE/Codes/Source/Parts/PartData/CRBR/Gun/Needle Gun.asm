@@ -14,10 +14,10 @@ Needle Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Needle Gun (CRBR)"
+"Needle Gun"
 BuildTitle:
     String|
-" (CRBR)"
+""
 PartDescription:
     String|
 "Fires three vertical, 

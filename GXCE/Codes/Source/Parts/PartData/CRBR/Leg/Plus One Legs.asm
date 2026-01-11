@@ -14,10 +14,10 @@ Plus One Legs S [de:, DesiacX]
     .BA<-BuildTitle
 PartName:
     String|
-"Plus One Legs (DXE)"
+"Plus One Legs"
 BuildTitle:
     String|
-" (DXE)"
+""
 PartDescription:
     String|
 "Grants an added air dash.

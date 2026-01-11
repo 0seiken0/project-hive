@@ -14,7 +14,7 @@ Bit [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Bit "
+"Bit"
 BuildTitle:
     String|
 ""
