@@ -14,10 +14,10 @@ Crescent Bomb P [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Crescent Bomb P (PH)"
+"Crescent Bomb P"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in an arc slowly.

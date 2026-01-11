@@ -14,10 +14,10 @@ Juggler [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Juggler (PH)"
+"Juggler"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Trick Flyer (Speed). 

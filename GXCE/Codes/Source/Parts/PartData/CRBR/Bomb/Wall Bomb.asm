@@ -14,10 +14,10 @@ Wall Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Wall Bomb (PH)"
+"Wall Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies straight

@@ -14,10 +14,10 @@ Left Wave Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Left Wave Bomb (PH)"
+"Left Wave Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies left then turns

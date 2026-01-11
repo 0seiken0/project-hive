@@ -14,10 +14,10 @@ Drill Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Drill Gun (PH)"
+"Drill Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 12 repeated 

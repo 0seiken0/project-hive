@@ -15,10 +15,10 @@ Starshot Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Starshot Gun (PH)"
+"Starshot Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires ascending 

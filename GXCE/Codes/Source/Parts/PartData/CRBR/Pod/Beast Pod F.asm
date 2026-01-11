@@ -14,10 +14,10 @@ Beast Pod F [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Beast Pod F (PH)"
+"Beast Pod F"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Always homes at

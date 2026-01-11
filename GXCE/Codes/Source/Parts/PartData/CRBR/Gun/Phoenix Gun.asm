@@ -14,10 +14,10 @@ Phoenix Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Phoenix Gun (PH)"
+"Phoenix Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 fast rounds 

@@ -14,10 +14,10 @@ Blade Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Blade Gun (PH)"
+"Blade Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires low power rounds

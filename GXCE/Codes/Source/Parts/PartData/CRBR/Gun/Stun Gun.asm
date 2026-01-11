@@ -14,10 +14,10 @@ Stun Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Stun Gun (PH)"
+"Stun Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a short-range

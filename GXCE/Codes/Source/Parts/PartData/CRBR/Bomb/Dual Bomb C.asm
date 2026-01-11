@@ -14,10 +14,10 @@ Dual Bomb C [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Dual Bomb C (PH)"
+"Dual Bomb C"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in an arc,

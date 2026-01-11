@@ -14,10 +14,10 @@ Titan Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Titan Bomb (PH)"
+"Titan Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "It's a nuke.

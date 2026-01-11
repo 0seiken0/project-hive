@@ -14,10 +14,10 @@ Grand Cross Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Grand Cross Bomb (PH)"
+"Grand Cross Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 4 bombs around 

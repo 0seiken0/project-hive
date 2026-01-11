@@ -14,10 +14,10 @@ Sky Freeze Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Sky Freeze Pod (PH)"
+"Sky Freeze Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Hangs in the air until 

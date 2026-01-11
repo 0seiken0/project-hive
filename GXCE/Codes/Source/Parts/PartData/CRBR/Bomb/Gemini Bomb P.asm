@@ -14,10 +14,10 @@ Gemini Bomb P [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Gemini Bomb P (PH)"
+"Gemini Bomb P"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires one bomb to

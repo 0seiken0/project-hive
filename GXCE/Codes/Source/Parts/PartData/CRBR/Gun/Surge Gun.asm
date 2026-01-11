@@ -14,10 +14,10 @@ Surge Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Surge Gun (PH)"
+"Surge Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a short-range

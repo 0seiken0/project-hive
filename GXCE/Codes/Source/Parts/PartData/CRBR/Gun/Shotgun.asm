@@ -14,10 +14,10 @@ Shotgun Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Shotgun (PH)"
+"Shotgun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a spread of 3

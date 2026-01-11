@@ -14,10 +14,10 @@ Sword Storm Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Sword Storm Gun (PH)"
+"Sword Storm Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 6 rounds upwards

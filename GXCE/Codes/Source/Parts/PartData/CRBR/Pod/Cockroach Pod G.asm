@@ -14,10 +14,10 @@ Cockroach Pod G [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Cockroach Pod G (PH)"
+"Cockroach Pod G"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies straight, 

@@ -14,10 +14,10 @@ Homing Star Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Homing Star Gun (PH)"
+"Homing Star Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a cluster of

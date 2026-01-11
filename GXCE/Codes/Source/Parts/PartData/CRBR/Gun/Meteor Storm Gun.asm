@@ -14,10 +14,10 @@ Meteor Storm Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Meteor Storm Gun (PH)"
+"Meteor Storm Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a burst of

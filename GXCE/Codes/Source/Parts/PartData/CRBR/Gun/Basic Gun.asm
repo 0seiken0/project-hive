@@ -14,10 +14,10 @@ Basic Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Basic Gun (PH)"
+"Basic Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 3 fast rounds 

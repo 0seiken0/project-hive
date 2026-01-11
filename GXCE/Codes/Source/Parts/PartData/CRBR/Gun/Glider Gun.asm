@@ -14,10 +14,10 @@ Glider Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Glider Gun (PH)"
+"Glider Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a round 

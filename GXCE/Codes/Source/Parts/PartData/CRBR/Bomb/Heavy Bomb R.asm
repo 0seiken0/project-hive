@@ -14,10 +14,10 @@ Heavy Bomb R [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Heavy Bomb R^` (PH)"
+"Heavy Bomb R^`"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires in an arc. 

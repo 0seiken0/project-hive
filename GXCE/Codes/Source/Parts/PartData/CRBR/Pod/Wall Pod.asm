@@ -14,10 +14,10 @@ Wall Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Wall Pod (PH)"
+"Wall Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Deploys three pods

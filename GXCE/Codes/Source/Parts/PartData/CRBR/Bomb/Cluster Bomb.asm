@@ -14,10 +14,10 @@ Cluster Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Cluster Bomb^` (PH)"
+"Cluster Bomb^`"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a cluster

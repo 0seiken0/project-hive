@@ -14,10 +14,10 @@ Raven Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Raven Legs (PH)"
+"Raven Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Jump Height. 

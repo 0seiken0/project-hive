@@ -14,10 +14,10 @@ Standard Bomb R [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Standard Bomb R (PH)"
+"Standard Bomb R"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires in an arc.

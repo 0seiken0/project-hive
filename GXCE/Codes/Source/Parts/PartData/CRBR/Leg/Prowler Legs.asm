@@ -14,10 +14,10 @@ Prowler Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Prowler Legs (PH)"
+"Prowler Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Dash Speed.

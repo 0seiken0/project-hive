@@ -14,10 +14,10 @@ Twin Flank Pod G [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Twin Flank Pod G (PH)"
+"Twin Flank Pod G"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Two pods split left 

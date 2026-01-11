@@ -14,10 +14,10 @@ Spider Pod H [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Spider Pod H (PH)"
+"Spider Pod H"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Stays still until 

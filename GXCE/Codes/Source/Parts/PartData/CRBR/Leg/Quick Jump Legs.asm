@@ -14,10 +14,10 @@ Quick Jump Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Quick Jump Legs (PH)"
+"Quick Jump Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Jump Speed.

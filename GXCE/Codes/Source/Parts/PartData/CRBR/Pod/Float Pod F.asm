@@ -14,10 +14,10 @@
     .BA<-BuildTitle
 PartName:
     String|
-"Float Pod F (PH)"
+"Float Pod F"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Drifts towards target

@@ -14,10 +14,10 @@ Ground Freeze Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ground Freeze Pod (PH)"
+"Ground Freeze Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Stays still until 

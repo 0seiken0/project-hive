@@ -14,10 +14,10 @@ Earth [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Earth (PH)"
+"Earth"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Aerial Beauty (Armor) 

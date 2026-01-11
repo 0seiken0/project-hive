@@ -14,10 +14,10 @@ Swift [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Swift (PH)"
+"Swift"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Raider (Normal) 

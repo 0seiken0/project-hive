@@ -14,10 +14,10 @@ Splash Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Splash Gun (PH)"
+"Splash Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a spread of 2 

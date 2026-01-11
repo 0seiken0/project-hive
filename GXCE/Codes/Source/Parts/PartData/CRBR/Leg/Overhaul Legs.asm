@@ -14,10 +14,10 @@ Overhaul Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Overhaul Legs (PH)"
+"Overhaul Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Heavily Increases Dash 

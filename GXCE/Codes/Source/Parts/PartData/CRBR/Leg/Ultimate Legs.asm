@@ -14,10 +14,10 @@ Ultimate Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ultimate Legs (PH)"
+"Ultimate Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Improves most abilities 

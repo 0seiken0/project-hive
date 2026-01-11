@@ -14,10 +14,10 @@ Quickshot Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Quickshot Gun (PH)"
+"Quickshot Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a fast 

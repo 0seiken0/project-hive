@@ -14,10 +14,10 @@ Afterburner Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Afterburner Gun (PH)"
+"Afterburner Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 4 rounds that
