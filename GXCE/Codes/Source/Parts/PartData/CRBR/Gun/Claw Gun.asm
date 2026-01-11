@@ -14,10 +14,10 @@ Claw Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Claw Gun (PH)"
+"Claw Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a homing round

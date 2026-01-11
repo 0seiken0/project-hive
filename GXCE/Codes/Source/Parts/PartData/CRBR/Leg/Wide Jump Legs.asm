@@ -14,10 +14,10 @@ Wide Jump Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Wide Jump Legs (PH)"
+"Wide Jump Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Lateral Airspeed"

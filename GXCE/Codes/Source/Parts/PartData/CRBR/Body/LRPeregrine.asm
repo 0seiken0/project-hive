@@ -14,10 +14,10 @@ Peregrine [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Peregrine (PH)"
+"Peregrine"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Raider (Speed) 

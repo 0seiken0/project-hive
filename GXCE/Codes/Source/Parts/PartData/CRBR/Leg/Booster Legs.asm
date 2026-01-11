@@ -14,10 +14,10 @@ Booster Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Booster Legs (PH)"
+"Booster Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Dash Speed. 

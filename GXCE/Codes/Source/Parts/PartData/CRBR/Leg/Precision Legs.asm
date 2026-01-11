@@ -14,10 +14,10 @@ Precision Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Precision Legs (PH)"
+"Precision Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Ground Turning.

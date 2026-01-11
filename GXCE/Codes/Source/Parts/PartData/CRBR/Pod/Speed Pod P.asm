@@ -14,10 +14,10 @@ Speed Pod P [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Speed Pod P (PH)"
+"Speed Pod P"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies at high speed

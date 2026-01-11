@@ -14,10 +14,10 @@ Sol [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Sol (PH)"
+"Sol"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Aerial Beauty (Speed)

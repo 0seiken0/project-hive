@@ -14,10 +14,10 @@ Gravity Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Gravity Gun (PH)"
+"Gravity Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires small, extremely 

@@ -14,10 +14,10 @@ Seeker [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Seeker (PH)"
+"Seeker"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Lightning Sky (Armor). 

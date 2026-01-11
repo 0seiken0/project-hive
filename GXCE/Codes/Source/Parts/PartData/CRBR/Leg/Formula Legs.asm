@@ -14,10 +14,10 @@ Formula Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Formula Legs (PH)"
+"Formula Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Heavily increases Running 

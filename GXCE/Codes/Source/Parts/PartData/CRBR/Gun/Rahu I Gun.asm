@@ -14,10 +14,10 @@ Rahu I Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Rahu I Gun (PH)"
+"Rahu I Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 3 close-range

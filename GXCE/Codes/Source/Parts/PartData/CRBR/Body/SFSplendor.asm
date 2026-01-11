@@ -14,10 +14,10 @@ Splendor [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Splendor (PH)"
+"Splendor"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Shining Fighter (Armor) 

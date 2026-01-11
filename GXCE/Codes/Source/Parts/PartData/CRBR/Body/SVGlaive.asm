@@ -14,10 +14,10 @@ Glaive [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Glaive (PH)"
+"Glaive"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Strike Vanisher (Armor). 

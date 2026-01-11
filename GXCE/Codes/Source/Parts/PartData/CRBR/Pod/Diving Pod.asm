@@ -14,10 +14,10 @@ Diving Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Diving Pod (PH)"
+"Diving Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Homes towards target

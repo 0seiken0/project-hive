@@ -14,10 +14,10 @@ Dragon Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Dragon Gun (PH)"
+"Dragon Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a powerful

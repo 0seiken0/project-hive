@@ -14,10 +14,10 @@ Dolphin Pod X [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Dolphin Pod X (PH)"
+"Dolphin Pod X"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Pursues opponent, 

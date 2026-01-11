@@ -14,10 +14,10 @@ Dour Head [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Dour Head (PH)"
+"Dour Head"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Funky Big Head (Armor). 

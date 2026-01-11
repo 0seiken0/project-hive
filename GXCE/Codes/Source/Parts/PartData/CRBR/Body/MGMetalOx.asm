@@ -14,10 +14,10 @@ Metal Ox [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Metal Ox (PH)"
+"Metal Ox"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Metal Grappler (Speed)

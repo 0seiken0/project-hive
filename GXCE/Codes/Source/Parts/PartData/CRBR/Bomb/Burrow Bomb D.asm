@@ -14,10 +14,10 @@ Burrow Bomb D [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Burrow Bomb D (PH)"
+"Burrow Bomb D"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in an arc, 

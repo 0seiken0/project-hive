@@ -14,10 +14,10 @@ Left 5-Way Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Left 5-Way Gun (PH)"
+"Left 5-Way Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 5 rounds 

@@ -14,10 +14,10 @@ Chickenheart [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Chickenheart (PH)"
+"Chickenheart"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Burning Beast (Normal)

@@ -14,10 +14,10 @@ Flame Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Flame Gun (PH)"
+"Flame Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 6 rounds that

@@ -14,10 +14,10 @@ Pursuit Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Pursuit Gun (PH)"
+"Pursuit Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a single round 

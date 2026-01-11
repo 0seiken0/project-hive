@@ -14,10 +14,10 @@ Dobule Mine Bomb [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Double Mine Bomb (PH)"
+"Double Mine Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Launches 2 mines 

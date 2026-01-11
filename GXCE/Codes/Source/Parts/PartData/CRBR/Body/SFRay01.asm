@@ -14,10 +14,10 @@ Ray 01 [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ray 01 (PH)"
+"Ray 01"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Shining Fighter (Normal)

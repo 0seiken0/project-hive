@@ -14,10 +14,10 @@ Rayfall Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Rayfall Gun (PH)"
+"Rayfall Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 4 rounds that 

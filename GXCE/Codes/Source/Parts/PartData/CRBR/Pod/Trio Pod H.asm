@@ -14,10 +14,10 @@ Trio Pod H [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Trio Pod H (PH)"
+"Trio Pod H"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Homes towards opponent,

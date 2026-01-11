@@ -14,10 +14,10 @@ Hydra Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Hydra Gun (PH)"
+"Hydra Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a burst of 4 

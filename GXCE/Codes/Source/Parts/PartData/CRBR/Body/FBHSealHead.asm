@@ -14,10 +14,10 @@ Seal Head [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Seal Head (PH)"
+"Seal Head"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Funky Big Head (Normal). 

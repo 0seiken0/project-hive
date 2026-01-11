@@ -14,10 +14,10 @@ Right Pulse Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Right Pulse Gun (PH)"
+"Right Pulse Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 8 fast rounds 

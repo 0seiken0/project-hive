@@ -14,10 +14,10 @@ Geo Trap Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Geo Trap Bomb (PH)"
+"Geo Trap Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in a low arc.

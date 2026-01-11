@@ -14,10 +14,10 @@ Vulture Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Vulture Gun (PH)"
+"Vulture Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 rounds quickly

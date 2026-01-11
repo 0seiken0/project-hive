@@ -14,10 +14,10 @@ Twin Fang Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Twin Fang Gun (PH)"
+"Twin Fang Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Rounds rise 

@@ -14,10 +14,10 @@ Halberd [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Halberd (PH)"
+"Halberd"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Strike Vanisher (Speed). 

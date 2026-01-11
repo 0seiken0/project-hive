@@ -14,10 +14,10 @@ Throwing Pod D [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Throwing Pod D (PH)"
+"Throwing Pod D"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies in a high arc.

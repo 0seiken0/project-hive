@@ -14,10 +14,10 @@ Acrobat Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Acrobat Bomb (PH)"
+"Acrobat Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Shoots below 

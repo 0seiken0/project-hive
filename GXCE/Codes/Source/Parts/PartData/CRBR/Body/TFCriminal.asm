@@ -14,10 +14,10 @@ Criminal [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Criminal (PH)"
+"Criminal"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Trick Flyer (Normal). 

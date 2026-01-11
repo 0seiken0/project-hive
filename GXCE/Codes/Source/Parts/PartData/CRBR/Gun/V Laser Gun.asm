@@ -14,10 +14,10 @@ V Laser Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"V Laser Gun (PH)"
+"V Laser Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 fast lasers 

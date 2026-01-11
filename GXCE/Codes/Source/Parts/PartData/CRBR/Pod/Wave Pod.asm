@@ -14,10 +14,10 @@ Wave Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Wave Pod (PH)"
+"Wave Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies straight for a very 

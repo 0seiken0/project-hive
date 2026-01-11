@@ -14,10 +14,10 @@ Halo Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Halo Gun (PH)"
+"Halo Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a large homing

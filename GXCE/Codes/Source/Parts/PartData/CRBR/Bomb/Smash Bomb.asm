@@ -14,10 +14,10 @@ Smash Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Smash Bomb (PH)"
+"Smash Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Explodes above you.

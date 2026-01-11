@@ -14,10 +14,10 @@ Slicer Gun [de, kactus]
     .BA<-BuildTitle
 PartName:
     String|
-"Slicer Gun (de, kactus)"
+"Slicer Gun"
 BuildTitle:
     String|
-" (de, kactus)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 bursts of shots 

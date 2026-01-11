@@ -14,10 +14,10 @@ Hornet Gun [Custom Robo Battle Revolution]
     .BA<-BuildTitle
 PartName:
     String|
-"Hornet Gun (CRBR)"
+"Hornet Gun"
 BuildTitle:
     String|
-" (CRBR)"
+""
 PartDescription:
     String|
 "Spreads five rounds that 

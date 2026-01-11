@@ -14,10 +14,10 @@ Freeze Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Freeze Bomb (PH)"
+"Freeze Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in an arc.

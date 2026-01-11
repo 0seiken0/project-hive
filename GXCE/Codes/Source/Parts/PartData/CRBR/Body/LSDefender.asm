@@ -14,10 +14,10 @@ Defender [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Defender (PH)"
+"Defender"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Lightning Sky (Normal). 

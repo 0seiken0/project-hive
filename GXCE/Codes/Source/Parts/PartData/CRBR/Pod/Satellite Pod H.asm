@@ -14,10 +14,10 @@ Satellite Pod H [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Satellite Pod H (PH)"
+"Satellite Pod H"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Hangs in the air until 

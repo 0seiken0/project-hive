@@ -14,10 +14,10 @@ Stabilizer Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Stabilizer Legs (PH)"
+"Stabilizer Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Heavily increases Ground

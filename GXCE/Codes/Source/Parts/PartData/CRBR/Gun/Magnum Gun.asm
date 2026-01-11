@@ -14,10 +14,10 @@ Magnum Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Magnum Gun (PH)"
+"Magnum Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a powerful

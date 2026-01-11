@@ -14,10 +14,10 @@ Short Thrust Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Short Thrust Legs (PH)"
+"Short Thrust Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Decreases dash duration. 

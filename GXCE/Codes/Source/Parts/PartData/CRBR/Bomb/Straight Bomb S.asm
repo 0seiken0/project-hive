@@ -14,10 +14,10 @@ Straight Bomb S [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Straight Bomb S (PH)"
+"Straight Bomb S"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies Straight.

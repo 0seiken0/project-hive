@@ -14,10 +14,10 @@
     .BA<-BuildTitle
 PartName:
     String|
-"Double Wave Pod (PH)"
+"Double Wave Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Deploys two pods at once,

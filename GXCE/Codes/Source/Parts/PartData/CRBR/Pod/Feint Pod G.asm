@@ -14,10 +14,10 @@ Feint Pod G [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Feint Pod G (PH)"
+"Feint Pod G"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Quickly chases target,
