@@ -1,5 +1,5 @@
 ######################################
-Wolfclaw [Project Hive]
+Ruhiel [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1C
@@ -14,10 +14,10 @@ Wolfclaw [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Wolfclaw (PH)"
+"Ruhiel"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Burning Beast (Speed)

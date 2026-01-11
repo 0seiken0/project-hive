@@ -1,5 +1,5 @@
 ######################################
-Hestia [Project Hive]
+Vanessa [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x03
@@ -14,13 +14,13 @@ Hestia [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Hestia (PH)"
+"Vanessa"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
-"Sassy Stunner (Speed) 
+"Sassy Stunner (Armor) 
 Perfectly agile while 
 airborne. High and fast jumps.
 Four gradual downwards 

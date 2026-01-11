@@ -1,5 +1,5 @@
 ######################################
-Crixus [Project Hive]
+Carlyle [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1A
@@ -14,10 +14,10 @@ Crixus [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Crixus (PH)"
+"Carlyle"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Wild Soldier (Speed)

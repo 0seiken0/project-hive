@@ -77,17 +77,6 @@ be used. When on,
 the original stagelist
 will be used." @ $80AA29DC
 
-#########################
-Unlock Everything [?????]
-#########################
-* 04321D44 FFFFFFFF
-* 023BF79C 0003FFFF
-* 023BF7BC 0003FFFF
-* 023BF7DC 0003FFFF
-* 023BF7FC 0003FFFF
-* 023BF81C 0002FFFF
-* 023BF83C 0003FFFF
-
 ##########################################
 Illegal Parts enabled on startup [DesiacX]
 ##########################################
@@ -410,38 +399,11 @@ restore:
 
 .include Source/Parts/PartExpansionCloser.asm
 
-#############################
-Quick VS Menu [Glass_Knuckle]
-#############################
-* 2844F874 00000000
-* 2844F884 00000000
-* 2844F886 00000100
-* 0041CBFC 00000002
-* 0244F874 00000001
-* E0000000 00000000
-* 2844F876 00000000
-* 2844F884 00000001
-* 2844F886 00000100
-* 0044F884 00000002
-* 0244F876 00000001
-* E0000000 00000000
-* 2844F878 00000000
-* 2844F884 00000202
-* 2844F886 00000100
-* 0041CBEE 00000001
-* 0244F878 00000001
-* E0000000 00000000
-* 2844F87A 00000000
-* 2844F884 0000020D
-* 2844F886 00000100
-* 0044F873 00000003
-* 0244F87A 00000001
-* E0000000 00000000
+# Include our Gecko codes
+.include GeckoCodes/GeckoCodes.asm
 
-###################################
-Disable Memory Card Check [DesiacX]
-###################################
-* 040EB47C 60000000
+# Include our AR Codes
+.include ARCodes/ARCodes.asm
 
 #V2. This code checks if the memory has been expanded via Riivolution. If it has, it returns the codeset handler to Dolphin's codeset handler.
 #################################

@@ -1,5 +1,5 @@
 ######################################
-Turbo [Project Hive]
+Bit [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x0B
@@ -14,10 +14,10 @@ Turbo [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Turbo (PH)"
+"Bit "
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Dasher (Armor) 

@@ -1,5 +1,5 @@
 ######################################
-Zoom [Project Hive]
+Pico [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x0b
@@ -14,10 +14,10 @@ Zoom [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Zoom (PH)"
+"Pico"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Dasher (Speed) 

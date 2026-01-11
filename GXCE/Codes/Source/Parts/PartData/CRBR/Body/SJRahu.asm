@@ -1,5 +1,5 @@
 ######################################
-Hurricane [NastyKactus]
+Albatross [NastyKactus]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x00
@@ -14,10 +14,10 @@ Hurricane [NastyKactus]
     .BA<-BuildTitle
 PartName:
     String|
-"Hurricane^` (Kactus)"
+"Albatross"
 BuildTitle:
     String|
-" (Kactus)"
+""
 PartDescription:
     String|
 "Soaring Jetter (Speed). 

@@ -1,5 +1,5 @@
 ######################################
-Spartacus [Project Hive]
+Zola [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1B
@@ -14,10 +14,10 @@ Spartacus [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Spartacus (PH)"
+"Zola"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Wild Soldier (Armor)

@@ -1,5 +1,5 @@
 ######################################
-Blitz [Project Hive]
+Bel [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x09
@@ -14,10 +14,10 @@ Blitz [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Blitz (PH)"
+"Bel"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Dasher (Normal) 

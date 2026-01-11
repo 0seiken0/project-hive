@@ -1,5 +1,5 @@
 ######################################
-Cyclone [NastyKactus]
+Spitfire [NastyKactus]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1a
@@ -14,10 +14,10 @@ Cyclone [NastyKactus]
     .BA<-BuildTitle
 PartName:
     String|
-"Cyclone^` (Kactus)"
+"Spitfire"
 BuildTitle:
     String|
-" (Kactus)"
+""
 PartDescription:
     String|
 "Soaring Jetter (Armor). 

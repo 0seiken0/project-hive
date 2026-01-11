@@ -1,5 +1,5 @@
 ######################################
-Gannicus [Project Hive]
+Klimt [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x18
@@ -14,10 +14,10 @@ Gannicus [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Gannicus (PH)"
+"Klimt"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Wild Soldier (Normal)
