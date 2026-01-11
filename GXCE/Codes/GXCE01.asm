@@ -399,7 +399,7 @@ restore:
 
 .include Source/Parts/PartExpansionCloser.asm
 
-# Include out Gecko codes
+# Include our Gecko codes
 .include GeckoCodes/GeckoCodes.asm
 
 # Include our AR Codes
