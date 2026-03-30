@@ -20,9 +20,10 @@ BuildTitle:
 ""
 PartDescription:
     String|
-"Pod: Throws three pods overhead
-that explode immediately.
-Three pods, simultaneous.
+"Pod: Throws three pods
+overhead that explode
+immediately. Three pods,
+simultaneous.
 Blast: High lingering,
 explodes above opponent, 
 knocks opponent sideways."

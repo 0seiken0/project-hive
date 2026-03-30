@@ -1,5 +1,5 @@
 ######################################
-Bel [Project Hive]
+Lumen [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x09
@@ -14,16 +14,17 @@ Bel [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Bel"
+"Lumen"
 BuildTitle:
     String|
 ""
 PartDescription:
     String|
 "Little Dasher (Normal) 
-High Grounded ability, 
-low Defense, and low Down.
-One Horizontal Air Dash. 
+High speed on the ground, 
+but has low defense and is
+knocked down easily.
+Has three fast air dashes.
 Charge: Attacks slowly
 forwards with high damage."
 RoboBytes:
@@ -34,7 +35,7 @@ byte[22] |
 120, | #Knockback
 100, | #Hitstun
 0, | #Illegal Toggle
-120, | #Time Spent Down without Mashing
+140, | #Time Spent Down without Mashing
 57, | #Time Spent Down with Mashing
 30, | #Damage taken from guns when downed
 50, | #Damage taken from bombs when downed
@@ -45,16 +46,16 @@ byte[22] |
 100, | #Pod Damage
 100, | #Gun Endlag
 4, 8, 12, | #Reduced, Unmodified, and Boosted Air Dash Startup
-4, 8, 12, | #Reduced, Unmodified, and Boosted Dash Landing Lag
+6, 10, 14, | #Reduced, Unmodified, and Boosted Dash Landing Lag
 0, | #Air Dash Type(00 = Normal Air Dash, 01 = Continuous Jump, 02 = LS)
 0 #Number of Continuous Jumps
 half[3] |
 0, 0, 0 #Reduced, Unmodified, and Boosted Continuous Jump Height
 byte[6] |
-1, | #Number of Air Dashes
+3, | #Number of Air Dashes
 0, | #SV Air Dash Toggle
-0, | #Air Dash Angle
-5, 10, 15#Reduced, Unmodified, and Boosted Air Dash Length
+-2, | #Air Dash Angle
+5, 9, 13 #Reduced, Unmodified, and Boosted Air Dash Length
 half [38] |
 150, 300, 450, | #Reduced, Unmodified, and Boosted Air Dash Speed
 0, 0, 0, | #Reduced, Unmodified, and Boosted LS Dash Turning
@@ -78,7 +79,7 @@ byte [2] |
 2, | #Invulnerability
 2 #Invisibility
 half [16] |
-175, | #Charge Damage
+140, | #Charge Damage
 150, | #Knockback Velocity
 30, | #Knockback Angle
 10, | #Homing

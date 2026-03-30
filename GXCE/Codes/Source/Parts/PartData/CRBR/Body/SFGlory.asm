@@ -14,10 +14,10 @@ Glory [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Glory (CRBR)"
+"Glory"
 BuildTitle:
     String|
-" (CRBR)"
+""
 PartDescription:
     String|
 "Shining Fighter (Speed) 
@@ -79,7 +79,7 @@ byte [2] |
 2, | #Invulnerability
 0 #Invisibility
 half [16] |
-150, | #Charge Damage
+145, | #Charge Damage
 220, | #Knockback Velocity
 75, | #Knockback Angle
 40, | #Homing

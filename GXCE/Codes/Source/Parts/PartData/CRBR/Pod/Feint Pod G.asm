@@ -36,7 +36,7 @@ half [8] |
 0, | #Angle between simultaneous pods (Automatically Centered)
 100, | #Horizontal Explosion Trigger Radius
 300, | #Vertical Explosion Trigger Radius
-240, | #Fuse Time
+220, | #Fuse Time
 0, | #Angle Pod faces at ground launch
 0x0000, | #Empty Data?
 0, | #Angle Pod faces at air launch
@@ -47,7 +47,7 @@ byte[4] |
 0, | #Locked On Phase Homing
 0x00 #Empty Data?
 half [13] |
-160, | #Roaming Phase Speed
+140, | #Roaming Phase Speed
 0, | #Locked On Phase Speed
 10, | #Roaming Phase Height
 10, | #Locked On Phase Height

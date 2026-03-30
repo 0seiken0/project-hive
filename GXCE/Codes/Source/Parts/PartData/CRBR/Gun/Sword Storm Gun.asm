@@ -21,8 +21,8 @@ BuildTitle:
 PartDescription:
     String|
 "Ground: Fires 6 rounds upwards
-that pause then fly down towards 
-the opponent.
+that pause then fly down
+towards the opponent.
 Air: Same as Ground.
 Recommended Range:
 Medium-Long"

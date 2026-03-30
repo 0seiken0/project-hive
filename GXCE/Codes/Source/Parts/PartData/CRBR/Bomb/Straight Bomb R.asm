@@ -20,7 +20,7 @@ BuildTitle:
 ""
 PartDescription:
     String|
-"Ground: Flies Straight.
+"Ground: Flies straight.
 Air: Same as Ground.
 Blast: Knocks opponent
 diagonally upwards."

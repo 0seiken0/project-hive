@@ -1,5 +1,5 @@
 ######################################
-Amy [Project Hive]
+May [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x04
@@ -14,7 +14,7 @@ Amy [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Amy"
+"May"
 BuildTitle:
     String|
 "(PH)"
@@ -29,9 +29,9 @@ Charge: Charges upwards
 towards opponent."
 RoboBytes:
 half[1] |
-1000, #Down
+800, #Down
 byte[22] |
-110, | #Defense
+105, | #Defense
 110, | #Knockback
 100, | #Hitstun
 0, | #Illegal Toggle
@@ -46,7 +46,7 @@ byte[22] |
 100, | #Pod Damage
 100, | #Gun Endlag
 2, 4, 6, | #Reduced, Unmodified, and Boosted Air Dash Startup
-4, 8, 12, | #Reduced, Unmodified, and Boosted Dash Landing Lag
+7, 11, 15, | #Reduced, Unmodified, and Boosted Dash Landing Lag
 0, | #Air Dash Type(00 = Normal Air Dash, 01 = Continuous Jump, 02 = LS)
 0    #Number of Continuous Jumps
 half[3] |
@@ -63,7 +63,7 @@ half [38] |
 80, 160, 320, | #Reduced, Unmodified, and Boosted Ground Acceleration
 100, 200, 400, | #Reduced, Unmodified, and Boosted Ground Turning
 190, 340, 440, | #Reduced, Unmodified, and Boosted Jump Height
-10, 15, 20, | #Reduced, Unmodified, and Boosted Jump Speed
+5, 10, 15, | #Reduced, Unmodified, and Boosted Jump Speed
 70, 80, 100, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 2000, 3000, 5000, | #Reduced, Unmodified, and Boosted Air Acceleration
 6, 12, 18, | #Reduced, Unmodified, and Boosted Landing Lag

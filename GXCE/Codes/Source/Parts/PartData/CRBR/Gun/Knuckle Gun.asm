@@ -29,7 +29,7 @@ Recommended Range: Short"
 RoboBytes:
 byte[56] |
 0,| #Illegal Toggle
-0, | #Slideshot Duration
+5, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 0, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -64,7 +64,7 @@ half[2] |
 6, | #Phase Duration
 0 #Padding
 float[4] |
-0.1, | #Phase Speed
+0.12, | #Phase Speed
 0.02, | #Horizontal Homing
 0.04, | #Vertical Homing
 0.75 #Shot Size
@@ -192,7 +192,7 @@ half[2] |
 6, | #Phase Duration
 0 #Padding
 float[4] |
-0.1, | #Phase Speed
+0.12, | #Phase Speed
 0.02, | #Horizontal Homing
 0.04, | #Vertical Homing
 0.75 #Shot Size

@@ -103,12 +103,12 @@ Restore:
 }
 
 #############################
-Synchronized Spawns V2 [DesiacX]
+Synchronized Spawns V2.1 [DesiacX, seiken]
 #############################
 op nop @ $80089900
 HOOK @ $800898E0
 {
-  li r29, 0x1A0
+  li r29, 0x1A5
   sth r29, 388(r30)
 }
 HOOK @ $80085448

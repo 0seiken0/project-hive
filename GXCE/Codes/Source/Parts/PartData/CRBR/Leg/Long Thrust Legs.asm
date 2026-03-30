@@ -20,9 +20,8 @@ BuildTitle:
 ""
 PartDescription:
     String|
-"Increases your Dash Length.
-Minorly increases your Dash 
-Speed."
+"Increases Dash Length.
+Minorly increases Dash Speed."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 

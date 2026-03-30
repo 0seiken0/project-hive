@@ -22,8 +22,9 @@ PartDescription:
     String|
 "Ground: Fires a cluster of
 6 rounds that split vertically
-and home towards the opponent.
-Air: Round break horizontally.
+and home towards the
+opponent.
+Air: Rounds split horizontally.
 Recommended Range:
 Medium-Long"
 RoboBytes:

@@ -20,7 +20,7 @@ BuildTitle:
 ""
 PartDescription:
     String|
-"Decreases dash duration. 
+"Decreases Dash Duration. 
 Heavily decreases Dash 
 Startup.
 Heavily decreases Dash 

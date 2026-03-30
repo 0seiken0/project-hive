@@ -14,7 +14,7 @@ Heavy Bomb H [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Heavy Bomb H^`"
+"Heavy Bomb H ^`"
 BuildTitle:
     String|
 ""
@@ -28,7 +28,7 @@ Blast: Knocks target sideways
 slowly, high hitstun."
 RoboBytes:
 byte [2] |
-00, | #Illegal Toggle
+2, | #Illegal Toggle
 1 #Number of Bombs Fired
 half [1] 70 #Explosion Trigger Radius
 #################

@@ -71,10 +71,10 @@ byte[2] |
 0 #Padding
 half[9] |
 30, | #Damage
-200, | #Down
+220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-15, | #Hitstun
+18, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -93,10 +93,10 @@ byte[2] |
 0 #Padding
 half[9] |
 30, | #Damage
-200, | #Down
+220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-15, | #Hitstun
+16, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -199,10 +199,10 @@ byte[2] |
 0 #Padding
 half[9] |
 30, | #Damage
-200, | #Down
+220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-15, | #Hitstun
+18, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)
@@ -221,10 +221,10 @@ byte[2] |
 0 #Padding
 half[9] |
 30, | #Damage
-200, | #Down
+220, | #Down
 15, | #Knockback Velocity
 0, | #Knockback Angle
-15, | #Hitstun
+16, | #Hitstun
 100, | #On-Hit Gravity
 80, | #Knockback Velocity (Downed)
 30, | #Knockback Angle (Downed)

@@ -25,7 +25,7 @@ Increases Dash Speed."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
-150, | #Ground Speed
+100, | #Ground Speed
 100, | #Ground Accel 
 100, | #Ground Turning
 150, | #Jump Height

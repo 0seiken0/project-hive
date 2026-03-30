@@ -1,5 +1,5 @@
 ######################################
-Zola [Project Hive]
+Koga [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1B
@@ -14,7 +14,7 @@ Zola [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Zola"
+"Koga"
 BuildTitle:
     String|
 ""

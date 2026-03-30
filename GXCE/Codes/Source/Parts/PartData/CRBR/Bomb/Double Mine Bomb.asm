@@ -30,7 +30,7 @@ RoboBytes:
 byte [2] |
 00, | #Illegal Toggle
 2 #Number of Bombs Fired
-half [1] 80 #Explosion Trigger Radius
+half [1] 105 #Explosion Trigger Radius
 #################
 ## Ground Shot ##
 #################
@@ -38,7 +38,7 @@ byte [2] |
 65, | #Starting location of reticle (% of distance to opponent)
 80, #Reload
 half [3] |
-38400, | #Burrow Time
+41800, | #Burrow Time
 160, | #Projectile Speed
 0x0000 #Empty Data?
 byte [2] |
@@ -98,7 +98,7 @@ byte [2] |
 65, | #Starting location of reticle (% of distance to opponent)
 80 #Reload
 half [3] |
-38400, | #Burrow Time
+41800, | #Burrow Time
 180, | #Projectile Speed
 0x0000 #Empty Data?
 byte [2] |

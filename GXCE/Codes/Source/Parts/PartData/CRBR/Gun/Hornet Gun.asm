@@ -78,8 +78,8 @@ half[9] |
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
-100, | #On-Hit Gravity
+24, | #Hitstun
+20, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
@@ -100,8 +100,8 @@ half[9] |
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
-100, | #On-Hit Gravity
+24, | #Hitstun
+20, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
@@ -123,7 +123,7 @@ half[9] |
 10, | #Knockback Velocity
 0, | #Knockback Angle
 5, | #Hitstun
-100, | #On-Hit Gravity
+20, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
@@ -206,8 +206,8 @@ half[9] |
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
-20, | #Hitstun
-100, | #On-Hit Gravity
+24, | #Hitstun
+20, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 25, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
@@ -228,8 +228,8 @@ half[9] |
 450, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
-5, | #Hitstun
-100, | #On-Hit Gravity
+24, | #Hitstun
+20, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 25, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
@@ -251,7 +251,7 @@ half[9] |
 10, | #Knockback Velocity
 0, | #Knockback Angle
 5, | #Hitstun
-100, | #On-Hit Gravity
+20, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 35, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)

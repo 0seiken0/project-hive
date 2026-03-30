@@ -35,10 +35,10 @@ byte [16] |
 100, | #Air Accel 
 100, | #Landing Lag 
 100, | #Gravity 
-250, | #Dash Startup 
+200, | #Dash Startup 
 100, | #Dash Landing Lag 
-225, | #Continuous Jump Height 
-50, | #Dash Duration 
+250, | #Continuous Jump Height 
+75, | #Dash Duration 
 250, | #Dash Speed 
 0xFF  #Filler Data
 ExtraBytes:

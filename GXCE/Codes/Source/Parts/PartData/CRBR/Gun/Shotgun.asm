@@ -63,7 +63,7 @@ half[2] |
 4, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
+0.278, | #Phase Speed
 0.01, | #Horizontal Homing
 0.02, | #Vertical Homing
 0.3 #Shot Size
@@ -85,7 +85,7 @@ half[2] |
 4, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
+0.278, | #Phase Speed
 0.01, | #Horizontal Homing
 0.01, | #Vertical Homing
 0.36 #Shot Size
@@ -191,7 +191,7 @@ half[2] |
 4, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
+0.278, | #Phase Speed
 0.01, | #Horizontal Homing
 0.01, | #Vertical Homing
 0.3 #Shot Size
@@ -213,7 +213,7 @@ half[2] |
 4, | #Phase Duration
 0 #Padding
 float[4] |
-0.3, | #Phase Speed
+0.278, | #Phase Speed
 0.01, | #Horizontal Homing
 0.01, | #Vertical Homing
 0.36 #Shot Size
