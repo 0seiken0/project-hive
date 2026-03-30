@@ -14,10 +14,10 @@ Left Flank Bomb X [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Left Flank Bomb X (PH)"
+"Left Flank Bomb X"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies left then turns

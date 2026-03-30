@@ -14,10 +14,10 @@ High Jump Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"High Jump Legs (PH)"
+"High Jump Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Jump Height. 

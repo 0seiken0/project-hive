@@ -14,10 +14,10 @@ Sniper Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Sniper Gun (PH)"
+"Sniper Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires one fast round 

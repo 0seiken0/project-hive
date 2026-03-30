@@ -14,10 +14,10 @@ Glider Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Glider Gun (PH)"
+"Glider Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a round 
@@ -190,7 +190,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-20, | #Phase Duration
+22, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -201,18 +201,18 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+50, | #Damage
 400, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
-15, | #Hitstun
+12, | #Hitstun
 90, | #On-Hit Gravity
 120, | #Knockback Velocity (Downed)
 20, | #Knockback Angle (Downed)
 90 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-90, | #Phase Duration
+64, | #Phase Duration
 0 #Padding
 float[4] |
 0.12, | #Phase Speed
@@ -227,14 +227,14 @@ half[9] |
 400, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
-15, | #Hitstun
+12, | #Hitstun
 90, | #On-Hit Gravity
 120, | #Knockback Velocity (Downed)
 20, | #Knockback Angle (Downed)
 90 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-120, | #Phase Duration
+136, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -245,11 +245,11 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-54, | #Damage
+50, | #Damage
 400, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
-15, | #Hitstun
+12, | #Hitstun
 90, | #On-Hit Gravity
 120, | #Knockback Velocity (Downed)
 20, | #Knockback Angle (Downed)

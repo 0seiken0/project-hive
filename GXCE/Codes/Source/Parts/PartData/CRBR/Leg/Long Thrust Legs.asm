@@ -14,15 +14,14 @@ Long Thrust Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Long Thrust Legs (PH)"
+"Long Thrust Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
-"Increases your Dash Length.
-Minorly increases your Dash 
-Speed."
+"Increases Dash Length.
+Minorly increases Dash Speed."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 

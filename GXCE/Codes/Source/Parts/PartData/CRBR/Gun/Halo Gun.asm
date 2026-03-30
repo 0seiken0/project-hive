@@ -14,10 +14,10 @@ Halo Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Halo Gun (PH)"
+"Halo Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a large homing
@@ -193,7 +193,7 @@ half[2] |
 6, | #Phase Duration
 0 #Padding
 float[4] |
-0.20390625, | #Phase Speed
+0.21, | #Phase Speed
 0.02, | #Horizontal Homing
 0.02, | #Vertical Homing
 1.6 #Shot Size

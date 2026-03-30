@@ -14,10 +14,10 @@
     .BA<-BuildTitle
 PartName:
     String|
-"3-Way Gun (PH)"
+"3-Way Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 3 rounds in

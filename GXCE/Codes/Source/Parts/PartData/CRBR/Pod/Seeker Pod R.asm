@@ -14,10 +14,10 @@ Seeker Pod R [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Seeker Pod R (PH)"
+"Seeker Pod R"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Slowly homes towards 

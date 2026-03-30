@@ -14,10 +14,10 @@ Bubble Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Bubble Gun (PH)"
+"Bubble Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 large rounds

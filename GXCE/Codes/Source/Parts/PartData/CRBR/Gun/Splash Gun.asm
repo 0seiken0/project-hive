@@ -14,10 +14,10 @@ Splash Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Splash Gun (PH)"
+"Splash Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a spread of 2 
@@ -71,7 +71,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-10, | #Damage
+5, | #Damage
 160, | #Down
 80, | #Knockback Velocity
 0, | #Knockback Angle
@@ -93,7 +93,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-10, | #Damage
+5, | #Damage
 160, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle
@@ -199,7 +199,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+5, | #Damage
 160, | #Down
 80, | #Knockback Velocity
 0, | #Knockback Angle
@@ -221,7 +221,7 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-9, | #Damage
+5, | #Damage
 160, | #Down
 10, | #Knockback Velocity
 0, | #Knockback Angle

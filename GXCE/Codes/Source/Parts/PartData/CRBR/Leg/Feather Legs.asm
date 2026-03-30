@@ -14,10 +14,10 @@ Feather Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Feather Legs (PH)"
+"Feather Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Reduces Gravity.

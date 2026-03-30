@@ -14,10 +14,10 @@ Eagle Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Eagle Gun (PH)"
+"Eagle Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a quick straight 

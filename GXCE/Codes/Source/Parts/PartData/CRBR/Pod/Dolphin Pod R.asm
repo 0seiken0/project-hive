@@ -14,10 +14,10 @@ Dolphin Pod R [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Dolphin Pod R (PH)"
+"Dolphin Pod R"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Pursues opponent, 
@@ -44,12 +44,12 @@ half [8] |
 0x0000 #Empty Data?
 byte[4] |
 1, | #Homing Toggle
-25, | #Roaming Phase Homing
-25, | #Locked On Phase Homing
+20, | #Roaming Phase Homing
+20, | #Locked On Phase Homing
 0x00 #Empty Data?
 half [13] |
 80, | #Roaming Phase Speed
-125, | #Locked On Phase Speed
+100, | #Locked On Phase Speed
 10, | #Roaming Phase Height
 10, | #Locked On Phase Height
 120, | #Angle for conen of vision for activating lock on phase

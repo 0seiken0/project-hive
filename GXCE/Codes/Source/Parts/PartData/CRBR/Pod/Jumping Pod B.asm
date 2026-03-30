@@ -14,10 +14,10 @@ Jumping Pod B [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Jumping Pod B (PH)"
+"Jumping Pod B"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Approaches target and

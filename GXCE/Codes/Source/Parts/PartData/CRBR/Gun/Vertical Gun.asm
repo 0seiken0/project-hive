@@ -14,10 +14,10 @@ Vertical Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Vertical Gun (PH)"
+"Vertical Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 rounds 

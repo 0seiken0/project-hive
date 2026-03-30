@@ -14,10 +14,10 @@ Spider Pod G [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Spider Pod G (PH)"
+"Spider Pod G"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies straight, 
@@ -43,7 +43,7 @@ half [8] |
 0x0000 #Empty Data?
 byte[4] |
 1, | #Homing Toggle
-30, | #Roaming Phase Homing
+50, | #Roaming Phase Homing
 10, | #Locked On Phase Homing
 0x00 #Empty Data?
 half [13] |

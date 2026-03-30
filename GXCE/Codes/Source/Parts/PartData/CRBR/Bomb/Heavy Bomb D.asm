@@ -14,10 +14,10 @@ Heavy Bomb D [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Heavy Bomb D^` (PH)"
+"Heavy Bomb D ^`"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires in an arc. 
@@ -28,7 +28,7 @@ Blast: High lingering, knocks
 opponent diagonally upwards."
 RoboBytes:
 byte [2] |
-00, | #Illegal Toggle
+2, | #Illegal Toggle
 1 #Number of Bombs Fired
 half [1] 60 #Explosion Trigger Radius
 #################

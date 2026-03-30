@@ -14,10 +14,10 @@ Ground Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ground Legs (PH)"
+"Ground Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Heavily reduces Landing Lag.

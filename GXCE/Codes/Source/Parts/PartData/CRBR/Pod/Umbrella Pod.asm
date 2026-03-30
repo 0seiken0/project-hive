@@ -14,15 +14,16 @@ Umbrella Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Umbrella Pod (PH)"
+"Umbrella Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
-"Pod: Throws three pods overhead
-that explode immediately.
-Three pods, simultaneous.
+"Pod: Throws three pods
+overhead that explode
+immediately. Three pods,
+simultaneous.
 Blast: High lingering,
 explodes above opponent, 
 knocks opponent sideways."

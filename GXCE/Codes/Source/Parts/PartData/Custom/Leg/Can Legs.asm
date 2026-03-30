@@ -14,10 +14,10 @@ Can Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Bad Legs^` (PH)"
+"Bad Legs^`"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "The weakest leg part."

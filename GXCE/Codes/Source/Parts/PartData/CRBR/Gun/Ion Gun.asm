@@ -14,10 +14,10 @@ Ion Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ion Gun (PH)"
+"Ion Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 rounds that

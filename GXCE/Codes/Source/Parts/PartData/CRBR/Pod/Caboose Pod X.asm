@@ -14,10 +14,10 @@ Caboose Pod X [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Caboose Pod X (PH)"
+"Caboose Pod X"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies straight... in 

@@ -14,10 +14,10 @@ Standard Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Standard Legs (PH)"
+"Standard Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Basic set of legs. 

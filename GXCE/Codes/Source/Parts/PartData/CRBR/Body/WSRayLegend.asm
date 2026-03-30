@@ -1,5 +1,5 @@
 ######################################
-Klimt [Project Hive]
+Alexander [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x18
@@ -14,7 +14,7 @@ Klimt [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Klimt"
+"Alexander"
 BuildTitle:
     String|
 ""
@@ -86,13 +86,13 @@ half [16] |
 10, |   #Homing
 10, |   #Startup Phase Duration (+3 for # of Frames)
 30, |   #Attack Phase Duration (+1 for # of Frames)
-0, |   #Recovery Phase Duration
+5, |   #Recovery Phase Duration
 250, |   #Startup Phase Speed
 125, |  #Attack Phase Speed
 0, |   #Recovery Phase Speed
 90, |    #Startup Phase Angle
 0, |    #Attack Phase Angle
--90, |  #Recovery Phase Angle
+-5, |  #Recovery Phase Angle
 60, |   #Hitbox Size Related
 20, |   #Hitbox Size Related
 -40       #Hitbox Size Related

@@ -14,10 +14,10 @@ Quickshot Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Quickshot Gun (PH)"
+"Quickshot Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a fast 
@@ -73,9 +73,9 @@ byte[2] |
 half[9] |
 45, | #Damage
 350, | #Down
-80, | #Knockback Velocity
+170, | #Knockback Velocity
 50, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 200, | #On-Hit Gravity
 200, | #Knockback Velocity (Downed)
 50, | #Knockback Angle (Downed)
@@ -95,9 +95,9 @@ byte[2] |
 half[9] |
 45, | #Damage
 350, | #Down
-80, | #Knockback Velocity
+170, | #Knockback Velocity
 50, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 200, | #On-Hit Gravity
 200, | #Knockback Velocity (Downed)
 50, | #Knockback Angle (Downed)
@@ -201,9 +201,9 @@ byte[2] |
 half[9] |
 45, | #Damage
 350, | #Down
-80, | #Knockback Velocity
+170, | #Knockback Velocity
 50, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 200, | #On-Hit Gravity
 200, | #Knockback Velocity (Downed)
 50, | #Knockback Angle (Downed)
@@ -223,9 +223,9 @@ byte[2] |
 half[9] |
 45, | #Damage
 350, | #Down
-80, | #Knockback Velocity
+170, | #Knockback Velocity
 50, | #Knockback Angle
-20, | #Hitstun
+22, | #Hitstun
 200, | #On-Hit Gravity
 200, | #Knockback Velocity (Downed)
 50, | #Knockback Angle (Downed)

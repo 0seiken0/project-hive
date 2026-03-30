@@ -14,10 +14,10 @@ Swallow Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Swallow Legs (PH)"
+"Swallow Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Running Speed. 

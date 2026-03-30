@@ -14,10 +14,10 @@ Javelin [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Javelin (PH)"
+"Javelin"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Strike Vanisher (Normal). 

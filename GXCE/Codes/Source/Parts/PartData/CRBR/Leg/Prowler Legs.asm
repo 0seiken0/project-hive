@@ -14,10 +14,10 @@ Prowler Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Prowler Legs (PH)"
+"Prowler Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Dash Speed.
@@ -36,7 +36,7 @@ byte [16] |
 100, | #Gravity 
 100, | #Dash Startup 
 100, | #Dash Landing Lag 
-100, | #Continuous Jump Height 
+175, | #Continuous Jump Height 
 75, | #Dash Duration 
 150, | #Dash Speed 
 0xFF  #Filler Data

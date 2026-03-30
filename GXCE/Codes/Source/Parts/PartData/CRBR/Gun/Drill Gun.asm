@@ -14,10 +14,10 @@ Drill Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Drill Gun (PH)"
+"Drill Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 12 repeated 
@@ -60,7 +60,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-5, | #Phase Duration
+6, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -75,14 +75,14 @@ half[9] |
 120, | #Down
 30, | #Knockback Velocity
 165, | #Knockback Angle
-5, | #Hitstun
+28, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 140, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-9, | #Phase Duration
+8, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -97,14 +97,14 @@ half[9] |
 110, | #Down
 30, | #Knockback Velocity
 165, | #Knockback Angle
-5, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 140, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-7, | #Phase Duration
+8, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -119,7 +119,7 @@ half[9] |
 110, | #Down
 30, | #Knockback Velocity
 165, | #Knockback Angle
-5, | #Hitstun
+14, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 140, | #Knockback Angle (Downed)
@@ -188,7 +188,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-5, | #Phase Duration
+6, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -203,14 +203,14 @@ half[9] |
 120, | #Down
 30, | #Knockback Velocity
 175, | #Knockback Angle
-5, | #Hitstun
+28, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 140, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-9, | #Phase Duration
+8, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -225,14 +225,14 @@ half[9] |
 110, | #Down
 30, | #Knockback Velocity
 175, | #Knockback Angle
-5, | #Hitstun
+22, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 140, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-7, | #Phase Duration
+8, | #Phase Duration
 0 #Padding
 float[4] |
 0.22, | #Phase Speed
@@ -247,7 +247,7 @@ half[9] |
 110, | #Down
 30, | #Knockback Velocity
 175, | #Knockback Angle
-5, | #Hitstun
+14, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 140, | #Knockback Angle (Downed)

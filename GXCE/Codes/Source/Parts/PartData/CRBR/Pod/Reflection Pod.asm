@@ -14,10 +14,10 @@ Reflection Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Reflection Pod (PH)"
+"Reflection Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Slowly chases target,

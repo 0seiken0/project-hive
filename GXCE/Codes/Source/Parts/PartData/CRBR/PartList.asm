@@ -52,6 +52,12 @@
 .include "Source/Parts/PartData/CRBR/Body/SJSplendor.asm"
 .include "Source/Parts/PartData/CRBR/Body/SJRahu.asm"
 
+.include "Source/Parts/PartData/CRBR/Body/OTShrike.asm"
+.include "Source/Parts/PartData/CRBR/Body/OTDourHead.asm"
+.include "Source/Parts/PartData/CRBR/Body/OTPeregrine.asm"
+
+.include "Source/Parts/PartData/CRBR/Body/SFOilCan.asm"
+
 #Guns
 .include "Source/Parts/PartData/CRBR/Gun/Basic Gun.asm"
 .include "Source/Parts/PartData/CRBR/Gun/Needle Gun.asm"
@@ -114,6 +120,10 @@
 .include "Source/Parts/PartData/CRBR/Gun/Blade Gun.asm"
 
 .include "Source/Parts/PartData/CRBR/Gun/Phoenix Gun.asm"
+.include "Source/Parts/PartData/CRBR/Gun/Scorpion Gun.asm"
+.include "Source/Parts/PartData/CRBR/Gun/Slide Gun.asm"
+.include "Source/Parts/PartData/CRBR/Gun/Rising Gun.asm"
+
 #Bomb
 .include "Source/Parts/PartData/CRBR/Bomb/Standard Bomb R.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Standard Bomb F.asm"
@@ -181,6 +191,9 @@
 .include "Source/Parts/PartData/CRBR/Bomb/Heavy Bomb H.asm"
 .include "Source/Parts/PartData/CRBR/Bomb/Heavy Bomb K.asm"
 
+.include "Source/Parts/PartData/CRBR/Bomb/Timer Bomb F.asm"
+.include "Source/Parts/PartData/CRBR/Bomb/Cruise Bomb P.asm"
+
 #Pods
 .include "Source/Parts/PartData/CRBR/Pod/Standard Pod R.asm"
 .include "Source/Parts/PartData/CRBR/Pod/Standard Pod D.asm"
@@ -230,10 +243,15 @@
 .include "Source/Parts/PartData/CRBR/Pod/Spider Pod G.asm"
 .include "Source/Parts/PartData/CRBR/Pod/Sky Freeze Pod.asm"
 .include "Source/Parts/PartData/CRBR/Pod/Ground Freeze Pod.asm"
-.include "Source/Parts/PartData/CRBR/Pod/Satellite Pod.asm"
+.include "Source/Parts/PartData/CRBR/Pod/Satellite Pod R.asm"
 
 .include "Source/Parts/PartData/CRBR/Pod/Satellite Pod H.asm"
 .include "Source/Parts/PartData/CRBR/Pod/Beast Pod F.asm"
+.include "Source/Parts/PartData/CRBR/Pod/Sky Wave Pod.asm"
+.include "Source/Parts/PartData/CRBR/Pod/Dash Pod.asm"
+
+.include "Source/Parts/PartData/CRBR/Pod/Vulture Pod B.asm"
+.include "Source/Parts/PartData/CRBR/Pod/Divide Pod F.asm"
 
 #Legs
 .include "Source/Parts/PartData/CRBR/Leg/Standard Legs.asm"

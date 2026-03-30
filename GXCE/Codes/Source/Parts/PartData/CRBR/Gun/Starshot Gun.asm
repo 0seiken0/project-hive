@@ -15,10 +15,10 @@ Starshot Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Starshot Gun (PH)"
+"Starshot Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires ascending 
@@ -63,10 +63,10 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-18, | #Phase Duration
+16, | #Phase Duration
 0 #Padding
 float[4] |
-0.22, | #Phase Speed
+0.248, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
 0.1 #Shot Size
@@ -191,10 +191,10 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-15, | #Phase Duration
+13, | #Phase Duration
 0 #Padding
 float[4] |
-0.22, | #Phase Speed
+0.254, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
 0.1 #Shot Size
@@ -202,8 +202,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
-200, | #Down
+38, | #Damage
+400, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
 20, | #Hitstun
@@ -217,15 +217,15 @@ half[2] |
 0 #Padding
 float[4] |
 0.002, | #Phase Speed
-0.213, | #Horizontal Homing
-0.213, | #Vertical Homing
+3.408, | #Horizontal Homing
+3.408, | #Vertical Homing
 0.1 #Shot Size
 byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
-200, | #Down
+38, | #Damage
+400, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
 5, | #Hitstun
@@ -246,8 +246,8 @@ byte[2] |
 15, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-23, | #Damage
-200, | #Down
+38, | #Damage
+400, | #Down
 10, | #Knockback Velocity
 30, | #Knockback Angle
 0, | #Hitstun

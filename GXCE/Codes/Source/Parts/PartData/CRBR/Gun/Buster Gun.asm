@@ -14,10 +14,10 @@ Buster Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Buster Gun (PH)"
+"Buster Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a single round

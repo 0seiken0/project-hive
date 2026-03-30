@@ -14,10 +14,10 @@ Hydra Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Hydra Gun (PH)"
+"Hydra Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a burst of 4 
@@ -65,7 +65,7 @@ half[2] |
 97, | #Phase Duration
 0 #Padding
 float[4] |
-0.15914063, | #Phase Speed
+0.1592, | #Phase Speed
 0.023, | #Horizontal Homing
 0.017, | #Vertical Homing
 0.27 #Shot Size
@@ -87,7 +87,7 @@ half[2] |
 145, | #Phase Duration
 0 #Padding
 float[4] |
-0.15914063, | #Phase Speed
+0.1592, | #Phase Speed
 0.0, | #Horizontal Homing
 0.0, | #Vertical Homing
 0.27 #Shot Size
@@ -193,9 +193,9 @@ half[2] |
 97, | #Phase Duration
 0 #Padding
 float[4] |
-0.15914063, | #Phase Speed
-0.023, | #Horizontal Homing
-0.017, | #Vertical Homing
+0.1592, | #Phase Speed
+0.022, | #Horizontal Homing
+0.019, | #Vertical Homing
 0.27 #Shot Size
 byte[2] |
 20, | #Lingering Hitbox Duration
@@ -215,9 +215,9 @@ half[2] |
 145, | #Phase Duration
 0 #Padding
 float[4] |
-0.15914063, | #Phase Speed
-0.0, | #Horizontal Homing
-0.0, | #Vertical Homing
+0.1592, | #Phase Speed
+0.007, | #Horizontal Homing
+0.007, | #Vertical Homing
 0.27 #Shot Size
 byte[2] |
 20, | #Lingering Hitbox Duration

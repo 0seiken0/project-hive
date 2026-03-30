@@ -14,10 +14,10 @@ Metal Bear [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Metal Bear (PH)"
+"Metal Bear"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Metal Grappler (Armor)

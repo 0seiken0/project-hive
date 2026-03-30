@@ -14,10 +14,10 @@ Breaker [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Breaker (PH)"
+"Breaker"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Lightning Sky (Speed). 

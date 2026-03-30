@@ -1,5 +1,5 @@
 ######################################
-Carlyle [Project Hive]
+Zhukov [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1A
@@ -14,7 +14,7 @@ Carlyle [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Carlyle"
+"Zhukov"
 BuildTitle:
     String|
 ""

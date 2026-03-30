@@ -14,10 +14,10 @@ Metal Ape [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Metal Ape (PH)"
+"Metal Ape"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Metal Grappler (Normal) 

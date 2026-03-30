@@ -14,10 +14,10 @@ Right Arc Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Right Arc Gun (PH)"
+"Right Arc Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 fast rounds 

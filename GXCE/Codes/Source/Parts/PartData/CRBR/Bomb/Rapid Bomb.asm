@@ -14,10 +14,10 @@ Rapid Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Rapid Bomb (PH)"
+"Rapid Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in a fast arc. 

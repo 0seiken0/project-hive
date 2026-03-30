@@ -14,10 +14,10 @@ Standard Pod R [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Standard Pod R (PH)"
+"Standard Pod R"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Flies straight, 

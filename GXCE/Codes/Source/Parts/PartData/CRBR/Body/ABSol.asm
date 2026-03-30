@@ -14,10 +14,10 @@ Sol [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Sol (PH)"
+"Sol"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Aerial Beauty (Speed)
@@ -85,11 +85,11 @@ half [16] |
 6, | #Startup Phase Duration (+3 for # of Frames)
 10, | #Attack Phase Duration (+1 for # of Frames)
 38, | #Recovery Phase Duration
-320, | #Startup Phase Speed
-160, | #Attack Phase Speed
+315, | #Startup Phase Speed
+185, | #Attack Phase Speed
 80, | #Recovery Phase Speed
 50, | #Startup Phase Angle
--50, | #Attack Phase Angle
+-40, | #Attack Phase Angle
 -90, | #Recovery Phase Angle
 60, | #Hitbox Size Related
 60, | #Hitbox Size Related

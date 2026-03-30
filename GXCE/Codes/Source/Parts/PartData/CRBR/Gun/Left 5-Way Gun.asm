@@ -14,10 +14,10 @@ Left 5-Way Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Left 5-Way Gun (PH)"
+"Left 5-Way Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 5 rounds 
@@ -71,8 +71,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-6, | #Damage
-150, | #Down
+12, | #Damage
+180, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
 0, | #Hitstun
@@ -199,8 +199,8 @@ byte[2] |
 0, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-6, | #Damage
-150, | #Down
+12, | #Damage
+180, | #Down
 120, | #Knockback Velocity
 20, | #Knockback Angle
 0, | #Hitstun

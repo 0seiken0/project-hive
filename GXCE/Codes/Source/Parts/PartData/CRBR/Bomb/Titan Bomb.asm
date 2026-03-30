@@ -14,10 +14,10 @@ Titan Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Titan Bomb (PH)"
+"Titan Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "It's a nuke.
@@ -53,7 +53,7 @@ float [3] |
 4.05, | #Final Explosion Size
 0.59 #Explosion Height
 half [10] |
-75, | #Damage
+95, | #Damage
 2000, | #Down
 140, | #Knockback Velocity
 70, | #Knockback Angle
@@ -113,7 +113,7 @@ float [3] |
 4.05, | #Final Explosion Size
 0.59 #Explosion Height
 half [10] |
-75, | #Damage
+95, | #Damage
 2000, | #Down
 140, | #Knockback Velocity
 70, | #Knockback Angle

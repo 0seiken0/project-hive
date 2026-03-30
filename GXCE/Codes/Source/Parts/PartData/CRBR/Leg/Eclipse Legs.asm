@@ -14,10 +14,10 @@ Eclipse Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Eclipse Legs (PH)"
+"Eclipse Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Jump Height.

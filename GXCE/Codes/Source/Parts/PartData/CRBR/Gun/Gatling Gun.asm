@@ -14,10 +14,10 @@ Gatling Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Gatling Gun (PH)"
+"Gatling Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a burst 8 quick 

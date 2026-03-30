@@ -1,5 +1,5 @@
 ######################################
-Ruhiel [Project Hive]
+Wolfclaw [Project Hive]
 ######################################
 .alias PartType = 0x00
 .alias PartBase = 0x1C
@@ -14,7 +14,7 @@ Ruhiel [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Ruhiel"
+"Wolfclaw"
 BuildTitle:
     String|
 ""
@@ -46,7 +46,7 @@ byte[22] |
 100, | #Pod Damage
 100, | #Gun Endlag
 4, 8, 12, | #Reduced, Unmodified, and Boosted Air Dash Startup
-3, 6, 9, | #Reduced, Unmodified, and Boosted Dash Landing Lag
+4, 8, 12, | #Reduced, Unmodified, and Boosted Dash Landing Lag
 0, | #Air Dash Type(00 = Normal Air Dash, 01 = Continuous Jump, 02 = LS)
 0    #Number of Continuous Jumps
 half[3] |
@@ -66,7 +66,7 @@ half [38] |
 1, 4, 8, | #Reduced, Unmodified, and Boosted Jump Speed
 95, 110, 125, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 75, 150, 300, | #Reduced, Unmodified, and Boosted Air Acceleration
-3, 6, 9, | #Reduced, Unmodified, and Boosted Landing Lag
+4, 8, 12, | #Reduced, Unmodified, and Boosted Landing Lag
 75, 150, 225, | #Reduced, Unmodified, and Boosted Gravity
 48, | #Collision Box Size Related
 40, | #Collision Box Size Related
@@ -79,7 +79,7 @@ byte [2] |
 2, |    #Invulnerability
 0       #Invisibility
 half [16] |
-114, |  #Charge Damage
+135, |  #Charge Damage
 165, |  #Knockback Velocity
 80, |   #Knockback Angle
 20, |   #Homing

@@ -14,10 +14,10 @@ Meteor Storm Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Meteor Storm Gun (PH)"
+"Meteor Storm Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a burst of
@@ -61,7 +61,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-10, | #Phase Duration
+13, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
@@ -83,7 +83,7 @@ half[9] |
 40 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-12, | #Phase Duration
+9, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
@@ -189,7 +189,7 @@ half[3] |
 0 #????
 #First Phase
 half[2] |
-10, | #Phase Duration
+13, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed
@@ -211,7 +211,7 @@ half[9] |
 40 #On-Hit Gravity (Downed)
 #Second Phase
 half[2] |
-12, | #Phase Duration
+9, | #Phase Duration
 0 #Padding
 float[4] |
 0.3, | #Phase Speed

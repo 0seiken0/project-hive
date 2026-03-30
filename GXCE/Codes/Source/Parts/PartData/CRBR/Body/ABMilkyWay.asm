@@ -14,10 +14,10 @@ Milky Way [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Milky Way (PH)"
+"Milky Way"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Aerial Beauty (Normal)

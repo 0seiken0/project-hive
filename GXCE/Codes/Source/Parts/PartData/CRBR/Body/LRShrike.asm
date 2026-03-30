@@ -14,10 +14,10 @@ Shrike [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Shrike (PH)"
+"Shrike"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Raider (Armor). 

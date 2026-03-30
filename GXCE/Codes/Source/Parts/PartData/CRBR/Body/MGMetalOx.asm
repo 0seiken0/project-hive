@@ -14,10 +14,10 @@ Metal Ox [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Metal Ox (PH)"
+"Metal Ox"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Metal Grappler (Speed)
@@ -79,7 +79,7 @@ byte [2] |
 2, | #Invulnerability
 0 #Invisibility
 half [16] |
-150, | #Charge Damage
+160, | #Charge Damage
 210, | #Knockback Velocity
 115, | #Knockback Angle
 60, | #Homing

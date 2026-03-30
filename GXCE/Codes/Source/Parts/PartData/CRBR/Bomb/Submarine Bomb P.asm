@@ -14,10 +14,10 @@ Submarine Bomb P [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Submarine Bomb P (PH)"
+"Submarine Bomb P"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies straight slowly. 

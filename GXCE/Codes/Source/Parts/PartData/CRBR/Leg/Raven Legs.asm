@@ -14,10 +14,10 @@ Raven Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Raven Legs (PH)"
+"Raven Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Increases Jump Height. 
@@ -25,7 +25,7 @@ Increases Dash Speed."
 RoboBytes:
 byte [16] |
 0, | #Illegal Toggle 
-150, | #Ground Speed
+100, | #Ground Speed
 100, | #Ground Accel 
 100, | #Ground Turning
 150, | #Jump Height

@@ -14,10 +14,10 @@ Trio Pod H [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Trio Pod H (PH)"
+"Trio Pod H"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Homes towards opponent,
@@ -35,7 +35,7 @@ half [8] |
 0, | #Angle between simultaneous pods (Automatically Centered)
 70, | #Horizontal Explosion Trigger Radius
 400, | #Vertical Explosion Trigger Radius
-75, | #Fuse Time
+90, | #Fuse Time
 0, | #Angle Pod faces at ground launch
 0x0000, | #Empty Data?
 0, | #Angle Pod faces at air launch
@@ -46,8 +46,8 @@ byte[4] |
 40, | #Locked On Phase Homing
 0x00 #Empty Data?
 half [13] |
-60, | #Roaming Phase Speed
-60, | #Locked On Phase Speed
+55, | #Roaming Phase Speed
+55, | #Locked On Phase Speed
 0, | #Roaming Phase Height
 0, | #Locked On Phase Height
 90, | #Angle for conen of vision for activating lock on phase

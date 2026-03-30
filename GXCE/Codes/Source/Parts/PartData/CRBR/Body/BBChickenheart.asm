@@ -14,10 +14,10 @@ Chickenheart [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Chickenheart (PH)"
+"Chickenheart"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Burning Beast (Normal)
@@ -47,7 +47,7 @@ byte[22] |
 100, | #Pod Damage
 100, | #Gun Endlag
 4, 8, 12, | #Reduced, Unmodified, and Boosted Air Dash Startup
-3, 6, 9, | #Reduced, Unmodified, and Boosted Dash Landing Lag
+4, 8, 12, | #Reduced, Unmodified, and Boosted Dash Landing Lag
 0, | #Air Dash Type(00 = Normal Air Dash, 01 = Continuous Jump, 02 = LS)
 0    #Number of Continuous Jumps
 half[3] |
@@ -67,7 +67,7 @@ half [38] |
 1, 4, 8, | #Reduced, Unmodified, and Boosted Jump Speed
 95, 110, 125, | #Reduced, Unmodified, and Boosted Lateral Air Speed
 75, 150, 300, | #Reduced, Unmodified, and Boosted Air Acceleration
-3, 6, 9, | #Reduced, Unmodified, and Boosted Landing Lag
+4, 8, 12, | #Reduced, Unmodified, and Boosted Landing Lag
 75, 150, 225, | #Reduced, Unmodified, and Boosted Gravity
 48, | #Collision Box Size Related
 40, | #Collision Box Size Related

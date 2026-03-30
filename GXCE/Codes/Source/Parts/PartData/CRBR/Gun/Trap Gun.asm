@@ -14,10 +14,10 @@ Trap Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Trap Gun (PH)"
+"Trap Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 7 rounds that 

@@ -14,10 +14,10 @@ Swift [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Swift (PH)"
+"Swift"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Little Raider (Normal) 
@@ -82,10 +82,10 @@ half [16] |
 120, | #Knockback Velocity
 110, | #Knockback Angle
 10, | #Homing
-5, | #Startup Phase Duration (+3 for # of Frames)
+8, | #Startup Phase Duration (+3 for # of Frames)
 24, | #Attack Phase Duration (+1 for # of Frames)
 35, | #Recovery Phase Duration
-330, | #Startup Phase Speed
+240, | #Startup Phase Speed
 199, | #Attack Phase Speed
 65, | #Recovery Phase Speed
 63, | #Startup Phase Angle

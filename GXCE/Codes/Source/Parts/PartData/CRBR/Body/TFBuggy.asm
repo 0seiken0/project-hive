@@ -14,10 +14,10 @@ Buggy [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Buggy (PH)"
+"Buggy"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Trick Flyer (Armor). 

@@ -14,18 +14,21 @@ Cluster Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Cluster Bomb^` (PH)"
+"Cluster Bomb ^`"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires a cluster
 of small blasts.
-Air: Same as Ground"
+Air: Same as Ground.
+Blast: Small blasts that
+disappear quickly, knocks
+opponent sideways."
 RoboBytes:
 byte [2] |
-0, | #Illegal Toggle 
+2, | #Illegal Toggle 
 4 #Number of Bombs Fired
 half [1] 50 #Explosion Trigger Radius
 #################
@@ -46,9 +49,9 @@ half [3] |
 18, | #Lingering Hitbox Duration
 0x0000 #Empty Data?
 float [3] |
-0.8, | #Explosion Size after Initial Expansion
-0.8, | #Final Explosion Size
-0.6 #Explosion Height
+0.96, | #Explosion Size after Initial Expansion
+0.96, | #Final Explosion Size
+0.72 #Explosion Height
 half [10] |
 30, | #Damage
 200, | #Down
@@ -65,28 +68,28 @@ half [10] |
 half [4] |
 100, | #Left / Right Landing Displacment 
 75, | #Front / Back Landing Displacment 
-30, | #Vertical Arc Angle 
+50, | #Vertical Arc Angle 
 30 #Horizontal Arc Angle 
 
 ##### Second Ground Bomb #####
 half [4] |
 -100, | #Left / Right Landing Displacment 
 75, | #Front / Back Landing Displacment 
-30, | #Vertical Arc Angle 
+50, | #Vertical Arc Angle 
 -30 #Horizontal Arc Angle 
 
 ##### Third Ground Bomb #####
 half [4] |
 0, | #Left / Right Landing Displacment 
 0, | #Front / Back Landing Displacment 
-30, | #Vertical Arc Angle 
+50, | #Vertical Arc Angle 
 0 #Horizontal Arc Angle 
 
 ##### Fourth Ground Bomb #####
 half [4] |
 0, | #Left / Right Landing Displacment 
 125, | #Front / Back Landing Displacment 
-50, | #Vertical Arc Angle 
+70, | #Vertical Arc Angle 
 0 #Horizontal Arc Angle 
 #################
 ## Air Shot ##
@@ -106,9 +109,9 @@ half [3] |
 18, | #Lingering Hitbox Duration
 0x0000 #Empty Data?
 float [3] |
-0.8, | #Explosion Size after Initial Expansion
-0.8, | #Final Explosion Size
-0.6 #Explosion Height
+0.96, | #Explosion Size after Initial Expansion
+0.96, | #Final Explosion Size
+0.72 #Explosion Height
 half [10] |
 30, | #Damage
 200, | #Down
@@ -125,28 +128,28 @@ half [10] |
 half [4] |
 100, | #Left / Right Landing Displacment 
 75, | #Front / Back Landing Displacment 
-30, | #Vertical Arc Angle 
+50, | #Vertical Arc Angle 
 30 #Horizontal Arc Angle 
 
 ##### Second Ground Bomb #####
 half [4] |
 -100, | #Left / Right Landing Displacment 
 75, | #Front / Back Landing Displacment 
-30, | #Vertical Arc Angle 
+50, | #Vertical Arc Angle 
 -30 #Horizontal Arc Angle 
 
 ##### Third Ground Bomb #####
 half [4] |
 0, | #Left / Right Landing Displacment 
 0, | #Front / Back Landing Displacment 
-30, | #Vertical Arc Angle 
+50, | #Vertical Arc Angle 
 0 #Horizontal Arc Angle 
 
 ##### Fourth Ground Bomb #####
 half [4] |
 0, | #Left / Right Landing Displacment 
 125, | #Front / Back Landing Displacment 
-50, | #Vertical Arc Angle 
+70, | #Vertical Arc Angle 
 0 #Horizontal Arc Angle 
 word [14] 0x00000000, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0x0000003C, 0x00000001, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x3F800000 #Unknown Data
 ExtraBytes:

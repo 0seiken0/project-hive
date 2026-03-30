@@ -14,10 +14,10 @@ Titan Pod [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Titan Pod (PH)"
+"Titan Pod"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Pod: Moves slowly towards

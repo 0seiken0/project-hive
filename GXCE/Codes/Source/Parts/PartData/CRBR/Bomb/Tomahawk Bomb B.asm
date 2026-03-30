@@ -14,10 +14,10 @@ Tomahawk Bomb B [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Tomahawk Bomb B (PH)"
+"Tomahawk Bomb B"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Flies in a high arc.

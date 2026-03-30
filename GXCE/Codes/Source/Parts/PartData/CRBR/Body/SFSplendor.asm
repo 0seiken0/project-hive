@@ -14,10 +14,10 @@ Splendor [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Splendor (PH)"
+"Splendor"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Shining Fighter (Armor) 
@@ -80,14 +80,14 @@ byte [2] |
 2, |    #Invulnerability
 0       #Invisibility
 half [16] |
-150, | #Charge Damage
+155, | #Charge Damage
 150, | #Knockback Velocity
 30, | #Knockback Angle
 17, | #Homing
-17, | #Startup Phase Duration (+3 for # of Frames)
+15, | #Startup Phase Duration (+3 for # of Frames)
 20, | #Attack Phase Duration (+1 for # of Frames)
 20, | #Recovery Phase Duration
-85, | #Startup Phase Speed
+94, | #Startup Phase Speed
 220, | #Attack Phase Speed
 80, | #Recovery Phase Speed
 79, | #Startup Phase Angle

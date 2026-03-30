@@ -14,10 +14,10 @@ Phoenix Gun [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Phoenix Gun (PH)"
+"Phoenix Gun"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires 2 fast rounds 
@@ -27,7 +27,7 @@ Recommended Range: Medium"
 RoboBytes:
 byte[56] |
 0,| #Illegal Toggle
-5, | #Slideshot Duration
+15, | #Slideshot Duration
 0, | #Related to Homing when rounds aren't facing the opponent
 0, 0, 0, 0, | #Nothing?
 1, | #Trail (0 for Invisible, 1 for Trail VFX)
@@ -43,12 +43,12 @@ float 2.0 #Trail Width, Start of Ground Shot
 #Ground Shot#
 #############
 byte[6] |
-25, | #Startup
-2, | #Number of Shots
+5, | #Startup
+1, | #Number of Shots
 2, | #Rounds per Shot
 1, | #Shot Spread (00 for Vertical, 01 for Horizontal)
-18, | #Delay Between Shots
-30 #Endlag
+10, | #Delay Between Shots
+36 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase
@@ -70,11 +70,11 @@ byte[2] |
 36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+60, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
-40, | #Hitstun
+28, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 -90, | #Knockback Angle (Downed)
@@ -92,18 +92,18 @@ byte[2] |
 36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+60, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
-40, | #Hitstun
+28, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 -90, | #Knockback Angle (Downed)
 100 #On-Hit Gravity (Downed)
 #Third Phase
 half[2] |
-30, | #Phase Duration
+240, | #Phase Duration
 0 #Padding
 float[4] |
 0.42, | #Phase Speed
@@ -114,11 +114,11 @@ byte[2] |
 36, | #Lingering Hitbox Duration
 0 #Padding
 half[9] |
-40, | #Damage
+60, | #Damage
 450, | #Down
 100, | #Knockback Velocity
 -90, | #Knockback Angle
-40, | #Hitstun
+28, | #Hitstun
 100, | #On-Hit Gravity
 100, | #Knockback Velocity (Downed)
 -90, | #Knockback Angle (Downed)
@@ -176,7 +176,7 @@ byte[6] |
 1, | #Rounds per Shot
 0, | #Shot Spread (00 for Vertical, 01 for Horizontal)
 10, | #Delay Between Shots
-50 #Endlag
+46 #Endlag
 half 0 #Shot Randomization
 byte[2] |
 0, | #Spread Phase

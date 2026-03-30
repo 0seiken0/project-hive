@@ -14,10 +14,10 @@ Wave Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Wave Bomb (PH)"
+"Wave Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Fires in arc.

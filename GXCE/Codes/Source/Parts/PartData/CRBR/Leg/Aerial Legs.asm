@@ -14,10 +14,10 @@ Aerial Legs [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Aerial Legs (PH)"
+"Aerial Legs"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Reduces Gravity.

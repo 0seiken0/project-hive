@@ -14,10 +14,10 @@ Delta Bomb [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Delta Bomb (PH)"
+"Delta Bomb"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Ground: Launches 3 bombs 

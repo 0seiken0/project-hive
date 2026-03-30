@@ -14,10 +14,10 @@ Tank Head [Project Hive]
     .BA<-BuildTitle
 PartName:
     String|
-"Tank Head (PH)"
+"Tank Head"
 BuildTitle:
     String|
-" (PH)"
+""
 PartDescription:
     String|
 "Funky Big Head (Speed). 
